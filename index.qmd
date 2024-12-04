@@ -1,0 +1,24 @@
+# Welcome {.unnumbered}
+
+Welcome to the *Textbook of Agricultural Statistics* – a resource created with care and dedication by the Department of Agricultural Statistics at the College of Agriculture, Vellayani, Kerala Agricultural University. This book was developed to address the need for a clear and accessible guide to statistics in agricultural research.
+
+Statistics plays a vital role in agricultural studies, helping researchers and practitioners identify patterns, validate findings, and make informed decisions. Yet, many students and researchers find statistical methods difficult to grasp. This book aims to make these concepts easy to understand and apply.
+
+Designed for all levels of learners, from undergraduate students to experienced researchers, this textbook offers a simple approach to the basics of statistics and experimental design. We have focused on clarity and real-world applications to make learning as practical and straightforward as possible.
+
+Throughout the book, you will find clear explanations, helpful examples, and step-by-step guides that show you how to apply statistical methods in agricultural research. Whether you are new to the subject or revisiting it, we hope this book will serve as a valuable and supportive guide.
+
+### Acknowledgements
+
+This book is the result of collaborative efforts among dedicated teachers and statisticians, but the majority of the reviewing, editing, and refinement has been inspired and shaped by the students.\
+For two years, this book was made available online on the MeLON (Module for eLearning and Online Notes) platform of the College of Agriculture, Vellayani. During this time, students provided valuable feedback, pointed out areas for improvement, and offered insights that greatly enhanced the quality and clarity of the content. We are sincerely grateful to all the students whose suggestions and input played a key role in the development of this textbook.
+
+We would also like to thank the College of Agriculture, Vellayani, for fostering an environment that encourages learning, growth, and the sharing of ideas.
+
+### Published by PAPAYA
+
+This textbook is published by **PAPAYA Publications**, the publication division of Statoberry LLP, which is committed to providing high-quality educational resources for the agricultural sector. The online version of this book is available for free, in line with our dedication to open access and knowledge sharing.
+
+```{=html}
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Online version of this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+```
