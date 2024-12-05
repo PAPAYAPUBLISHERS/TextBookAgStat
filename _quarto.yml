@@ -23,10 +23,10 @@ book:
   search: true
   site-url: https://cleaning-data-r.ala.org.au/
   repo-url: https://github.com/AtlasOfLivingAustralia/cleaning_data
-  image: images/cover.png
+  image: images/cover.jpg
   image-alt: "Textbook of Agricultural Statistics"
   open-graph: 
-    image: images/cover.png
+    image: images/cover.jpg
     image-alt: "Textbook of Agricultural Statistics"
   chapters:
    - index.qmd
@@ -35,6 +35,7 @@ book:
    - agstatindia.qmd
    - 3graph.qmd
    - central1.qmd
+   - central2.qmd
    - appendix1.qmd
    - references.qmd
   twitter-card: 
@@ -52,7 +53,7 @@ book:
     right: |
         Licenced under [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/) <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">![](/images/cclogo.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
         Built with <a href="https://quarto.org/">Quarto</a>
-  cover-image: images/cover.png
+  cover-image: images/cover.jpg
   
 bibliography: 
   - book.bib

@@ -1,4 +1,4 @@
-# Basics of Statistics
+# Basics of statistics
 
 Statistics is the science of understanding, analyzing, and interpreting data. It plays a crucial role in making informed decisions across various fields, from agriculture to medicine, economics to environmental studies. This chapter serves as an entry point into the fascinating world of statistics, introducing you to its basic concepts and practical applications.
 
@@ -10,15 +10,15 @@ Finally, we introduce frequency distributions—an indispensable tool for summar
 
 By the end of this chapter, you will have a comprehensive understanding of the core principles of statistics, setting the stage for deeper exploration and advanced applications in later chapters. The concepts presented here are largely based on the works of [@goon] and [@gupta]
 
-## The word "Statistics"
+## The word "statistics"
 
 Term statistics was derived from the Neo-Latin word `statisticum collegium` meaning "council of state" and the Italian word `statista` meaning "statesman" or "politician". A German word `Statistik`, got the meaning "collection and classification of data" generally in the early 19th century. This word was first introduced by Gottfried Achenwall (1749). `Statistik` was originally designated as a term for analysis of data about the state (data used by government or other administrative bodies). The term `Statistik` was introduced into English in 1791 by Sir John Sinclair when he published the first of 21 volumes titled "Statistical Account of Scotland" [@ball]. The first book to have 'Statistics' in its title was "Contributions to Vital Statistics" (1845) by Francis GP Neison, actuary[^intro-1] to the Medical Invalid and General Life Office.
 
 [^intro-1]: actuary: A person who compiles and analyses statistics and uses them to calculate insurance risks and premiums.
 
-![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="left" width=50%}
+![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="left" width="50%"}
 
-## Statistics and Mathematics
+## Statistics and mathematics
 
 Mathematics is like a well-organized library where everything follows strict rules and paths—once a theorem is proven, it stays true with little room for change. But statistics is more like a vast, open field where you have to adapt to new situations. Why? Because it deals with real-world data, which is often messy, unpredictable, and full of noise (also known as the error term). In statistics, you're not just proving theorems—you’re finding ways to understand data, account for uncertainties, and make informed decisions based on that data.
 
@@ -26,7 +26,7 @@ In biological phenomena, where we often study complex systems like plants, anima
 
 Statisticians acknowledge this uncertainty, using mathematical models to represent biological phenomena while accounting for these errors. Rather than focusing on achieving perfect results, the goal is to develop models that provide useful insights despite the inherent unpredictability. Statisticians use these models to understand and explain biological phenomena, accepting that exact predictions are often out of reach, but valuable insights can still be drawn from the data.
 
-## Definition of Statistics
+## Definition of statistics
 
 Statistics is the science which deals with the
 
@@ -65,7 +65,7 @@ Here are some examples of data in action:
 
 As you can see, data isn’t just a collection of numbers; it’s the key to solving real-world problems and shaping the future. In the hands of skilled statisticians, data has the power to unlock insights that can improve lives, drive innovation, and guide decisions at every level.
 
-## Scope and Limits
+## Scope and limits
 
 **Functions of Statistics**: Statistics plays a crucial role in simplifying complex data, transforming it into clear and meaningful information. It supports decision-making by presenting facts in an organized manner, aids in the formulation of effective policies, facilitates comparisons, and assists in making forecasts. By applying appropriate statistical methods, researchers can draw valid conclusions from experiments.
 
@@ -75,7 +75,7 @@ As you can see, data isn’t just a collection of numbers; it’s the key to sol
 
 As a statistician, I believe that the power of statistics knows no bounds. It is a tool that, when applied correctly, can unlock insights from any dataset. While the limitations listed above are commonly found in textbooks and curricula across SAUs (State Agricultural Universities), I believe these are more about guiding students on the appropriate use of statistics rather than presenting true constraints. With the right methodology and approach, statistics can be applied in any situation to derive valuable insights and support sound decision-making.
 
-## Population and Sample
+## Population and sample
 
 Consider the following example. Suppose we wish to study the height of all students in a college. It will take us a long time to measure the height of all students of the college and so we may select 20 of the students and measure their height (in cm). Suppose we obtain the measurements like this
 
@@ -91,7 +91,7 @@ A *sample* is a subset of a population selected for the purpose of conducting a 
 
 **Population Parameter** A *population parameter* is a numerical characteristic or value that describes an aspect of an entire population. It is a fixed (cons), often unknown value that represents the true measurement of a specific attribute for every member of the population. Common population parameters include the population mean, population variance, and population proportion. Since it is usually impractical or impossible to measure the entire population, parameters are often estimated using sample data.
 
-## Variables and Constants
+## Variables and constants
 
 **Variables**
 
@@ -106,7 +106,7 @@ Variables can be classified into two broad categories: **quantitative** variable
 
 A *constant* refers to a value that does not change under any circumstances. Unlike variables, constants retain the same value throughout the study. Examples of constants include mathematical values such as pi (𝝅), which is the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159...), and *e*, the base of the natural logarithms (*e* = 2.71828).
 
-## Types of Variables
+## Types of variables
 
 **Quantitative Variables**
 
@@ -128,7 +128,7 @@ A *categorical variable* is a type of variable where the data is divided into di
 
 Unlike quantitative variables, categorical variables cannot be measured or counted in the traditional sense. Instead, they classify data into specific groups or categories.
 
-## Measurement Scales
+## Measurement scales
 
 Variables can be classified into four distinct levels of measurement, each representing a different way of organizing and interpreting data. These four levels are **nominal**, **ordinal**, **interval**, and **ratio**.
 
@@ -157,11 +157,11 @@ In summary, the key distinctions between these measurement scales are:
 
 ![Classification of variables](images/image2.jpeg){fig-alt="Classification of variables" fig-align="center" out-width="100%"}
 
-## Collection of Data
+## Collection of data
 
 The process of collecting data is the foundational step in any statistical investigation or research study. Data can be gathered for an entire population or for a sample drawn from it. Typically, data collection is performed on a sample basis, especially when studying large populations. Collecting data is a challenging task, requiring skill and precision. The person responsible for gathering the data, known as the **enumerator** or **investigator**, must be well-trained to ensure the accuracy and reliability of the data collected. The individuals or groups providing the information are referred to as the **respondents**.
 
-### Types of Data
+### Types of data
 
 Data collection can be categorized into two main types based on the source from which the data is derived:
 
@@ -182,7 +182,7 @@ Secondary data refer to data that have already been collected, processed, and pu
 
 The distinction between primary and secondary data lies primarily in their origin and the process of collection. Primary data are first-hand, original data collected directly from a single source by the researcher for a specific purpose. These data are considered pure as they have not undergone any prior statistical treatment. In contrast, secondary data are obtained from existing sources or agencies and have been previously collected and processed for different purposes. They are not considered pure as they have undergone some form of statistical treatment. While primary data are original and collected for the first time, secondary data are pre-existing and gathered from other sources. Both types of data have their respective advantages and limitations, and the choice between them depends on the research objectives, availability of resources, and the nature of the study.
 
-## Collecting Primary Data
+## Collecting primary Data
 
 Primary data can be collected using various methods, depending on the research requirements and resources available:
 
@@ -202,7 +202,7 @@ Researchers distribute questionnaires to local representatives or agents who col
 
 Data is gathered by contacting individuals via telephone. This method is fast and allows for accurate information to be collected efficiently, making it suitable for studies that require a broad reach but still need reliable data.
 
-## Collecting Secondary Data
+## Collecting secondary Data
 
 Secondary data are collected through various established channels:
 
@@ -369,6 +369,6 @@ dt %>%
  
 
 ::: {.callout-tip title="Quotes to Inspire"}
-**"Data is the sword of the 21st century, those who wield it well, the Samurai."**   
+**"Data is the sword of the 21st century, those who wield it well, the Samurai."**\
 **- Jonathan Rosenberg, former Google SVP**
 :::

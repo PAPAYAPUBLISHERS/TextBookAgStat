@@ -15,9 +15,9 @@ For two years, this book was made available online on the MeLON (Module for eLea
 
 We would also like to thank the College of Agriculture, Vellayani, for fostering an environment that encourages learning, growth, and the sharing of ideas.
 
-### Published by PAPAYA
+### Note from the publisher
 
-This textbook is published by **PAPAYA Publications**, the publication division of Statoberry LLP, which is committed to providing high-quality educational resources for the agricultural sector. The online version of this book is available for free, in line with our dedication to open access and knowledge sharing.
+This textbook is published by **PAPAYA Publications**, the publication division of [Statoberry LLP](https://www.statoberry.com/), which is committed to providing high-quality educational resources for agricultural research. The online version of this book is available for free, in line with our dedication to open access and knowledge sharing. Visit us at [PAPAYA](https://www.statoberry.com/papaya)
 
 ```{=html}
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Online version of this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.

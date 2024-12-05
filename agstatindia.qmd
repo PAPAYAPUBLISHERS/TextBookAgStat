@@ -1,14 +1,14 @@
-# Statistics on Agriculture
+# Statistics on agriculture
 
 The agricultural sector accounts for approximately 18% of India’s GDP and employs nearly half of its workforce. Reliable and timely information is vital for planners and policymakers to develop effective agricultural policies and make informed decisions on procurement, storage, public distribution, imports, exports, and other related matters. As such, the collection and management of agricultural statistics hold significant importance.
 
 This chapter provides an overview of the system for collecting agricultural statistics in India. While agriculture is a State subject, agricultural statistics fall under the concurrent list, resulting in a decentralised system. State Governments, through their State Agricultural Statistics Authorities (SASAs), play a central role in collecting and compiling agricultural statistics at the State level. At the national level, the Directorate of Economics and Statistics, under the Ministry of Agriculture and Farmers Welfare, is responsible for compiling the data. Other key agencies involved include the National Statistical Office (NSO) and the State Directorates of Economics and Statistics (DESs).
 
-## Compiling Crop Statistics
+## Compiling crop statistics
 
 Crop statistics comprise two key components: the area sown and the average yield. While area estimates are derived from land revenue systems, yield estimates are obtained through crop estimation surveys.
 
-### Area Statistics
+### Area statistics
 
 The system for collecting area statistics across States and Union Territories (UTs) in India can be broadly classified into three categories:
 
@@ -21,7 +21,7 @@ The system for collecting area statistics across States and Union Territories (U
 3.  **States with no developed system for area statistics**\
     In these States, the collection is still based on conventional methods such as personal assessment, accounting for 5% of the states.
 
-### Crop Yield Estimation
+### Crop yield estimation
 
 Crop yields are estimated through **Crop Cutting Experiments (CCE)**, which are conducted extensively across the country. The General Crop Estimation Survey (GCES) covers 65 crops, including 51 food crops and 14 non-food crops. Approximately 9 lakh CCEs are carried out annually in India to estimate the yield of key crops such as rice, maize, bajra, groundnut, and sugarcane. These experiments are conducted systematically to ensure accurate and reliable yield data for principal crops.
 
@@ -40,7 +40,7 @@ In addition to these forecasts, **Final Estimates** of crop area and production 
 
 Additionally, information on the structure and characteristics of the agricultural sector is gathered through the Agricultural Census.
 
-## Agricultural Census
+## Agricultural census
 
 The Agricultural Census is a comprehensive exercise conducted to gather and analyze data on the structure of the agricultural sector in India. It provides essential information about operational holdings, including their number, area, land use, cropping patterns, and input usage, down to the lowest geographical levels such as villages, tehsils (sub-districts), and districts. This census serves as a statistical framework for planning and conducting future agricultural surveys.
 
@@ -50,13 +50,12 @@ To date, **eleven Agricultural Censuses** have been conducted, covering the refe
 
 The data derived from the Agricultural Census plays a crucial role in policy formulation, resource allocation, and the overall development of the agricultural sector in India.
 
-Additional data pertaining to various sectors can be obtained from the sources listed in the [Appendix 1](#appendix-1)  
+Additional data pertaining to various sectors can be obtained from the sources listed in the [Appendix 1](#appendix-1)
 
  \
  \
-   
+ 
 
 ::: {.callout-tip title="Quotes to Inspire"}
-**"Statistics is the art of never having to say you’re certain."** 
-**– W. Edwards Deming**
+**"Statistics is the art of never having to say you’re certain."** **– W. Edwards Deming**
 :::
