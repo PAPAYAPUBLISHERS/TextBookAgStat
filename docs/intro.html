@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Introduction – TEXTBOOK OF AGRICULTURAL STATISTICS</title>
+<title>1&nbsp; Basics of Statistics – TEXTBOOK OF AGRICULTURAL STATISTICS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,6 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./agstatindia.html" rel="next">
 <link href="./preface.html" rel="prev">
 <link href="./images/papayalogo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -123,14 +124,14 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="1&nbsp; Introduction – TEXTBOOK OF AGRICULTURAL STATISTICS">
+<meta property="og:title" content="1&nbsp; Basics of Statistics – TEXTBOOK OF AGRICULTURAL STATISTICS">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://cleaning-data-r.ala.org.au/images/cover.png">
 <meta property="og:site_name" content="TEXTBOOK OF AGRICULTURAL STATISTICS">
 <meta property="og:image:alt" content="Textbook of Agricultural Statistics">
 <meta property="og:image:height" content="4500">
 <meta property="og:image:width" content="2820">
-<meta name="twitter:title" content="1&nbsp; Introduction – TEXTBOOK OF AGRICULTURAL STATISTICS">
+<meta name="twitter:title" content="1&nbsp; Basics of Statistics – TEXTBOOK OF AGRICULTURAL STATISTICS">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://cleaning-data-r.ala.org.au/images/papayalogo.png">
 <meta name="twitter:image:alt" content="Textbook of Agricultural Statistics">
@@ -148,7 +149,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Basics of Statistics</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -199,7 +200,19 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Basics of Statistics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./agstatindia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Statistics on Agriculture</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">References</span></span></a>
   </div>
 </li>
     </ul>
@@ -216,61 +229,28 @@ window.Quarto = {
   <li><a href="#statistics-and-mathematics" id="toc-statistics-and-mathematics" class="nav-link" data-scroll-target="#statistics-and-mathematics"><span class="header-section-number">1.2</span> Statistics and Mathematics</a></li>
   <li><a href="#definition-of-statistics" id="toc-definition-of-statistics" class="nav-link" data-scroll-target="#definition-of-statistics"><span class="header-section-number">1.3</span> Definition of Statistics</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data"><span class="header-section-number">1.4</span> Data</a></li>
-  <li><a href="#use-and-limitations-of-statistics" id="toc-use-and-limitations-of-statistics" class="nav-link" data-scroll-target="#use-and-limitations-of-statistics"><span class="header-section-number">1.5</span> Use and Limitations of Statistics</a></li>
-  <li><a href="#population-and-sample" id="toc-population-and-sample" class="nav-link" data-scroll-target="#population-and-sample"><span class="header-section-number">1.6</span> Population and Sample</a>
-  <ul class="collapse">
-  <li><a href="#population" id="toc-population" class="nav-link" data-scroll-target="#population"><span class="header-section-number">1.6.1</span> Population</a></li>
-  <li><a href="#sample" id="toc-sample" class="nav-link" data-scroll-target="#sample"><span class="header-section-number">1.6.2</span> Sample</a></li>
-  </ul></li>
-  <li><a href="#variables-and-constants" id="toc-variables-and-constants" class="nav-link" data-scroll-target="#variables-and-constants"><span class="header-section-number">1.7</span> Variables and constants</a>
-  <ul class="collapse">
-  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables"><span class="header-section-number">1.7.1</span> Variables</a></li>
-  <li><a href="#constants" id="toc-constants" class="nav-link" data-scroll-target="#constants"><span class="header-section-number">1.7.2</span> Constants</a></li>
-  </ul></li>
-  <li><a href="#types-of-variables" id="toc-types-of-variables" class="nav-link" data-scroll-target="#types-of-variables"><span class="header-section-number">1.8</span> Types of variables</a>
-  <ul class="collapse">
-  <li><a href="#quantitative-variables" id="toc-quantitative-variables" class="nav-link" data-scroll-target="#quantitative-variables"><span class="header-section-number">1.8.1</span> Quantitative variables</a></li>
-  <li><a href="#categorical-variables" id="toc-categorical-variables" class="nav-link" data-scroll-target="#categorical-variables"><span class="header-section-number">1.8.2</span> Categorical variables</a></li>
-  </ul></li>
-  <li><a href="#measurement-scales" id="toc-measurement-scales" class="nav-link" data-scroll-target="#measurement-scales"><span class="header-section-number">1.9</span> Measurement scales</a>
-  <ul class="collapse">
-  <li><a href="#nominal-scale" id="toc-nominal-scale" class="nav-link" data-scroll-target="#nominal-scale"><span class="header-section-number">1.9.1</span> Nominal scale</a></li>
-  <li><a href="#ordinal-scale" id="toc-ordinal-scale" class="nav-link" data-scroll-target="#ordinal-scale"><span class="header-section-number">1.9.2</span> Ordinal scale</a></li>
-  <li><a href="#interval-scale" id="toc-interval-scale" class="nav-link" data-scroll-target="#interval-scale"><span class="header-section-number">1.9.3</span> Interval scale</a></li>
-  <li><a href="#ratio-scale" id="toc-ratio-scale" class="nav-link" data-scroll-target="#ratio-scale"><span class="header-section-number">1.9.4</span> Ratio scale</a></li>
-  </ul></li>
+  <li><a href="#scope-and-limits" id="toc-scope-and-limits" class="nav-link" data-scroll-target="#scope-and-limits"><span class="header-section-number">1.5</span> Scope and Limits</a></li>
+  <li><a href="#population-and-sample" id="toc-population-and-sample" class="nav-link" data-scroll-target="#population-and-sample"><span class="header-section-number">1.6</span> Population and Sample</a></li>
+  <li><a href="#variables-and-constants" id="toc-variables-and-constants" class="nav-link" data-scroll-target="#variables-and-constants"><span class="header-section-number">1.7</span> Variables and Constants</a></li>
+  <li><a href="#types-of-variables" id="toc-types-of-variables" class="nav-link" data-scroll-target="#types-of-variables"><span class="header-section-number">1.8</span> Types of Variables</a></li>
+  <li><a href="#measurement-scales" id="toc-measurement-scales" class="nav-link" data-scroll-target="#measurement-scales"><span class="header-section-number">1.9</span> Measurement Scales</a></li>
   <li><a href="#collection-of-data" id="toc-collection-of-data" class="nav-link" data-scroll-target="#collection-of-data"><span class="header-section-number">1.10</span> Collection of Data</a>
   <ul class="collapse">
   <li><a href="#types-of-data" id="toc-types-of-data" class="nav-link" data-scroll-target="#types-of-data"><span class="header-section-number">1.10.1</span> Types of Data</a></li>
   </ul></li>
-  <li><a href="#methods-of-collecting-primary-data" id="toc-methods-of-collecting-primary-data" class="nav-link" data-scroll-target="#methods-of-collecting-primary-data"><span class="header-section-number">1.11</span> Methods of Collecting Primary Data</a>
+  <li><a href="#collecting-primary-data" id="toc-collecting-primary-data" class="nav-link" data-scroll-target="#collecting-primary-data"><span class="header-section-number">1.11</span> Collecting Primary Data</a></li>
+  <li><a href="#collecting-secondary-data" id="toc-collecting-secondary-data" class="nav-link" data-scroll-target="#collecting-secondary-data"><span class="header-section-number">1.12</span> Collecting Secondary Data</a></li>
+  <li><a href="#frequency-distribution" id="toc-frequency-distribution" class="nav-link" data-scroll-target="#frequency-distribution"><span class="header-section-number">1.13</span> Frequency distribution</a>
   <ul class="collapse">
-  <li><a href="#personal-investigation" id="toc-personal-investigation" class="nav-link" data-scroll-target="#personal-investigation"><span class="header-section-number">1.11.1</span> Personal Investigation</a></li>
-  <li><a href="#through-investigation" id="toc-through-investigation" class="nav-link" data-scroll-target="#through-investigation"><span class="header-section-number">1.11.2</span> Through Investigation</a></li>
-  <li><a href="#collection-through-questionnaire" id="toc-collection-through-questionnaire" class="nav-link" data-scroll-target="#collection-through-questionnaire"><span class="header-section-number">1.11.3</span> Collection through Questionnaire</a></li>
-  <li><a href="#through-the-telephone" id="toc-through-the-telephone" class="nav-link" data-scroll-target="#through-the-telephone"><span class="header-section-number">1.11.4</span> Through the Telephone</a></li>
+  <li><a href="#construction" id="toc-construction" class="nav-link" data-scroll-target="#construction"><span class="header-section-number">1.13.1</span> Construction</a></li>
   </ul></li>
-  <li><a href="#methods-of-collecting-secondary-data" id="toc-methods-of-collecting-secondary-data" class="nav-link" data-scroll-target="#methods-of-collecting-secondary-data"><span class="header-section-number">1.12</span> Methods of Collecting Secondary Data</a>
+  <li><a href="#grouped-frequency-distribution" id="toc-grouped-frequency-distribution" class="nav-link" data-scroll-target="#grouped-frequency-distribution"><span class="header-section-number">1.14</span> Grouped frequency distribution</a>
   <ul class="collapse">
-  <li><a href="#official" id="toc-official" class="nav-link" data-scroll-target="#official"><span class="header-section-number">1.12.1</span> Official</a></li>
-  <li><a href="#semi-official" id="toc-semi-official" class="nav-link" data-scroll-target="#semi-official"><span class="header-section-number">1.12.2</span> Semi-Official</a></li>
+  <li><a href="#terms-used" id="toc-terms-used" class="nav-link" data-scroll-target="#terms-used"><span class="header-section-number">1.14.1</span> Terms used</a></li>
+  <li><a href="#construction-1" id="toc-construction-1" class="nav-link" data-scroll-target="#construction-1"><span class="header-section-number">1.14.2</span> Construction</a></li>
   </ul></li>
-  <li><a href="#difference-between-primary-and-secondary-data" id="toc-difference-between-primary-and-secondary-data" class="nav-link" data-scroll-target="#difference-between-primary-and-secondary-data"><span class="header-section-number">1.13</span> Difference Between Primary and Secondary Data</a></li>
-  <li><a href="#frequency-distribution" id="toc-frequency-distribution" class="nav-link" data-scroll-target="#frequency-distribution"><span class="header-section-number">1.14</span> Frequency distribution</a>
-  <ul class="collapse">
-  <li><a href="#construction-of-frequency-distribution" id="toc-construction-of-frequency-distribution" class="nav-link" data-scroll-target="#construction-of-frequency-distribution"><span class="header-section-number">1.14.1</span> Construction of frequency distribution</a></li>
-  </ul></li>
-  <li><a href="#grouped-frequency-distribution" id="toc-grouped-frequency-distribution" class="nav-link" data-scroll-target="#grouped-frequency-distribution"><span class="header-section-number">1.15</span> Grouped frequency distribution</a></li>
-  <li><a href="#terms-used-in-grouped-frequency-tables." id="toc-terms-used-in-grouped-frequency-tables." class="nav-link" data-scroll-target="#terms-used-in-grouped-frequency-tables."><span class="header-section-number">1.16</span> Terms used in grouped frequency tables.</a>
-  <ul class="collapse">
-  <li><a href="#class-limits" id="toc-class-limits" class="nav-link" data-scroll-target="#class-limits"><span class="header-section-number">1.16.1</span> Class limits</a></li>
-  <li><a href="#class-boundaries" id="toc-class-boundaries" class="nav-link" data-scroll-target="#class-boundaries"><span class="header-section-number">1.16.2</span> Class boundaries</a></li>
-  <li><a href="#class-mark" id="toc-class-mark" class="nav-link" data-scroll-target="#class-mark"><span class="header-section-number">1.16.3</span> Class mark</a></li>
-  <li><a href="#class-width" id="toc-class-width" class="nav-link" data-scroll-target="#class-width"><span class="header-section-number">1.16.4</span> Class width</a></li>
-  </ul></li>
-  <li><a href="#construction-of-frequency-distribution-table" id="toc-construction-of-frequency-distribution-table" class="nav-link" data-scroll-target="#construction-of-frequency-distribution-table"><span class="header-section-number">1.17</span> Construction of frequency distribution table</a></li>
-  <li><a href="#cumulative-frequency" id="toc-cumulative-frequency" class="nav-link" data-scroll-target="#cumulative-frequency"><span class="header-section-number">1.18</span> Cumulative frequency</a></li>
-  <li><a href="#relative-frequency" id="toc-relative-frequency" class="nav-link" data-scroll-target="#relative-frequency"><span class="header-section-number">1.19</span> Relative frequency</a></li>
+  <li><a href="#cumulative-frequency" id="toc-cumulative-frequency" class="nav-link" data-scroll-target="#cumulative-frequency"><span class="header-section-number">1.15</span> Cumulative frequency</a></li>
+  <li><a href="#relative-frequency" id="toc-relative-frequency" class="nav-link" data-scroll-target="#relative-frequency"><span class="header-section-number">1.16</span> Relative frequency</a></li>
   </ul>
 </nav>
     </div>
@@ -279,7 +259,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Basics of Statistics</span></h1>
 </div>
 
 
@@ -296,16 +276,18 @@ window.Quarto = {
 </header>
 
 
-<p>This chapter serves as the foundation of our exploration into the field of statistics. We begin by introducing the key concepts and definitions that shape the discipline of statistics. Understanding these concepts is essential for anyone engaging in data analysis and interpretation.</p>
-<p>We will then move on to the methods of data collection and classification, which form the backbone of any statistical study. Proper collection and organization of data are crucial for ensuring the accuracy and relevance of the findings.</p>
-<p>Finally, we will delve into the formation of frequency distributions, a vital tool for summarizing and analyzing large sets of data. Frequency distributions allow us to identify patterns, trends, and anomalies within data, making it easier to draw meaningful conclusions.</p>
-<p>By the end of this chapter, you will have a solid understanding of these fundamental aspects of statistics, which will serve as a stepping stone to more advanced statistical techniques. <span class="citation" data-cites="goon">(<a href="#ref-goon" role="doc-biblioref">Goon and Dasgupta 1983</a>)</span> <span class="citation" data-cites="gupta">(<a href="#ref-gupta" role="doc-biblioref">Gupta and Kapoor 1997</a>)</span></p>
+<p>Statistics is the science of understanding, analyzing, and interpreting data. It plays a crucial role in making informed decisions across various fields, from agriculture to medicine, economics to environmental studies. This chapter serves as an entry point into the fascinating world of statistics, introducing you to its basic concepts and practical applications.</p>
+<p>We begin by exploring the origins and definitions of statistics, emphasizing its relationship with mathematics and its distinct role in solving real-world problems. From there, we focus on the importance of data—the raw material of statistics—examining its types and how it is collected, organized, and analyzed.</p>
+<p>The chapter also covers essential concepts such as population and sample, variables and constants, and the different types of variables. These concepts form the building blocks for understanding how statistical studies are designed and conducted.</p>
+<p>Finally, we introduce frequency distributions—an indispensable tool for summarizing and interpreting data. Topics such as construction of frequency distributions, grouped and cumulative frequency distributions, and relative frequency will help you make sense of data and uncover underlying patterns.</p>
+<p>By the end of this chapter, you will have a comprehensive understanding of the core principles of statistics, setting the stage for deeper exploration and advanced applications in later chapters. The concepts presented here are largely based on the works of <span class="citation" data-cites="goon">(<a href="references.html#ref-goon" role="doc-biblioref">Goon and Dasgupta 1983</a>)</span> and <span class="citation" data-cites="gupta">(<a href="references.html#ref-gupta" role="doc-biblioref">Gupta and Kapoor 1997</a>)</span></p>
 <section id="the-word-statistics" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="the-word-statistics"><span class="header-section-number">1.1</span> The word “Statistics”</h2>
-<p>Term statistics was derived from the Neo-Latin word <code>statisticum collegium</code> meaning “council of state” and the Italian word <code>statista</code> meaning “statesman” or “politician”. A German word <code>Statistik</code>, got the meaning “collection and classification of data” generally in the early 19th century. This word was first introduced by Gottfried Achenwall (1749). <code>Statistik</code> was originally designated as a term for analysis of data about the state (data used by government or other administrative bodies). The term <code>Statistik</code> was introduced into English in 1791 by Sir John Sinclair when he published the first of 21 volumes titled “Statistical Account of Scotland” <span class="citation" data-cites="ball">(<a href="#ref-ball" role="doc-biblioref">Ball 2004</a>)</span>. The first book to have ‘Statistics’ in its title was “Contributions to Vital Statistics” (1845) by Francis GP Neison, actuary<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> to the Medical Invalid and General Life Office.</p>
+<p>Term statistics was derived from the Neo-Latin word <code>statisticum collegium</code> meaning “council of state” and the Italian word <code>statista</code> meaning “statesman” or “politician”. A German word <code>Statistik</code>, got the meaning “collection and classification of data” generally in the early 19th century. This word was first introduced by Gottfried Achenwall (1749). <code>Statistik</code> was originally designated as a term for analysis of data about the state (data used by government or other administrative bodies). The term <code>Statistik</code> was introduced into English in 1791 by Sir John Sinclair when he published the first of 21 volumes titled “Statistical Account of Scotland” <span class="citation" data-cites="ball">(<a href="references.html#ref-ball" role="doc-biblioref">Ball 2004</a>)</span>. The first book to have ‘Statistics’ in its title was “Contributions to Vital Statistics” (1845) by Francis GP Neison, actuary<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> to the Medical Invalid and General Life Office.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/history1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-height="4" alt="Statistical Account of Scotland by Sir John Sinclair (1791)"></p>
+<p><img src="images/history1.png" class="img-fluid figure-img" alt="Statistical Account of Scotland by Sir John Sinclair (1791)"></p>
+<figcaption>Statistical Account of Scotland by Sir John Sinclair (1791)</figcaption>
 </figure>
 </div>
 </section>
@@ -325,6 +307,20 @@ window.Quarto = {
 <li><p>Analysis of data</p></li>
 <li><p>Interpretation of data</p></li>
 </ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Just for Fun">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Just for Fun
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Let’s give a definition to statistics using the words themselves:<br>
+<strong>S</strong>trengthening <strong>T</strong>echnological <strong>A</strong>dvancement <strong>T</strong>hrough <strong>I</strong>mplementing <strong>S</strong>ystematic <strong>T</strong>echniques in <strong>C</strong>ontemporary <strong>S</strong>ciences</p>
+</div>
+</div>
 <p>Two main branches of statistics are:</p>
 <p><strong>Descriptive statistics</strong>, which deals with summarizing data from a sample using indexes such as the mean or standard deviation etc.</p>
 <p><strong>Inferential statistics</strong>, use a random sample of data taken from a population to describe and make inferences about the population parameters.</p>
@@ -341,8 +337,8 @@ window.Quarto = {
 </ul>
 <p>As you can see, data isn’t just a collection of numbers; it’s the key to solving real-world problems and shaping the future. In the hands of skilled statisticians, data has the power to unlock insights that can improve lives, drive innovation, and guide decisions at every level.</p>
 </section>
-<section id="use-and-limitations-of-statistics" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="use-and-limitations-of-statistics"><span class="header-section-number">1.5</span> Use and Limitations of Statistics</h2>
+<section id="scope-and-limits" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="scope-and-limits"><span class="header-section-number">1.5</span> Scope and Limits</h2>
 <p><strong>Functions of Statistics</strong>: Statistics plays a crucial role in simplifying complex data, transforming it into clear and meaningful information. It supports decision-making by presenting facts in an organized manner, aids in the formulation of effective policies, facilitates comparisons, and assists in making forecasts. By applying appropriate statistical methods, researchers can draw valid conclusions from experiments.</p>
 <p><strong>Applications of Statistics</strong>: Statistics has become an integral part of almost every field of human activity. It is indispensable in areas such as administration, business, economics, research, banking, insurance, and more. Its ability to quantify and analyze data makes it an essential tool across industries.</p>
 <p><strong>Common Limitations of Statistics</strong>: - Statistical methods are applicable only when there is variability in the data being studied. - Statistics focuses on the analysis of groups or aggregates, rather than individual data points. - The results derived from statistical analysis are often approximate and subject to uncertainty. - Statistics is sometimes misapplied or misinterpreted, leading to erroneous conclusions.</p>
@@ -353,159 +349,121 @@ window.Quarto = {
 <p>Consider the following example. Suppose we wish to study the height of all students in a college. It will take us a long time to measure the height of all students of the college and so we may select 20 of the students and measure their height (in cm). Suppose we obtain the measurements like this</p>
 <p>149 156 148 161 159 143 158 152 164 171 157 152 163 158 151 147 157 146 153 159</p>
 <p>In this study, we are interested in the height of all students in the college. The set of height of all students in the college is called the <strong>population</strong> of this study. The set of 20 height, <em>H</em> = {149, 156,148, …, 153, 159}, is a <strong>sample</strong> from this population.</p>
-<section id="population" class="level3" data-number="1.6.1">
-<h3 data-number="1.6.1" class="anchored" data-anchor-id="population"><span class="header-section-number">1.6.1</span> Population</h3>
-<p>A population is the set of all objects we wish to study</p>
-</section>
-<section id="sample" class="level3" data-number="1.6.2">
-<h3 data-number="1.6.2" class="anchored" data-anchor-id="sample"><span class="header-section-number">1.6.2</span> Sample</h3>
-<p>A sample is part of the population we study to learn about the population.</p>
-</section>
+<p><strong>Population</strong><br>
+In statistics, a <em>population</em> refers to the entire collection of elements, individuals, or objects that possess a particular characteristic and are the subject of a statistical study. It encompasses all possible observations or measurements that could be included in the analysis. For example, a population could be all the students in a university, all the trees in a forest, or all the farms in a region. The population provides the complete set of data from which conclusions can be drawn.</p>
+<p><strong>Sample</strong><br>
+A <em>sample</em> is a subset of a population selected for the purpose of conducting a statistical analysis. It represents a smaller group drawn from the population, ideally chosen to reflect its characteristics. Samples are used to estimate population parameters when it is impractical or impossible to collect data from the entire population. The key to a good sample is that it should be representative of the population to allow valid inferences to be made.</p>
+<p><strong>Population Parameter</strong> A <em>population parameter</em> is a numerical characteristic or value that describes an aspect of an entire population. It is a fixed (cons), often unknown value that represents the true measurement of a specific attribute for every member of the population. Common population parameters include the population mean, population variance, and population proportion. Since it is usually impractical or impossible to measure the entire population, parameters are often estimated using sample data.</p>
 </section>
 <section id="variables-and-constants" class="level2" data-number="1.7">
-<h2 data-number="1.7" class="anchored" data-anchor-id="variables-and-constants"><span class="header-section-number">1.7</span> Variables and constants</h2>
-<section id="variables" class="level3" data-number="1.7.1">
-<h3 data-number="1.7.1" class="anchored" data-anchor-id="variables"><span class="header-section-number">1.7.1</span> Variables</h3>
-<p>Any type of observation which can take different values for different people, or different values at different times, or places, is called a variable. The following are examples of variables:</p>
+<h2 data-number="1.7" class="anchored" data-anchor-id="variables-and-constants"><span class="header-section-number">1.7</span> Variables and Constants</h2>
+<p><strong>Variables</strong></p>
+<p>A <em>variable</em> is a characteristic or attribute that can take different values for different individuals, at different times, or in different locations. In other words, variables are subject to change. Examples of variables include:</p>
 <ul>
-<li><p>number of fruits in a branch, number of plots in a field, number of schools in a country, etc.</p></li>
-<li><p>plant height, yield, panicle length, temperature,etc.</p></li>
+<li>The number of fruits on a branch, the number of plots in a field, or the number of schools in a country.</li>
+<li>Plant height, crop yield, panicle length, or temperature.</li>
 </ul>
-<p>Broadly speaking, there are two types of variables – <strong>quantitative</strong> and <strong>qualitative</strong> (or categorical) variables.</p>
-</section>
-<section id="constants" class="level3" data-number="1.7.2">
-<h3 data-number="1.7.2" class="anchored" data-anchor-id="constants"><span class="header-section-number">1.7.2</span> Constants</h3>
-<p>Constants are characteristics that have values that do not change. Examples of constants are: pi (𝝅) = the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159…) and <em>e</em>, the base of the natural or (Napierian) logarithms (<em>e</em>=2.71828).</p>
-</section>
+<p>Variables can be classified into two broad categories: <strong>quantitative</strong> variables, which are measured on a numerical scale (such as height or yield), and <strong>qualitative</strong> (or categorical) variables, which describe categories or characteristics (such as plant species or color).</p>
+<p><strong>Constants</strong></p>
+<p>A <em>constant</em> refers to a value that does not change under any circumstances. Unlike variables, constants retain the same value throughout the study. Examples of constants include mathematical values such as pi (𝝅), which is the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159…), and <em>e</em>, the base of the natural logarithms (<em>e</em> = 2.71828).</p>
 </section>
 <section id="types-of-variables" class="level2" data-number="1.8">
-<h2 data-number="1.8" class="anchored" data-anchor-id="types-of-variables"><span class="header-section-number">1.8</span> Types of variables</h2>
-<section id="quantitative-variables" class="level3" data-number="1.8.1">
-<h3 data-number="1.8.1" class="anchored" data-anchor-id="quantitative-variables"><span class="header-section-number">1.8.1</span> Quantitative variables</h3>
-<p>A quantitative variable is one that can take numerical values. The variables like number of fruits in a branch, number of plots in a field, number of schools in a country, plant height, yield, panicle length, temperature, etc. are examples of quantitative variables. Quantitative variables may be characterized further as to whether they are discrete or continuous</p>
-<section id="discrete-variables" class="level4">
-<h4 class="anchored" data-anchor-id="discrete-variables">Discrete variables</h4>
-<p>The variables like number of fruits in a branch, number of plots in a field, number of schools in a country, etc. can be counted. These are examples of discrete variables. Variables that can only take on a finite number of values are called “discrete variables.” Any variable phrased as “the number of …”, is discrete, because it is possible to list its possible values {0,1, …}. Any variable with a finite number of possible values is discrete. The following example illustrates the point. The number of daily admissions to a hospital is a discrete variable since it can be represented by a whole number, such as 0, 1, 2 or 3. The number of daily admissions on a given day cannot be a number such as 1.8, 3.96 or 5.33.</p>
-</section>
-<section id="continuous-variables" class="level4">
-<h4 class="anchored" data-anchor-id="continuous-variables">Continuous variables</h4>
-<p>The variables like plant height, yield, panicle length, temperature, etc. can be measured. These are examples of continuous variables. A continuous variable does not possess the gaps or interruptions characteristic of a discrete variable. A continuous variable can assume any value within a specific relevant interval of values assumed by the variable. Notice that age is continuous since an individual does not age in discrete jumps. Panicle length can be measured as 5.5, 5.8 cm etc so, it is a continuous variable.</p>
-</section>
-</section>
-<section id="categorical-variables" class="level3" data-number="1.8.2">
-<h3 data-number="1.8.2" class="anchored" data-anchor-id="categorical-variables"><span class="header-section-number">1.8.2</span> Categorical variables</h3>
-<p>A variable is called categorical when the measurement scale is a set of categories. For example, marital status, with categories (single,married, widowed), is categorical. Whether employed (yes, no), religious affiliation (Protestant, Catholic, Jewish, Muslim, others, none), colours etc. Categorical variables are often called qualitative. It can be seen that categorical variables can neither be measured nor counted.</p>
-</section>
+<h2 data-number="1.8" class="anchored" data-anchor-id="types-of-variables"><span class="header-section-number">1.8</span> Types of Variables</h2>
+<p><strong>Quantitative Variables</strong></p>
+<p>A <em>quantitative variable</em> is one that can be expressed in numerical terms and takes values that are measurable. Examples of quantitative variables include the number of fruits on a branch, the number of plots in a field, the number of schools in a country, plant height, crop yield, panicle length, and temperature. Quantitative variables can be further classified into two categories: <strong>discrete</strong> and <strong>continuous</strong>.</p>
+<p><strong>Discrete Variables</strong></p>
+<p><em>Discrete variables</em> are variables that can only take a finite or countable number of distinct values. They are often whole numbers and can be counted. For instance, the number of fruits on a branch, the number of plots in a field, or the number of schools in a country are all discrete variables.</p>
+<p>Since discrete variables represent countable quantities, they can only take specific, separate values, such as 0, 1, 2, etc. For example, the number of daily hospital admissions is a discrete variable because it can only take whole number values like 0, 1, or 2, but not fractional values like 1.8 or 3.96.</p>
+<p><strong>Continuous Variables</strong></p>
+<p><em>Continuous variables</em>, on the other hand, are variables that can take any value within a given range or interval and can be measured. These variables do not have distinct gaps or interruptions in their possible values. For example, plant height, yield, temperature, and panicle length are continuous variables because they can be measured to a high degree of precision, such as 5.5 cm, 5.8 cm, or any value within a relevant range. Continuous variables can assume an infinite number of possible values within a given range, making them different from discrete variables.</p>
+<p><strong>Categorical Variables</strong></p>
+<p>A <em>categorical variable</em> is a type of variable where the data is divided into distinct categories that do not have a numerical value. For example, marital status (single, married, widowed), employment status (employed, unemployed), or religious affiliation (Protestant, Catholic, Jewish, Muslim, others) are examples of categorical variables. These variables are often referred to as <em>qualitative variables</em>, as they describe qualities or characteristics rather than measurable quantities.</p>
+<p>Unlike quantitative variables, categorical variables cannot be measured or counted in the traditional sense. Instead, they classify data into specific groups or categories.</p>
 </section>
 <section id="measurement-scales" class="level2" data-number="1.9">
-<h2 data-number="1.9" class="anchored" data-anchor-id="measurement-scales"><span class="header-section-number">1.9</span> Measurement scales</h2>
-<p>Variables can further be classified according to the following four levels of measurement: nominal, ordinal, interval and ratio.</p>
-<section id="nominal-scale" class="level3" data-number="1.9.1">
-<h3 data-number="1.9.1" class="anchored" data-anchor-id="nominal-scale"><span class="header-section-number">1.9.1</span> Nominal scale</h3>
-<p>This scale of measure applies to qualitative variables only. On the nominal scale, no order is required. For example,gender is nominal, blood group is nominal, and marital status is also nominal. We cannot perform arithmetic operations on data measured on the nominal scale.</p>
-</section>
-<section id="ordinal-scale" class="level3" data-number="1.9.2">
-<h3 data-number="1.9.2" class="anchored" data-anchor-id="ordinal-scale"><span class="header-section-number">1.9.2</span> Ordinal scale</h3>
-<p>This scale also applies to qualitative data. On the ordinal scale, order is necessary. This means that one category is lower than the next one or vice versa. For example, Grades are ordinal, as excellent is higher than very good, which in turn is higher than good, and so on. It should be noted that, in the ordinal scale, differences between category values have no meaning.</p>
-</section>
-<section id="interval-scale" class="level3" data-number="1.9.3">
-<h3 data-number="1.9.3" class="anchored" data-anchor-id="interval-scale"><span class="header-section-number">1.9.3</span> Interval scale</h3>
-<p>This scale of measurement applies to quantitative data only. In this scale, the zero point does not indicate a total absence of the quantity being measured. An example of such a scale is temperature on the Celsius or Fahrenheit scale. Suppose the minimum temperatures of 3 cities, A, B and C, on a particular day were 0<sup>0</sup>C, 20<sup>0</sup>C and 10<sup>0</sup>C, respectively. It is clear that we can find the differences between these temperatures. For example, city B is 20<sup>0</sup>C hotter than city A. However, we cannot say that city A has no temperature. Moreover, we cannot say that city B is twice as hot as city C, just because city B is 20<sup>0</sup>C and city C is 10<sup>0</sup>C. The reason is that, in the interval scale, the ratio between two numbers is not meaningful.</p>
-</section>
-<section id="ratio-scale" class="level3" data-number="1.9.4">
-<h3 data-number="1.9.4" class="anchored" data-anchor-id="ratio-scale"><span class="header-section-number">1.9.4</span> Ratio scale</h3>
-<p>This scale of measurement also applies to quantitative data only and has all the properties of the interval scale. In addition to these properties, the ratio scale has a meaningful zero starting point and a meaningful ratio between 2 numbers. An example of variables measured on the ratio scale, is weight. A weighing scale that reads 0 kg gives an indication that there is absolutely no weight on it. So the zero starting point is meaningful. If Ram weighs 60 kg and Laxman weighs 30 kg, then Ram weighs twice as Laxman. Another example of a variable measured on the ratio scale is temperature measured on the Kelvin scale. This has a true zero point.</p>
+<h2 data-number="1.9" class="anchored" data-anchor-id="measurement-scales"><span class="header-section-number">1.9</span> Measurement Scales</h2>
+<p>Variables can be classified into four distinct levels of measurement, each representing a different way of organizing and interpreting data. These four levels are <strong>nominal</strong>, <strong>ordinal</strong>, <strong>interval</strong>, and <strong>ratio</strong>.</p>
+<p><strong>Nominal Scale</strong></p>
+<p>The <strong>nominal scale</strong> is the most basic level of measurement and applies to categorical (qualitative) variables. Data measured on the nominal scale consist of categories that are distinct but have no inherent order or ranking. The categories are simply used for labeling or naming objects or groups. For example, gender (male, female), blood group (A, B, AB, O), and marital status (single, married, divorced) are all nominal variables. In the nominal scale, arithmetic operations, such as addition or subtraction, cannot be performed on the data.</p>
+<p><strong>Ordinal Scale</strong></p>
+<p>The <strong>ordinal scale</strong> also applies to qualitative data, but with an important distinction: the data on the ordinal scale are ordered. This means that the categories have a specific rank or order, but the differences between the categories are not necessarily uniform or meaningful. For example, the grades given in a class (excellent, good, fair, poor) are ordinal, where “excellent” is ranked higher than “good,” and “good” is ranked higher than “fair,” and so on. However, the difference between “excellent” and “good” is not numerically defined, making the exact magnitude of the difference unclear. Ordinal data allows us to say that one value is greater or lesser than another, but it does not allow for the measurement of exact differences.</p>
+<p><strong>Interval Scale</strong></p>
+<p>The <strong>interval scale</strong> is used for quantitative (numerical) data, and it provides more information than the nominal or ordinal scales. On the interval scale, the data points are ordered, and the differences between them are meaningful and measurable. However, the interval scale does not have a true zero point. This means that while we can measure the difference between values, we cannot make statements about ratios between them. An example of an interval scale is temperature measured in Celsius or Fahrenheit. For instance, if the temperature in two cities is 20°C and 30°C, we can say that the temperature in the second city is 10°C higher. However, we cannot say that the second city is “twice as hot” as the first city, because the zero point (0°C) does not represent the absence of temperature.</p>
+<p><strong>Ratio Scale</strong></p>
+<p>The <strong>ratio scale</strong> is the highest level of measurement and applies to quantitative data. It shares the properties of the interval scale—ordered data with measurable differences between values—but it also has a meaningful zero point. This true zero point represents the total absence of the quantity being measured. With the ratio scale, not only can we measure differences between values, but we can also compute meaningful ratios. For example, weight is measured on the ratio scale. A weight of 60 kg is twice as much as a weight of 30 kg, and a weight of 0 kg indicates the complete absence of weight. Similarly, temperature measured on the Kelvin scale is an example of a ratio scale, where 0 Kelvin represents absolute zero, the complete absence of heat.</p>
+<p>In summary, the key distinctions between these measurement scales are:</p>
+<ul>
+<li><strong>Nominal</strong>: Categories without any order.</li>
+<li><strong>Ordinal</strong>: Ordered categories without consistent differences.</li>
+<li><strong>Interval</strong>: Ordered data with meaningful differences, but no true zero.</li>
+<li><strong>Ratio</strong>: Ordered data with meaningful differences and a true zero point, allowing for meaningful ratios.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/image2.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" data-out-width="100%" alt="Classification of variables"></p>
+<p><img src="images/image2.jpeg" class="img-fluid figure-img" data-out-width="100%" alt="Classification of variables"></p>
+<figcaption>Classification of variables</figcaption>
 </figure>
 </div>
 </section>
-</section>
 <section id="collection-of-data" class="level2" data-number="1.10">
 <h2 data-number="1.10" class="anchored" data-anchor-id="collection-of-data"><span class="header-section-number">1.10</span> Collection of Data</h2>
-<p>The first step in any enquiry (investigation) is the collection of data. The data may be collected for the whole population or for a sample only. It is mostly collected on a sample basis. Collecting data is very difficult job. The enumerator or investigator is the well trained individual who collects the statistical data. The respondents are the persons from whom the information is collected.</p>
+<p>The process of collecting data is the foundational step in any statistical investigation or research study. Data can be gathered for an entire population or for a sample drawn from it. Typically, data collection is performed on a sample basis, especially when studying large populations. Collecting data is a challenging task, requiring skill and precision. The person responsible for gathering the data, known as the <strong>enumerator</strong> or <strong>investigator</strong>, must be well-trained to ensure the accuracy and reliability of the data collected. The individuals or groups providing the information are referred to as the <strong>respondents</strong>.</p>
 <section id="types-of-data" class="level3" data-number="1.10.1">
 <h3 data-number="1.10.1" class="anchored" data-anchor-id="types-of-data"><span class="header-section-number">1.10.1</span> Types of Data</h3>
-<p>There are two types (sources) for the collection of data:</p>
-<ul>
-<li>Primary Data<br>
-</li>
-<li>Secondary Data</li>
-</ul>
-<section id="primary-data" class="level4">
-<h4 class="anchored" data-anchor-id="primary-data">Primary Data</h4>
-<p>Primary data are the first hand information which is collected, compiled and published by organizations for some purpose. They are the most original data in character and have not undergone any sort of statistical treatment.</p>
-<p>Example: Population census reports are primary data because these are collected, complied and published by the population census organization.</p>
-</section>
-<section id="secondary-data" class="level4">
-<h4 class="anchored" data-anchor-id="secondary-data">Secondary Data</h4>
-<p>The secondary data are the second hand information which is already collected by an organization for some purpose and are available for the present study. Secondary data are not pure in character and have undergone some treatment at least once.</p>
-<p>Example: An economic survey of England is secondary data because the data are collected by more than one organization like the Bureau of Statistics, Board of Revenue, banks, etc.</p>
+<p>Data collection can be categorized into two main types based on the source from which the data is derived:</p>
+<ol type="1">
+<li><strong>Primary Data</strong></li>
+<li><strong>Secondary Data</strong></li>
+</ol>
+<p><strong>Primary Data</strong></p>
+<p>Primary data refer to first-hand, original data that are collected directly by the researcher or an organization for a specific purpose. These data have not been processed or analyzed previously and are considered the most authentic form of data. Primary data are typically gathered through surveys, interviews, experiments, or observations, and they represent a direct reflection of the phenomena being studied.</p>
+<p><strong>Example</strong>: Population census data collected by the government are considered primary data. These are collected directly from individuals by government authorities for the purpose of census enumeration and demographic analysis.</p>
+<p><strong>Secondary Data</strong></p>
+<p>Secondary data refer to data that have already been collected, processed, and published by other organizations or researchers for a different purpose. These data may have undergone some degree of analysis or treatment before being made available for new studies. Secondary data are often more convenient to use, as they are readily accessible, but they may not always perfectly suit the specific needs of the researcher.</p>
+<p><strong>Example</strong>: An economic survey of a country, such as reports from the Bureau of Statistics or other governmental agencies, is an example of secondary data. These data were originally collected for purposes such as policy analysis or economic planning, and now can be used for additional research.</p>
+<p>The distinction between primary and secondary data lies primarily in their origin and the process of collection. Primary data are first-hand, original data collected directly from a single source by the researcher for a specific purpose. These data are considered pure as they have not undergone any prior statistical treatment. In contrast, secondary data are obtained from existing sources or agencies and have been previously collected and processed for different purposes. They are not considered pure as they have undergone some form of statistical treatment. While primary data are original and collected for the first time, secondary data are pre-existing and gathered from other sources. Both types of data have their respective advantages and limitations, and the choice between them depends on the research objectives, availability of resources, and the nature of the study.</p>
 </section>
 </section>
+<section id="collecting-primary-data" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="collecting-primary-data"><span class="header-section-number">1.11</span> Collecting Primary Data</h2>
+<p>Primary data can be collected using various methods, depending on the research requirements and resources available:</p>
+<p><strong>Personal Investigation</strong></p>
+<p>In this method, the researcher directly conducts the survey and collects the data themselves. This approach often results in highly accurate and reliable data. It is best suited for small-scale research projects where direct involvement of the researcher is feasible.</p>
+<p><strong>Through Investigation</strong></p>
+<p>In this method, trained investigators are employed to collect data. These investigators engage with individuals, asking questions and filling out questionnaires based on the responses. This method is widely used by organizations for larger data collection efforts.</p>
+<p><strong>Collection through Questionnaire</strong></p>
+<p>Researchers distribute questionnaires to local representatives or agents who collect data based on their own experience and observations. While this method is relatively quick, it typically provides only a rough estimate of the information.</p>
+<p><strong>Through the Telephone</strong></p>
+<p>Data is gathered by contacting individuals via telephone. This method is fast and allows for accurate information to be collected efficiently, making it suitable for studies that require a broad reach but still need reliable data.</p>
 </section>
-<section id="methods-of-collecting-primary-data" class="level2" data-number="1.11">
-<h2 data-number="1.11" class="anchored" data-anchor-id="methods-of-collecting-primary-data"><span class="header-section-number">1.11</span> Methods of Collecting Primary Data</h2>
-<p>Primary data are collected using the following methods:</p>
-<section id="personal-investigation" class="level3" data-number="1.11.1">
-<h3 data-number="1.11.1" class="anchored" data-anchor-id="personal-investigation"><span class="header-section-number">1.11.1</span> Personal Investigation</h3>
-<p>The researcher conducts the survey him/herself and collects data from it. The data collected in this way are usually accurate and reliable. This method of collecting data is only applicable in case of small research projects.</p>
+<section id="collecting-secondary-data" class="level2" data-number="1.12">
+<h2 data-number="1.12" class="anchored" data-anchor-id="collecting-secondary-data"><span class="header-section-number">1.12</span> Collecting Secondary Data</h2>
+<p>Secondary data are collected through various established channels:</p>
+<p><strong>Official</strong></p>
+<p>Official sources include publications from government bodies such as the Statistical Division, Ministry of Finance, Federal Bureaus of Statistics, and various ministries (e.g., Agriculture, Food, Industry, Labor). These sources provide comprehensive and authoritative data.</p>
+<p><strong>Semi-Official</strong></p>
+<p>Semi-official sources include publications from institutions like the State Bank, Railway Board, Central Cotton Committee, and Boards of Economic Enquiry. It also encompasses reports from trade associations, chambers of commerce, technical journals, trade publications, and research organizations such as universities and other academic institutions. These sources provide valuable data, though they may not be as universally authoritative as official sources.</p>
 </section>
-<section id="through-investigation" class="level3" data-number="1.11.2">
-<h3 data-number="1.11.2" class="anchored" data-anchor-id="through-investigation"><span class="header-section-number">1.11.2</span> Through Investigation</h3>
-<p>Trained investigators are employed to collect the data. These investigators contact the individuals and fill in questionnaires after asking for the required information. Most organizations utilize this method.</p>
-</section>
-<section id="collection-through-questionnaire" class="level3" data-number="1.11.3">
-<h3 data-number="1.11.3" class="anchored" data-anchor-id="collection-through-questionnaire"><span class="header-section-number">1.11.3</span> Collection through Questionnaire</h3>
-<p>Researchers get the data from local representations or agents that are based upon their own experience. This method is quick but gives only a rough estimate.</p>
-</section>
-<section id="through-the-telephone" class="level3" data-number="1.11.4">
-<h3 data-number="1.11.4" class="anchored" data-anchor-id="through-the-telephone"><span class="header-section-number">1.11.4</span> Through the Telephone</h3>
-<p>Researchers get information from individuals through the telephone. This method is quick and gives accurate information.</p>
-</section>
-</section>
-<section id="methods-of-collecting-secondary-data" class="level2" data-number="1.12">
-<h2 data-number="1.12" class="anchored" data-anchor-id="methods-of-collecting-secondary-data"><span class="header-section-number">1.12</span> Methods of Collecting Secondary Data</h2>
-<p>Secondary data are collected by the following methods:</p>
-<section id="official" class="level3" data-number="1.12.1">
-<h3 data-number="1.12.1" class="anchored" data-anchor-id="official"><span class="header-section-number">1.12.1</span> Official</h3>
-<p>Publications from the Statistical Division, Ministry of Finance, the Federal Bureaus of Statistics, Ministries of Food, Agriculture, Industry, Labor, etc.</p>
-</section>
-<section id="semi-official" class="level3" data-number="1.12.2">
-<h3 data-number="1.12.2" class="anchored" data-anchor-id="semi-official"><span class="header-section-number">1.12.2</span> Semi-Official</h3>
-<ul>
-<li>Publications from State Bank, Railway Board, Central Cotton Committee, Boards of Economic Enquiry etc.<br>
-</li>
-<li>Publication of Trade Associations, Chambers of Commerce, etc.<br>
-</li>
-<li>Technical and Trade Journals and Newspapers.<br>
-</li>
-<li>Research Organizations such as universities and other institutions.</li>
-</ul>
-</section>
-</section>
-<section id="difference-between-primary-and-secondary-data" class="level2" data-number="1.13">
-<h2 data-number="1.13" class="anchored" data-anchor-id="difference-between-primary-and-secondary-data"><span class="header-section-number">1.13</span> Difference Between Primary and Secondary Data</h2>
-<p>The difference between primary and secondary data is only a change of hand. Primary data are the first hand information which is directly collected form one source. They are the most original in character and have not undergone any sort of statistical treatment, while secondary data are obtained from other sources or agencies. They are not pure in character and have undergone some treatment at least once.</p>
-</section>
-<section id="frequency-distribution" class="level2" data-number="1.14">
-<h2 data-number="1.14" class="anchored" data-anchor-id="frequency-distribution"><span class="header-section-number">1.14</span> Frequency distribution</h2>
-<p>Table shows the number of fruits per branch in a mango tree selected from a particular plot. The data, presented in this form in which it was collected, is called raw data.</p>
+<section id="frequency-distribution" class="level2" data-number="1.13">
+<h2 data-number="1.13" class="anchored" data-anchor-id="frequency-distribution"><span class="header-section-number">1.13</span> Frequency distribution</h2>
+<p>The table below shows the number of fruits per branch in a mango tree selected from a particular plot. The data, presented in this form in which it was collected, is called <em>raw data</em>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/freq1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-out-width="100%" alt="Raw data set of no. of fruits per branch in a mango tree"></p>
+<p><img src="images/freq1.png" class="img-fluid figure-img" data-out-width="100%" alt="Raw data set of no. of fruits per branch in a mango tree"></p>
+<figcaption>Raw data set of no. of fruits per branch in a mango tree</figcaption>
 </figure>
 </div>
 <p>It can be seen that, the minimum and the maximum numbers of fruits per branch are 0 and 5, respectively. Apart from these numbers, it is impossible, without further careful study, to extract any exact information from the data. But by breaking down the data into the form below</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/fig1.4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-out-width="100%" alt="Frequency distribution table"></p>
+<p><img src="images/fig1.4.png" class="img-fluid figure-img" data-out-width="100%" alt="Frequency distribution table"></p>
+<figcaption>Frequency distribution table</figcaption>
 </figure>
 </div>
-<p>Now certain features of the data become apparent. For instance, it can easily be seen that, most of the branches selected have four fruits because number of branches having 4 fruits is 7. This information cannot easily be obtained from the raw data. The above table is called a frequency table or a frequency distribution. It is so called because it gives the frequency or number of times each observation occurs. Thus, by finding the frequency of each observation, a more intelligible picture is obtained.</p>
-<section id="construction-of-frequency-distribution" class="level3" data-number="1.14.1">
-<h3 data-number="1.14.1" class="anchored" data-anchor-id="construction-of-frequency-distribution"><span class="header-section-number">1.14.1</span> Construction of frequency distribution</h3>
+<p>Now certain features of the data become apparent. For instance, it can easily be seen that, most of the branches selected have four fruits because number of branches having 4 fruits is 7. This information cannot easily be obtained from the raw data. The above table is called a <strong>frequency table</strong> or a <strong>frequency distribution</strong>. It is so called because it gives the frequency or number of times each observation occurs. Thus, by finding the frequency of each observation, a more intelligible picture is obtained.</p>
+<section id="construction" class="level3" data-number="1.13.1">
+<h3 data-number="1.13.1" class="anchored" data-anchor-id="construction"><span class="header-section-number">1.13.1</span> Construction</h3>
+<p>In this section, we will discuss the process of constructing a frequency distribution.Follow the steps below. This method helps to clearly visualize the frequency of each observation, ensuring that the total frequency adds up to the total number of observations.</p>
 <ol type="1">
 <li><p>List all values of the variable in ascending order of magnitude.</p></li>
 <li><p>Form a tally column, that is, for each value in the data, record a stroke in the tally column next to that value. In the tally, each fifth stroke is made across the first four. This makes it easy to count the entries and enter the frequency of each observation.</p></li>
@@ -513,12 +471,13 @@ window.Quarto = {
 </ol>
 </section>
 </section>
-<section id="grouped-frequency-distribution" class="level2" data-number="1.15">
-<h2 data-number="1.15" class="anchored" data-anchor-id="grouped-frequency-distribution"><span class="header-section-number">1.15</span> Grouped frequency distribution</h2>
+<section id="grouped-frequency-distribution" class="level2" data-number="1.14">
+<h2 data-number="1.14" class="anchored" data-anchor-id="grouped-frequency-distribution"><span class="header-section-number">1.14</span> Grouped frequency distribution</h2>
 <p>Data below gives the plant height of 20 paddy varieties, measured to the nearest centimeters.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/fig1.5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-out-width="100%" alt="Plant height of 20 paddy varieties"></p>
+<p><img src="images/fig1.5.png" class="img-fluid figure-img" data-out-width="100%" alt="Plant height of 20 paddy varieties"></p>
+<figcaption>Plant height of 20 paddy varieties</figcaption>
 </figure>
 </div>
 <p>It can be seen that the minimum and the maximum plant height are 107 cm and 144 cm, respectively. A frequency distribution giving every plant height between 107 cm and 144 cm would be very long and would not be very informative. The problem is to overcome by grouping the data into classes.<br>
@@ -531,44 +490,37 @@ If we choose the classes<br>
 we obtain the frequency distribution given below:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/fig1.6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-out-width="100%" alt="Grouped Frequency distribution table"></p>
+<p><img src="images/fig1.6.png" class="img-fluid figure-img" data-out-width="100%" alt="Grouped Frequency distribution table"></p>
+<figcaption>Grouped Frequency distribution table</figcaption>
 </figure>
 </div>
 <p>Above table gives the frequency of each group or class; it is therefore called a grouped frequency table or a grouped frequency distribution. Using this grouped frequency distribution, it is easier to obtain information about the data than using the raw data. For instance, it can be seen that 14 of the 20 paddy varieties have plant height between 110 cm and 139 cm (both inclusive). This information cannot easily be obtained from the raw data.<br>
 It should be noted that, even though above table is concise, some information is lost. For example, the grouped frequency distribution does not give us the exact plant height of the paddy varieties. Thus the individual plant height of the paddy varieties are lost in our effort to obtain an overall picture.</p>
-</section>
-<section id="terms-used-in-grouped-frequency-tables." class="level2" data-number="1.16">
-<h2 data-number="1.16" class="anchored" data-anchor-id="terms-used-in-grouped-frequency-tables."><span class="header-section-number">1.16</span> Terms used in grouped frequency tables.</h2>
-<section id="class-limits" class="level3" data-number="1.16.1">
-<h3 data-number="1.16.1" class="anchored" data-anchor-id="class-limits"><span class="header-section-number">1.16.1</span> Class limits</h3>
+<section id="terms-used" class="level3" data-number="1.14.1">
+<h3 data-number="1.14.1" class="anchored" data-anchor-id="terms-used"><span class="header-section-number">1.14.1</span> Terms used</h3>
+<p><strong>Class limits</strong></p>
 <p>The intervals into which the observations are put are called <u>class intervals</u>. The end points of the class intervals are called <u>class limits</u>. For example, the class interval 100 – 109, has lower class limit 100 and upper class limit 109.</p>
-</section>
-<section id="class-boundaries" class="level3" data-number="1.16.2">
-<h3 data-number="1.16.2" class="anchored" data-anchor-id="class-boundaries"><span class="header-section-number">1.16.2</span> Class boundaries</h3>
+<p><strong>Class boundaries</strong></p>
 <p>The raw data in the above example were recorded to the nearest centimeters. Thus, a plant height of 109.5cm would have been recorded as 110cm, a plant height of 119.4 cm would have been recorded as 119cm, while a plant height of 119.5 cm would have been recorded as 120 cm. It can therefore be seen that, the class interval 110 – 119, consists of measurements greater than or equal to 109.5 cm and less than 119.5 cm. The numbers 109.5 and 119.5 are called the lower and upper boundaries of the class interval 110 – 120. The class boundaries of the other class intervals are given below:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/fig1.7.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-out-width="100%" alt="Class boundary and class limits"></p>
+<p><img src="images/fig1.7.png" class="img-fluid figure-img" data-out-width="100%" alt="Class boundary and class limits"></p>
+<figcaption>lass boundary and class limits</figcaption>
 </figure>
 </div>
 <p><u>Note:</u><br>
 Notice that the lower class boundary of the i<sup>th</sup> class interval is the mean of the lower class limit of the class interval and the upper class limit of the (i-1)<sup>th</sup> class interval (i = 2, 3, 4, …). For example, in the table above the lower class boundaries of the second and the fourth class intervals are (110 + 119) /2 = 114.5 and (130 + 139)/2 = 134.5 respectively.<br>
 It can also be seen that the upper class boundary of the i<sup>th</sup> class interval is the mean of the upper class limit of the class interval and the lower class limit of the (i+1)<sup>th</sup> class interval (i = 1, 2, 3, …). Thus, in the above table the upper class boundary of the fourth class interval is (130 + 139)/2 = 134.5.</p>
-</section>
-<section id="class-mark" class="level3" data-number="1.16.3">
-<h3 data-number="1.16.3" class="anchored" data-anchor-id="class-mark"><span class="header-section-number">1.16.3</span> Class mark</h3>
+<p><strong>Class mark</strong></p>
 <p>The mid-point of a class interval is called the class mark or class mid-point of the class interval. It is the average of the upper and lower class limits of the class interval. It is also the average of the upper and lower class boundaries of the class interval. For example, in the table, the class mark of the third class interval was found as follows: class mark =(120+129)/2 = (119.5 + 129.5)/2= 124.5.</p>
-</section>
-<section id="class-width" class="level3" data-number="1.16.4">
-<h3 data-number="1.16.4" class="anchored" data-anchor-id="class-width"><span class="header-section-number">1.16.4</span> Class width</h3>
+<p><strong>Class width</strong></p>
 <p>The difference between the upper and lower class boundaries of a class interval is called the class width of the class interval. Class widths of class intervals can also be found by subtracting two consecutive lower class limits, or by subtracting two consecutive upper class limits.</p>
 <p><u>Note:</u></p>
 <p>The width of the i<sup>th</sup> class interval is the numerical difference between the upper class limits of the i<sup>th</sup> and the ( i-1)<sup>th</sup> class intervals (i = 2, 3, …). It is also the numerical difference between the lower class limits of the i<sup>th</sup> and the (i+1)<sup>th</sup> class intervals (i = 1, 2, …).</p>
 <p>In grouped frequency table above the width of the second class interval is |110-119| = 9. This is the numerical difference between the lower class limits of the second and the third class intervals. The width of the third class interval is |120-129|= 9. This is the numerical difference between the lower class limits of the third and the fourth class intervals.</p>
 </section>
-</section>
-<section id="construction-of-frequency-distribution-table" class="level2" data-number="1.17">
-<h2 data-number="1.17" class="anchored" data-anchor-id="construction-of-frequency-distribution-table"><span class="header-section-number">1.17</span> Construction of frequency distribution table</h2>
+<section id="construction-1" class="level3" data-number="1.14.2">
+<h3 data-number="1.14.2" class="anchored" data-anchor-id="construction-1"><span class="header-section-number">1.14.2</span> Construction</h3>
 <p><strong>Step 1</strong>. Decide how many classes you wish to use.<br>
 <strong>Step 2</strong>. Determine the class width<br>
 <strong>Step 3</strong>. Set up the individual class limits<br>
@@ -576,9 +528,11 @@ It can also be seen that the upper class boundary of the i<sup>th</sup> class in
 <strong>Step 5</strong>. Count the number of items in each class</p>
 <p>Consider the example<br>
 An agricultural student measured the lengths of leaves on an oak tree (to the nearest cm). Measurements on 38 leaves are as follows<br>
-9,16,13,7,8,4,18,10,17,18,9,12,5,9,9,16,1,8,17,1,10,5,9,11,15,6,14,9,1,12,5,16,4,16,8,15,14,17</p>
+9,16,13,7,8,4,18,10,17,18,9,<br>
+12,5,9,9,16,1,8,17,1,10,5,9,11,<br>
+15,6,14,9,1,12,5,16,4,16,8,15,14,17</p>
 <p><strong>Step 1.</strong> Decide how many classes you wish to use.</p>
-<p>H.A. Sturges provides a formula for determining the approximation number of classes. <span class="math display">\[\mathbf{k = 1 + 3.322}\mathbf{\log}\mathbf{N}\]</span> Number of classes should be greater than calculated <em>k</em><br>
+<p>H.A. Sturges provides a formula for determining the approximation number of classes. <span class="math display">\[\mathbf{k = 1 + 3.322}.\mathbf{\log}\mathbf{N}\]</span> Number of classes should be greater than calculated <em>k</em><br>
 In our example <em>N</em>=38, so <em>k</em>= (1+3.322)×log(38) = (1+3.322)×1.5797 = 6.24 = approx 7</p>
 <p>So the approximated number of classes should be not less than 6.24 <em>i</em>.<em>e</em>.<span class="math inline">\(\ k^{'}\)</span> =7</p>
 <p><strong>Step 2.</strong> Determine the class width</p>
@@ -628,14 +582,15 @@ In our example <em>N</em>=38, so <em>k</em>= (1+3.322)×log(38) = (1+3.322)×1.5
 
 <p>Even though the student only measured in whole numbers, the data is continuous, so “4 cm” means the actual value could have been anywhere from 3.5 cm to 4.5 cm.</p>
 </section>
-<section id="cumulative-frequency" class="level2" data-number="1.18">
-<h2 data-number="1.18" class="anchored" data-anchor-id="cumulative-frequency"><span class="header-section-number">1.18</span> Cumulative frequency</h2>
+</section>
+<section id="cumulative-frequency" class="level2" data-number="1.15">
+<h2 data-number="1.15" class="anchored" data-anchor-id="cumulative-frequency"><span class="header-section-number">1.15</span> Cumulative frequency</h2>
 <p>In many situations, we are not interested in the number of observations in a given class interval, but in the number of observations which are less than (or greater than) a specified value. For example, in the above table, it can be seen that 3 leaves have length less than 3.5 cm and 9 leaves (i.e.&nbsp;3 + 6) have length less than 6.5 cm. These frequencies are called cumulative frequencies. A table of such cumulative frequencies is called <strong>a cumulative frequency table</strong> or <strong>cumulative frequency distribution</strong>.</p>
 <p>Cumulative frequency is defined as a running total of frequencies. Cumulative frequency can also defined as the sum of all previous frequencies up to the current point. Notice that the last cumulative frequency is equal to the sum of all the frequencies. Two types of cumulative frequencies are Less than cumulative frequency and Greater than cumulative frequency. Less than cumulative frequency (LCF) is the number of values less than a specified value. Greater than cumulative frequency (GCF) is the number of observations greater than a specified value.</p>
 <p>The specified value for LCF in the case of grouped frequency distribution will be upper limits and for GCF will be the lower limits of the classes. LCF’s are obtained by adding frequencies in the successive classes and GCF are obtained by subtracting the successive class frequencies from the total frequency.</p>
 </section>
-<section id="relative-frequency" class="level2" data-number="1.19">
-<h2 data-number="1.19" class="anchored" data-anchor-id="relative-frequency"><span class="header-section-number">1.19</span> Relative frequency</h2>
+<section id="relative-frequency" class="level2" data-number="1.16">
+<h2 data-number="1.16" class="anchored" data-anchor-id="relative-frequency"><span class="header-section-number">1.16</span> Relative frequency</h2>
 <p>It is sometimes useful to know the proportion, rather than the number, of values falling within a particular class interval. We obtain this information by dividing the frequency of the particular class interval by the total number of observations. <strong>Relative frequency</strong> of a class is the frequency of class divided by total observations. Relative frequencies all add up to 1.</p>
 <table class="lightable-classic table table-bordered caption-top" data-quarto-postprocess="true">
 <thead>
@@ -721,7 +676,7 @@ The Secret Ingredient: Data!
 </div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-ball" class="csl-entry" role="listitem">
 Ball, Philip. 2004. <em>Critical Mass</em>. Farrar, Straus; Giroux.
 </div>
@@ -1168,6 +1123,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./agstatindia.html" class="pagination-link" aria-label="Statistics on Agriculture">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Statistics on Agriculture</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
