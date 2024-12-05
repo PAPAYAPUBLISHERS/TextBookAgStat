@@ -33,6 +33,8 @@ book:
    - preface.qmd
    - intro.qmd
    - agstatindia.qmd
+   - 3graph.qmd
+   - central1.qmd
    - appendix1.qmd
    - references.qmd
   twitter-card: 

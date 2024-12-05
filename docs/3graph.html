@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; Appendix 1 – TEXTBOOK OF AGRICULTURAL STATISTICS</title>
+<title>3&nbsp; Graphical Representation – TEXTBOOK OF AGRICULTURAL STATISTICS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
-<link href="./central1.html" rel="prev">
+<link href="./central1.html" rel="next">
+<link href="./agstatindia.html" rel="prev">
 <link href="./images/papayalogo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -70,15 +70,44 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="5&nbsp; Appendix 1 – TEXTBOOK OF AGRICULTURAL STATISTICS">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="3&nbsp; Graphical Representation – TEXTBOOK OF AGRICULTURAL STATISTICS">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://cleaning-data-r.ala.org.au/images/cover.png">
 <meta property="og:site_name" content="TEXTBOOK OF AGRICULTURAL STATISTICS">
 <meta property="og:image:alt" content="Textbook of Agricultural Statistics">
 <meta property="og:image:height" content="4500">
 <meta property="og:image:width" content="2820">
-<meta name="twitter:title" content="5&nbsp; Appendix 1 – TEXTBOOK OF AGRICULTURAL STATISTICS">
+<meta name="twitter:title" content="3&nbsp; Graphical Representation – TEXTBOOK OF AGRICULTURAL STATISTICS">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://cleaning-data-r.ala.org.au/images/papayalogo.png">
 <meta name="twitter:image:alt" content="Textbook of Agricultural Statistics">
@@ -96,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./appendix1.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Appendix 1</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./3graph.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical Representation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -158,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3graph.html" class="sidebar-item-text sidebar-link">
+  <a href="./3graph.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical Representation</span></span></a>
   </div>
 </li>
@@ -170,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./appendix1.html" class="sidebar-item-text sidebar-link active">
+  <a href="./appendix1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Appendix 1</span></span></a>
   </div>
 </li>
@@ -185,15 +214,28 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#histogram" id="toc-histogram" class="nav-link active" data-scroll-target="#histogram"><span class="header-section-number">3.1</span> Histogram</a></li>
+  <li><a href="#ogive" id="toc-ogive" class="nav-link" data-scroll-target="#ogive"><span class="header-section-number">3.2</span> Ogive</a></li>
+  <li><a href="#types-of-ogives" id="toc-types-of-ogives" class="nav-link" data-scroll-target="#types-of-ogives"><span class="header-section-number">3.3</span> Types of Ogives</a></li>
+  <li><a href="#frequency-polygon" id="toc-frequency-polygon" class="nav-link" data-scroll-target="#frequency-polygon"><span class="header-section-number">3.4</span> Frequency Polygon</a></li>
+  <li><a href="#stem-and-leaf-plot" id="toc-stem-and-leaf-plot" class="nav-link" data-scroll-target="#stem-and-leaf-plot"><span class="header-section-number">3.5</span> Stem-and-Leaf Plot</a></li>
+  <li><a href="#bar-chart" id="toc-bar-chart" class="nav-link" data-scroll-target="#bar-chart"><span class="header-section-number">3.6</span> Bar chart</a></li>
+  <li><a href="#histogram-versus-bar-chart" id="toc-histogram-versus-bar-chart" class="nav-link" data-scroll-target="#histogram-versus-bar-chart"><span class="header-section-number">3.7</span> Histogram versus Bar chart</a></li>
+  <li><a href="#pie-charts" id="toc-pie-charts" class="nav-link" data-scroll-target="#pie-charts"><span class="header-section-number">3.8</span> Pie Charts</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="appendix-1" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Appendix 1</span></span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical Representation</span></h1>
 </div>
 
 
@@ -210,75 +252,454 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Source of data related to different sectors</strong></p>
+<p>Graphs and diagrams play a vital role in statistics by transforming complex data into clear, visual formats that are easier to interpret and analyze. While frequency distributions in tabular form help organize raw data, graphical representations provide a more intuitive way to understand patterns, trends, and relationships within the data. By converting numbers into visual elements, graphs make it simpler to convey information effectively, making them indispensable tools in research, analysis, and communication. Depending on the nature of the data and the intended purpose, various types of graphs and diagrams can be employed to illustrate key insights. This chapter focuses on the fundamental graphs and charts used in statistics to visually represent data.</p>
+<section id="histogram" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="histogram"><span class="header-section-number">3.1</span> Histogram</h2>
+<p>A histogram is a graphical representation used to display the frequency distribution of continuous data. It consists of adjacent rectangles, where:</p>
+<ul>
+<li>The <strong>base</strong> of each rectangle lies along the horizontal axis, with the width determined by the class intervals.<br>
+</li>
+<li>The <strong>height</strong> of each rectangle is proportional to the frequency of the corresponding class.</li>
+</ul>
+<p>Unlike bar charts, histograms have no gaps between the rectangles, emphasizing the continuity of the data. The area of each rectangle represents the frequency, making it an effective tool for visualizing the distribution, identifying patterns, and highlighting any skewness or outliers in the data.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If the class intervals are of equal size, then the heights of the rectangles are proportional to the class frequencies and it is then customary to take the heights of the rectangles numerically equal to the class frequencies. If the class intervals are of different widths, then the heights of the rectangles are proportional to <span class="math inline">\(\frac{\text{Class Frequency}}{\text{Class Width}}\)</span>. This ratio is called <strong>frequency density</strong>.</p>
+</div>
+</div>
+<p>Table below shows the frequency distribution of the plant height of 50 plants. You can see how it can be represented using a Histogram</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Sl No</th>
-<th>Data Particulars</th>
-<th>Source</th>
-<th>Organisation</th>
+<th style="text-align: center;">Plant height</th>
+<th style="text-align: center;">130 – 139</th>
+<th style="text-align: center;">140 – 149</th>
+<th style="text-align: center;">150 – 159</th>
+<th style="text-align: center;">160 – 169</th>
+<th style="text-align: center;">170 – 179</th>
+<th style="text-align: center;">180 – 189</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1.</td>
-<td>Estimates of area, production of important crops in India</td>
-<td><a href="https://agriwelfare.gov.in/en/AgricultureEstimates" class="uri">https://agriwelfare.gov.in/en/AgricultureEstimates</a></td>
-<td>MoAFW, GOI</td>
-</tr>
-<tr class="even">
-<td>2.</td>
-<td>State level, district level aggregates of Area, production and productivity of principal crops in Kerala</td>
-<td><a href="https://www.ecostat.kerala.gov.in" class="uri">https://www.ecostat.kerala.gov.in</a></td>
-<td>Department of Economics &amp; Statistics, Govt of Kerala</td>
-</tr>
-<tr class="odd">
-<td>3.</td>
-<td>District Wise Birth &amp; Death Data, State Level Birth &amp; Death Data</td>
-<td><a href="https://www.ecostat.kerala.gov.in" class="uri">https://www.ecostat.kerala.gov.in</a></td>
-<td>Department of Economics &amp; Statistics, Govt of Kerala</td>
-</tr>
-<tr class="even">
-<td>4.</td>
-<td>Minimum Support Price (MSP) Statement</td>
-<td><a href="https://desagri.gov.in/statistics-type/latest-minimum-support-price-msp-statement/" class="uri">https://desagri.gov.in/statistics-type/latest-minimum-support-price-msp-statement/</a></td>
-<td>MoAFW, GOI</td>
-</tr>
-<tr class="odd">
-<td>5.</td>
-<td>Annual Survey of Industries, Index of Industrial Production, Household Consumer Expenditure, Economic Census, Enterprises Surveys, Periodic Labour Force Survey, CPI, etc</td>
-<td><a href="https://www.mospi.gov.in/" class="uri">https://www.mospi.gov.in/</a></td>
-<td>Ministry of Statistics and Programme Implementation</td>
-</tr>
-<tr class="even">
-<td>6.</td>
-<td>State/UT wise estimates on population, health, family planning and nutrition related key indicators like fertility, mortality, maternal, child and adult health, women and child nutrition, domestic violence, etc</td>
-<td><a href="https://main.mohfw.gov.in/" class="uri">https://main.mohfw.gov.in/</a></td>
-<td>Ministry of Health &amp; Family Welfare</td>
-</tr>
-<tr class="odd">
-<td>7.</td>
-<td>Commodity wise export import data</td>
-<td><a href="https://tradestat.commerce.gov.in" class="uri">https://tradestat.commerce.gov.in</a>, <a href="https://ftddp.dgciskol.gov.in" class="uri">https://ftddp.dgciskol.gov.in</a></td>
-<td>Ministry of Commerce and Industry</td>
-</tr>
-<tr class="even">
-<td>8.</td>
-<td>Data on various aspects of Indian economy, banking and finance</td>
-<td><a href="https://www.rbi.org.in" class="uri">https://www.rbi.org.in</a></td>
-<td>Reserve Bank of India</td>
-</tr>
-<tr class="odd">
-<td>9.</td>
-<td>Sustainable Development Goal report</td>
-<td><a href="https://www.niti.gov.in/" class="uri">https://www.niti.gov.in/</a></td>
-<td>NITI Aayog</td>
+<td style="text-align: center;">Frequency</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
 </tr>
 </tbody>
 </table>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/histogram.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Histogram</figcaption>
+</figure>
+</div>
+</section>
+<section id="ogive" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="ogive"><span class="header-section-number">3.2</span> Ogive</h2>
+<p>Ogive is also known as <strong>cumulative frequency curve</strong>. It is a graphical representation that plots cumulative frequencies against class boundaries, connecting the points with a smooth curve. This curve effectively illustrates the accumulation of frequencies, making it useful for understanding data distribution and determining percentiles or medians.</p>
+</section>
+<section id="types-of-ogives" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="types-of-ogives"><span class="header-section-number">3.3</span> Types of Ogives</h2>
+<p>There are two main types of cumulative frequency curves:<br>
+1. <strong>Less than Ogive</strong>: This is constructed using the upper limits of the classes and their corresponding cumulative frequencies.<br>
+2. <strong>Greater than Ogive</strong>: This uses the lower limits of the classes and their corresponding cumulative frequencies.</p>
+<p><u><strong>Less than Ogive</strong></u></p>
+<p>The less than ogive, also known as the <strong>less than type cumulative frequency curve</strong>, is created by plotting the cumulative frequencies against the upper class boundaries. For example, consider the plant height data for 50 plants. By using the upper class limits and their cumulative frequencies, we can construct a smooth curve that provides insights into the data distribution.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Upper limit</th>
+<th style="text-align: center;">139</th>
+<th style="text-align: center;">149</th>
+<th style="text-align: center;">159</th>
+<th style="text-align: center;">169</th>
+<th style="text-align: center;">179</th>
+<th style="text-align: center;">189</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Less than Cumulative frequency</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;">47</td>
+<td style="text-align: center;">50</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/lessogive.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Less than Ogive</figcaption>
+</figure>
+</div>
+<p><u><strong>Greater than Ogive</strong></u></p>
+<p>The <strong>Greater Than Ogive</strong>, also known as the <strong>greater than type cumulative frequency curve</strong>, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the “Less Than Ogive,” we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Lower Limit</th>
+<th style="text-align: center;">130</th>
+<th style="text-align: center;">140</th>
+<th style="text-align: center;">150</th>
+<th style="text-align: center;">160</th>
+<th style="text-align: center;">170</th>
+<th style="text-align: center;">180</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Greater than Cumulative frequency</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">47</td>
+<td style="text-align: center;">41</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/greatogive.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Greater Than Ogive</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Intersection of both less than and greater than ogives gives the median</p>
+</div>
+</div>
+</section>
+<section id="frequency-polygon" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="frequency-polygon"><span class="header-section-number">3.4</span> Frequency Polygon</h2>
+<p>A grouped frequency table can also be represented by a frequency polygon, a special type of line graph. To construct it, plot the class frequencies against the corresponding class midpoints and connect successive points with straight lines. The frequency polygon can also be derived by joining the midpoints of a histogram.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Class Midpoints</th>
+<th style="text-align: center;">134.5</th>
+<th style="text-align: center;">144.5</th>
+<th style="text-align: center;">154.5</th>
+<th style="text-align: center;">164.5</th>
+<th style="text-align: center;">174.5</th>
+<th style="text-align: center;">184.5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Frequencies</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+<div>
+
+</div>
+<div id="frequency-poly" class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fp" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/frpolygon.png" class="img-fluid figure-img"></p>
+<figcaption>Frequency Polygon</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fph" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/histpoly.png" class="img-fluid figure-img"></p>
+<figcaption>Frequency Polygon and Histogram</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Frequency Polygon illustration</p>
+</div>
+</div>
+</div>
+</section>
+<section id="stem-and-leaf-plot" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="stem-and-leaf-plot"><span class="header-section-number">3.5</span> Stem-and-Leaf Plot</h2>
+<p>A stem-and-leaf plot is a graphical device useful for representing a relatively small set of data that takes numerical values. To construct a stem-and-leaf plot, we partition each measurement into two parts: the <strong>stem</strong> (the leading digits) and the <strong>leaf</strong> (the trailing digits). This method retains the exact value of each observation, unlike a frequency distribution. It also clearly shows the distribution of data within each group. A stem-and-leaf plot conveys similar information as a histogram, with the added benefit of retaining individual data points. It provides insights into the range, concentration of measurements, and symmetry of the data.</p>
+<p>Consider the example:<br>
+12, 16, 21, 25, 29, 26, 30, 31, 37, 42, 45.</p>
+<p>The stem-and-leaf plot for this data is shown below:</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/stem.png" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Stem and Leaf plot</figcaption>
+</figure>
+</div>
+</section>
+<section id="bar-chart" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="bar-chart"><span class="header-section-number">3.6</span> Bar chart</h2>
+<p>A bar chart or bar graph is a diagram consisting of a series of horizontal or vertical bars of equal width. The bars represent various categories of the data. There are three types of bar charts, and these are simple bar charts, component bar charts and grouped bar charts.</p>
+<p><strong>Simple bar chart</strong></p>
+<p>In a simple bar chart, the height (or length) of each bar is equal to the value of category in the y-axis it represents. For example data below shows the production of coconut in five districts of Kerala in a certain year.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">District</th>
+<th style="text-align: center;">Production (million nuts)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Alappuzha</td>
+<td style="text-align: center;">700</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Kannur</td>
+<td style="text-align: center;">800</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Thrissur</td>
+<td style="text-align: center;">980</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ernakulam</td>
+<td style="text-align: center;">1100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Wayanad</td>
+<td style="text-align: center;">1400</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/barchart.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Barchart</figcaption>
+</figure>
+</div>
+<p><strong>Component bar chart</strong></p>
+<p>In a component bar chart, the bar for each category is subdivided into component parts; hence its name. Component bar charts are therefore used to show the division of items into components. This is illustrated in the following example.</p>
+<p>Example shows the distribution of sales of agricultural produce from a Farm in 1995, 1996 and 1997 and its corresponding component barchart.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="cbsales" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/image14.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Sales data of agricultural produce</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="cbar" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/image15.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Component Barchart</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Component Barchart illustration</p>
+</div>
+</div>
+</div>
+<p>The component bar chart shows the changes of each component over the years as well as the comparison of the total sales between different years.</p>
+<p><strong>Grouped bar chart</strong></p>
+<p>For a grouped bar chart, the components are grouped together and drawn side by side. We illustrate this with the above example.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/image16.jpeg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Grouped bar chart</figcaption>
+</figure>
+</div>
+</section>
+<section id="histogram-versus-bar-chart" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="histogram-versus-bar-chart"><span class="header-section-number">3.7</span> Histogram versus Bar chart</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 37%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Items</th>
+<th>HISTOGRAM</th>
+<th>BAR GRAPH</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Meaning</td>
+<td>Histogram refers to a graphical representation, that displays data by way of bars to show the frequency of numerical data.</td>
+<td>Bar graph is a pictorial representation of data that uses bars to compare different categories of data.</td>
+</tr>
+<tr class="even">
+<td>Indicates</td>
+<td>Distribution of non-discrete variables</td>
+<td>Comparison of discrete variables</td>
+</tr>
+<tr class="odd">
+<td>Presents</td>
+<td>Quantitative data</td>
+<td>Categorical data</td>
+</tr>
+<tr class="even">
+<td>Spaces</td>
+<td>Bars touch each other, hence there are no spaces between bars</td>
+<td>Bars do not touch each other, hence there are spaces between bars.</td>
+</tr>
+<tr class="odd">
+<td>Elements</td>
+<td>Elements are grouped together, so that they are considered as ranges.</td>
+<td>Elements are taken as individual entities.</td>
+</tr>
+<tr class="even">
+<td>Can bars be reordered?</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>Width of bars</td>
+<td>Need not to be same</td>
+<td>Same</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pie-charts" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="pie-charts"><span class="header-section-number">3.8</span> Pie Charts</h2>
+<p>A pie chart is a circular graph divided into sectors, each sector representing a different value or category. The angle of each sector of a pie chart is proportional to the value of the part of the data it represents. The bar chart is more precise than the pie chart for visual comparison of categories with similar relative frequencies.</p>
+<p><strong>Steps for constructing a pie chart</strong></p>
+<ol type="1">
+<li>Find the sum of the category values.<br>
+</li>
+<li>Calculate the angle of the sector for each category, using the following formula.Angle of the sector for category A = <span class="math inline">\(\frac{\text{value of category A}}{\text{sum of category values}} \times 360\)</span><br>
+</li>
+<li>Construct a circle and mark the centre.<br>
+</li>
+<li>Use a protractor to divide the circle into sectors, using the angles obtained in step 2.<br>
+</li>
+<li>Label each sector clearly.</li>
+</ol>
+<p>See this example. The production of different commodities in India during a particular year is given as follows.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Commodities</th>
+<th style="text-align: center;">Production(tonnes)</th>
+<th style="text-align: center;">Angle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Wheat</td>
+<td style="text-align: center;">27000</td>
+<td style="text-align: center;">(27000/81000)×360= 120</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Grams</td>
+<td style="text-align: center;">22500</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Maize</td>
+<td style="text-align: center;">13500</td>
+<td style="text-align: center;">60</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Rice</td>
+<td style="text-align: center;">6750</td>
+<td style="text-align: center;">30</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Sugar</td>
+<td style="text-align: center;">11250</td>
+<td style="text-align: center;">50</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>Total</strong></td>
+<td style="text-align: center;"><strong>81000</strong></td>
+<td style="text-align: center;"><strong>360</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/piechart.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Piechart</figcaption>
+</figure>
+</div>
+<p>&nbsp;<br>
+&nbsp;<br>
+&nbsp;</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Quotes to Inspire">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Quotes to Inspire
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>“Statistics is the grammer of science”</strong><br>
+<strong>- Karl Pearson</strong></p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -703,13 +1124,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./central1.html" class="pagination-link" aria-label="Simple Averages">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Simple Averages</span></span>
+      <a href="./agstatindia.html" class="pagination-link" aria-label="Statistics on Agriculture">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Statistics on Agriculture</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">References</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./central1.html" class="pagination-link" aria-label="Simple Averages">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Simple Averages</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

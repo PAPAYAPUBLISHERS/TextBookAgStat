@@ -204,7 +204,7 @@
     "href": "intro.html#relative-frequency",
     "title": "1  Basics of Statistics",
     "section": "1.16 Relative frequency",
-    "text": "1.16 Relative frequency\nIt is sometimes useful to know the proportion, rather than the number, of values falling within a particular class interval. We obtain this information by dividing the frequency of the particular class interval by the total number of observations. Relative frequency of a class is the frequency of class divided by total observations. Relative frequencies all add up to 1.\n\n\n\nClass\nFrequency\nA\nB\nC\n\n\n\n\n0.5 - 3.5\n3\n3\n38\n0.079\n\n\n3.5 - 6.5\n6\n9\n35\n0.158\n\n\n6.5 - 9.5\n10\n19\n29\n0.263\n\n\n9.5 - 12.5\n5\n24\n19\n0.132\n\n\n12.5 - 15.5\n5\n29\n14\n0.132\n\n\n15.5 - 18.5\n9\n38\n9\n0.237\n\n\n\na Note: A= Less than cumulative frequency; B= Greater than cumulative frequency, C = Relative frequency\n\n\n\n\n\n\n\n\n\n\n \n \n \n\n\n\n\n\n\nThe Secret Ingredient: Data!\n\n\n\n“Data is the sword of the 21st century, those who wield it well, the Samurai.” - Jonathan Rosenberg, former Google SVP\n\n\n\n\n\n\nBall, Philip. 2004. Critical Mass. Farrar, Straus; Giroux.\n\n\nGoon, Gupta, A. M., and B Dasgupta. 1983. Fundamentals of Statistics. Vol. I. TheWorld Press.\n\n\nGupta, S. C., and V. K. Kapoor. 1997. Fundamentals of Mathematical Statistics. Sulthan Chand Publications, New Delhi.",
+    "text": "1.16 Relative frequency\nIt is sometimes useful to know the proportion, rather than the number, of values falling within a particular class interval. We obtain this information by dividing the frequency of the particular class interval by the total number of observations. Relative frequency of a class is the frequency of class divided by total observations. Relative frequencies all add up to 1.\n\n\n\nClass\nFrequency\nA\nB\nC\n\n\n\n\n0.5 - 3.5\n3\n3\n38\n0.079\n\n\n3.5 - 6.5\n6\n9\n35\n0.158\n\n\n6.5 - 9.5\n10\n19\n29\n0.263\n\n\n9.5 - 12.5\n5\n24\n19\n0.132\n\n\n12.5 - 15.5\n5\n29\n14\n0.132\n\n\n15.5 - 18.5\n9\n38\n9\n0.237\n\n\n\na Note: A= Less than cumulative frequency; B= Greater than cumulative frequency, C = Relative frequency\n\n\n\n\n\n\n\n\n\n\n \n \n \n\n\n\n\n\n\nQuotes to Inspire\n\n\n\n“Data is the sword of the 21st century, those who wield it well, the Samurai.”\n- Jonathan Rosenberg, former Google SVP\n\n\n\n\n\n\nBall, Philip. 2004. Critical Mass. Farrar, Straus; Giroux.\n\n\nGoon, Gupta, A. M., and B Dasgupta. 1983. Fundamentals of Statistics. Vol. I. TheWorld Press.\n\n\nGupta, S. C., and V. K. Kapoor. 1997. Fundamentals of Mathematical Statistics. Sulthan Chand Publications, New Delhi.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basics of Statistics</span>"
     ]
@@ -262,11 +262,11 @@
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "4  References",
+    "title": "6  References",
     "section": "",
     "text": "Ball, Philip. 2004. Critical Mass. Farrar, Straus; Giroux.\n\n\nGoon, Gupta, A. M., and B Dasgupta. 1983. Fundamentals of\nStatistics. Vol. I. TheWorld Press.\n\n\nGupta, S. C., and V. K. Kapoor. 1997. Fundamentals of Mathematical\nStatistics. Sulthan Chand Publications, New Delhi.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>References</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>References</span>"
     ]
   },
   {
@@ -294,7 +294,7 @@
     "href": "agstatindia.html#agricultural-census",
     "title": "2  Statistics on Agriculture",
     "section": "2.2 Agricultural Census",
-    "text": "2.2 Agricultural Census\nThe Agricultural Census is a comprehensive exercise conducted to gather and analyze data on the structure of the agricultural sector in India. It provides essential information about operational holdings, including their number, area, land use, cropping patterns, and input usage, down to the lowest geographical levels such as villages, tehsils (sub-districts), and districts. This census serves as a statistical framework for planning and conducting future agricultural surveys.\nInitiated in 1970-71, the Agricultural Census is conducted every five years by the Department of Agriculture and Farmers Welfare in collaboration with State and Union Territory administrations. In States with land records, the number and area of operational holdings are collected through complete enumeration, while detailed data on the characteristics of operational holdings are gathered on a sample basis.\nTo date, eleven Agricultural Censuses have been conducted, covering the reference years 1970-71, 1976-77, 1980-81, 1985-86, 1990-91, 1995-96, 2000-01, 2005-06, 2010-11, 2015-16, and 2020-21. The reference period for each census corresponds to the agricultural year, spanning from July to June.\nThe data derived from the Agricultural Census plays a crucial role in policy formulation, resource allocation, and the overall development of the agricultural sector in India.\nAdditional data pertaining to various sectors can be obtained from the sources listed in the (appendix-1?)",
+    "text": "2.2 Agricultural Census\nThe Agricultural Census is a comprehensive exercise conducted to gather and analyze data on the structure of the agricultural sector in India. It provides essential information about operational holdings, including their number, area, land use, cropping patterns, and input usage, down to the lowest geographical levels such as villages, tehsils (sub-districts), and districts. This census serves as a statistical framework for planning and conducting future agricultural surveys.\nInitiated in 1970-71, the Agricultural Census is conducted every five years by the Department of Agriculture and Farmers Welfare in collaboration with State and Union Territory administrations. In States with land records, the number and area of operational holdings are collected through complete enumeration, while detailed data on the characteristics of operational holdings are gathered on a sample basis.\nTo date, eleven Agricultural Censuses have been conducted, covering the reference years 1970-71, 1976-77, 1980-81, 1985-86, 1990-91, 1995-96, 2000-01, 2005-06, 2010-11, 2015-16 and 2020-21. The reference period for each census corresponds to the agricultural year, spanning from July to June.\nThe data derived from the Agricultural Census plays a crucial role in policy formulation, resource allocation, and the overall development of the agricultural sector in India.\nAdditional data pertaining to various sectors can be obtained from the sources listed in the Appendix 1\n \n \n \n\n\n\n\n\n\nQuotes to Inspire\n\n\n\n“Statistics is the art of never having to say you’re certain.” – W. Edwards Deming",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Statistics on Agriculture</span>"
     ]
@@ -302,11 +302,191 @@
   {
     "objectID": "appendix1.html",
     "href": "appendix1.html",
-    "title": "3  Appendix 1",
+    "title": "5  Appendix 1",
     "section": "",
     "text": "Source of data related to different sectors\n\n\n\nSl No\nData Particulars\nSource\nOrganisation\n\n\n\n\n1.\nEstimates of area, production of important crops in India\nhttps://agriwelfare.gov.in/en/AgricultureEstimates\nMoAFW, GOI\n\n\n2.\nState level, district level aggregates of Area, production and productivity of principal crops in Kerala\nhttps://www.ecostat.kerala.gov.in\nDepartment of Economics & Statistics, Govt of Kerala\n\n\n3.\nDistrict Wise Birth & Death Data, State Level Birth & Death Data\nhttps://www.ecostat.kerala.gov.in\nDepartment of Economics & Statistics, Govt of Kerala\n\n\n4.\nMinimum Support Price (MSP) Statement\nhttps://desagri.gov.in/statistics-type/latest-minimum-support-price-msp-statement/\nMoAFW, GOI\n\n\n5.\nAnnual Survey of Industries, Index of Industrial Production, Household Consumer Expenditure, Economic Census, Enterprises Surveys, Periodic Labour Force Survey, CPI, etc\nhttps://www.mospi.gov.in/\nMinistry of Statistics and Programme Implementation\n\n\n6.\nState/UT wise estimates on population, health, family planning and nutrition related key indicators like fertility, mortality, maternal, child and adult health, women and child nutrition, domestic violence, etc\nhttps://main.mohfw.gov.in/\nMinistry of Health & Family Welfare\n\n\n7.\nCommodity wise export import data\nhttps://tradestat.commerce.gov.in, https://ftddp.dgciskol.gov.in\nMinistry of Commerce and Industry\n\n\n8.\nData on various aspects of Indian economy, banking and finance\nhttps://www.rbi.org.in\nReserve Bank of India\n\n\n9.\nSustainable Development Goal report\nhttps://www.niti.gov.in/\nNITI Aayog",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Appendix 1</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Appendix 1</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html",
+    "href": "3graph.html",
+    "title": "3  Graphical Representation",
+    "section": "",
+    "text": "3.1 Histogram\nA histogram is a graphical representation used to display the frequency distribution of continuous data. It consists of adjacent rectangles, where:\nUnlike bar charts, histograms have no gaps between the rectangles, emphasizing the continuity of the data. The area of each rectangle represents the frequency, making it an effective tool for visualizing the distribution, identifying patterns, and highlighting any skewness or outliers in the data.\nTable below shows the frequency distribution of the plant height of 50 plants. You can see how it can be represented using a Histogram",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#histogram",
+    "href": "3graph.html#histogram",
+    "title": "3  Graphical Representation",
+    "section": "",
+    "text": "The base of each rectangle lies along the horizontal axis, with the width determined by the class intervals.\n\nThe height of each rectangle is proportional to the frequency of the corresponding class.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf the class intervals are of equal size, then the heights of the rectangles are proportional to the class frequencies and it is then customary to take the heights of the rectangles numerically equal to the class frequencies. If the class intervals are of different widths, then the heights of the rectangles are proportional to \\(\\frac{\\text{Class Frequency}}{\\text{Class Width}}\\). This ratio is called frequency density.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlant height\n130 – 139\n140 – 149\n150 – 159\n160 – 169\n170 – 179\n180 – 189\n\n\n\n\nFrequency\n3\n6\n17\n13\n8\n3\n\n\n\n\n\n\nHistogram",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#ogive",
+    "href": "3graph.html#ogive",
+    "title": "3  Graphical Representation",
+    "section": "3.2 Ogive",
+    "text": "3.2 Ogive\nOgive is also known as cumulative frequency curve. It is a graphical representation that plots cumulative frequencies against class boundaries, connecting the points with a smooth curve. This curve effectively illustrates the accumulation of frequencies, making it useful for understanding data distribution and determining percentiles or medians.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#types-of-ogives",
+    "href": "3graph.html#types-of-ogives",
+    "title": "3  Graphical Representation",
+    "section": "3.3 Types of Ogives",
+    "text": "3.3 Types of Ogives\nThere are two main types of cumulative frequency curves:\n1. Less than Ogive: This is constructed using the upper limits of the classes and their corresponding cumulative frequencies.\n2. Greater than Ogive: This uses the lower limits of the classes and their corresponding cumulative frequencies.\nLess than Ogive\nThe less than ogive, also known as the less than type cumulative frequency curve, is created by plotting the cumulative frequencies against the upper class boundaries. For example, consider the plant height data for 50 plants. By using the upper class limits and their cumulative frequencies, we can construct a smooth curve that provides insights into the data distribution.\n\n\n\nUpper limit\n139\n149\n159\n169\n179\n189\n\n\n\n\nLess than Cumulative frequency\n3\n9\n26\n39\n47\n50\n\n\n\n\n\n\nLess than Ogive\n\n\nGreater than Ogive\nThe Greater Than Ogive, also known as the greater than type cumulative frequency curve, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the “Less Than Ogive,” we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value.\n\n\n\n\n\n\n\n\n\n\n\n\nLower Limit\n130\n140\n150\n160\n170\n180\n\n\n\n\nGreater than Cumulative frequency\n50\n47\n41\n24\n11\n3\n\n\n\n\n\n\nGreater Than Ogive\n\n\n\n\n\n\n\n\nNote\n\n\n\nIntersection of both less than and greater than ogives gives the median",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#frequency-polygon",
+    "href": "3graph.html#frequency-polygon",
+    "title": "3  Graphical Representation",
+    "section": "3.4 Frequency Polygon",
+    "text": "3.4 Frequency Polygon\nA grouped frequency table can also be represented by a frequency polygon, a special type of line graph. To construct it, plot the class frequencies against the corresponding class midpoints and connect successive points with straight lines. The frequency polygon can also be derived by joining the midpoints of a histogram.\n\n\n\nClass Midpoints\n134.5\n144.5\n154.5\n164.5\n174.5\n184.5\n\n\n\n\nFrequencies\n3\n6\n17\n13\n8\n3\n\n\n\n\n\n\n\n\n\n\n\n\nFrequency Polygon\n\n\n\n\n\n\n\nFrequency Polygon and Histogram\n\n\n\n\n\n\nFrequency Polygon illustration",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#stem-and-leaf-plot",
+    "href": "3graph.html#stem-and-leaf-plot",
+    "title": "3  Graphical Representation",
+    "section": "3.5 Stem-and-Leaf Plot",
+    "text": "3.5 Stem-and-Leaf Plot\nA stem-and-leaf plot is a graphical device useful for representing a relatively small set of data that takes numerical values. To construct a stem-and-leaf plot, we partition each measurement into two parts: the stem (the leading digits) and the leaf (the trailing digits). This method retains the exact value of each observation, unlike a frequency distribution. It also clearly shows the distribution of data within each group. A stem-and-leaf plot conveys similar information as a histogram, with the added benefit of retaining individual data points. It provides insights into the range, concentration of measurements, and symmetry of the data.\nConsider the example:\n12, 16, 21, 25, 29, 26, 30, 31, 37, 42, 45.\nThe stem-and-leaf plot for this data is shown below:\n\n\n\nStem and Leaf plot",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#bar-chart",
+    "href": "3graph.html#bar-chart",
+    "title": "3  Graphical Representation",
+    "section": "3.6 Bar chart",
+    "text": "3.6 Bar chart\nA bar chart or bar graph is a diagram consisting of a series of horizontal or vertical bars of equal width. The bars represent various categories of the data. There are three types of bar charts, and these are simple bar charts, component bar charts and grouped bar charts.\nSimple bar chart\nIn a simple bar chart, the height (or length) of each bar is equal to the value of category in the y-axis it represents. For example data below shows the production of coconut in five districts of Kerala in a certain year.\n\n\n\nDistrict\nProduction (million nuts)\n\n\n\n\nAlappuzha\n700\n\n\nKannur\n800\n\n\nThrissur\n980\n\n\nErnakulam\n1100\n\n\nWayanad\n1400\n\n\n\n\n\n\nBarchart\n\n\nComponent bar chart\nIn a component bar chart, the bar for each category is subdivided into component parts; hence its name. Component bar charts are therefore used to show the division of items into components. This is illustrated in the following example.\nExample shows the distribution of sales of agricultural produce from a Farm in 1995, 1996 and 1997 and its corresponding component barchart.\n\n\n\n\n\n\n\n\n\nSales data of agricultural produce\n\n\n\n\n\n\n\nComponent Barchart\n\n\n\n\n\n\nComponent Barchart illustration\n\n\n\nThe component bar chart shows the changes of each component over the years as well as the comparison of the total sales between different years.\nGrouped bar chart\nFor a grouped bar chart, the components are grouped together and drawn side by side. We illustrate this with the above example.\n\n\n\nGrouped bar chart",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#histogram-versus-bar-chart",
+    "href": "3graph.html#histogram-versus-bar-chart",
+    "title": "3  Graphical Representation",
+    "section": "3.7 Histogram versus Bar chart",
+    "text": "3.7 Histogram versus Bar chart\n\n\n\n\n\n\n\n\nItems\nHISTOGRAM\nBAR GRAPH\n\n\n\n\nMeaning\nHistogram refers to a graphical representation, that displays data by way of bars to show the frequency of numerical data.\nBar graph is a pictorial representation of data that uses bars to compare different categories of data.\n\n\nIndicates\nDistribution of non-discrete variables\nComparison of discrete variables\n\n\nPresents\nQuantitative data\nCategorical data\n\n\nSpaces\nBars touch each other, hence there are no spaces between bars\nBars do not touch each other, hence there are spaces between bars.\n\n\nElements\nElements are grouped together, so that they are considered as ranges.\nElements are taken as individual entities.\n\n\nCan bars be reordered?\nNo\nYes\n\n\nWidth of bars\nNeed not to be same\nSame",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "3graph.html#pie-charts",
+    "href": "3graph.html#pie-charts",
+    "title": "3  Graphical Representation",
+    "section": "3.8 Pie Charts",
+    "text": "3.8 Pie Charts\nA pie chart is a circular graph divided into sectors, each sector representing a different value or category. The angle of each sector of a pie chart is proportional to the value of the part of the data it represents. The bar chart is more precise than the pie chart for visual comparison of categories with similar relative frequencies.\nSteps for constructing a pie chart\n\nFind the sum of the category values.\n\nCalculate the angle of the sector for each category, using the following formula.Angle of the sector for category A = \\(\\frac{\\text{value of category A}}{\\text{sum of category values}} \\times 360\\)\n\nConstruct a circle and mark the centre.\n\nUse a protractor to divide the circle into sectors, using the angles obtained in step 2.\n\nLabel each sector clearly.\n\nSee this example. The production of different commodities in India during a particular year is given as follows.\n\n\n\nCommodities\nProduction(tonnes)\nAngle\n\n\n\n\nWheat\n27000\n(27000/81000)×360= 120\n\n\nGrams\n22500\n100\n\n\nMaize\n13500\n60\n\n\nRice\n6750\n30\n\n\nSugar\n11250\n50\n\n\nTotal\n81000\n360\n\n\n\n\n\n\nPiechart\n\n\n \n \n \n\n\n\n\n\n\nQuotes to Inspire\n\n\n\n“Statistics is the grammer of science”\n- Karl Pearson",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical Representation</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html",
+    "href": "central1.html",
+    "title": "4  Simple Averages",
+    "section": "",
+    "text": "4.1 Arithmetic Mean\nThis is what people usually intend when they say “average”. Arithmetic mean or simply the mean of a variable is defined as the sum of the observations divided by the number of observations. Mean of set of numbers \\(x_{1\\ },x_{2},\\ldots,x_{n}\\) is denoted as \\(\\overline{x}\\). It is given by the formula\n\\[\\overline{x} = \\frac{x_{1} + x_{2} + \\ldots + x_{n}}{n}\\]\n\\[= \\frac{1}{n}\\sum_{i = 1}^{n}x_{i}\\]\nExample 4.1 Find the mean of the numbers 2, 4, 7, 8, 11, 12\n\\[\\overline{x} = \\frac{2 + 4 + 7 + 8 + 11 + 12}{6} = \\frac{44}{6} = 7.33\\]",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#arithmetic-mean",
+    "href": "central1.html#arithmetic-mean",
+    "title": "4  Simple Averages",
+    "section": "",
+    "text": "4.1.1 Mean of ungrouped frequency distribution\nDirect method\nIf the numbers \\(x_{1\\ },x_{2},\\ldots,x_{n}\\) occur with frequencies \\(f_{1\\ },f_{2},\\ldots,f_{n}\\) respectively then\n\\[\\overline{x} = \\frac{x_{1}f_{1} + x_{2}f_{2\\ \\ } + \\ldots + x_{n}f_{n}}{f_{1} + f_{2} + \\ldots f_{n}}\\]\n\\[= \\frac{\\sum_{i = 1}^{n}{f_{i}x_{i}}}{\\sum_{i = 1}^{n}f_{i}}\\]\nExample 4.2 Table below shows the plant height of 50 plants. Find the mean plant height.\n\nPlant height of 50 plants.\n\n\nPlant height(cm)\n159\n160\n161\n162\n163\n\n\n\n\nFrequency\n3\n9\n23\n11\n4\n\n\n\nSolution 4.2\nThe calculation can be arranged as shown\n\n\n\n\n\n\n\n\nPlant height(x)\nFrequency(f)\nfx\n\n\n\n\n159\n3\n477\n\n\n160\n9\n1440\n\n\n161\n23\n3703\n\n\n162\n11\n1782\n\n\n163\n4\n652\n\n\n\n\\(\\sum_{i = 1}^{n}f_{i}\\)= 50\n\\(\\sum_{i = 1}^{n}{f_{i}x_{i}}\\)= 8054\n\n\n\n\\(\\overline{x} = \\frac{\\sum_{i = 1}^{n}{f_{i}x_{i}}}{\\sum_{i = 1}^{n}f_{i}} = \\frac{8054}{50}\\)= 161.08 cm\nAssumed mean method (Indirect method)\nThe amount of computation involved above can be reduced by using the following formula:\n\\[\\overline{x} = A + \\frac{\\sum_{i = 1}^{n}{f_{i}d_{i}}}{\\sum_{i = 1}^{n}f_{i}}\\]\nWhere \\(A\\) is the assumed mean, which can be any value in x. \\(d_{i} = x_{i} - A\\), \\(f_{i}\\) is the frequency of \\(x_{i}\\)\nConsider the Example 4.2\nlet \\(A\\) = 161; it can be any number in x\n\n\n\n\n\n\n\n\n\nPlant height(x)\nFrequency(f)\n\\[\\mathbf{d}_{\\mathbf{i}}\\mathbf{=}\\mathbf{x}_{\\mathbf{i}}\\mathbf{-}\\mathbf{161}\\]\n\\(\\mathbf{f}_{\\mathbf{i}}\\mathbf{d}_{\\mathbf{i}}\\)\n\n\n\n\n159\n3\n-2\n-6\n\n\n160\n9\n-1\n-9\n\n\n161\n23\n0\n0\n\n\n162\n11\n1\n11\n\n\n163\n4\n2\n8\n\n\n\n\\(\\sum_{i = 1}^{n}f_{i}= 50\\)\n\n\\(\\sum_{i = 1}^{n}{f_{i}d_{i}}\\)= 4\n\n\n\n\\(\\overline{x} = 161 + \\frac{4}{50}\\) = 161.08 cm\nThe mean plant height is 161.08 cm\n\n\n4.1.2 Mean of grouped frequency distribution\nDirect method\nThe mean for grouped data is obtained from the following formula:\n\\[\\overline{x} = \\frac{\\sum_{i = 1}^{k}{f_{i}x_{i}}}{n}\\]\nWhere \\(x_{i}\\) = the mid-point of ith class (ith class mark); \\(f_{i}\\)= the frequency of ith class; \\(n\\) = the sum of the frequencies or total frequencies in a sample. Note that i =1,2..., k, i.e. there are k classes.\nExample 4.3 Shows the distribution of the marks scored by 60 students in a Maths examination. Find the mean mark.\n\n\n\nTable 4.1: Distribution of the marks scored by 60 students\n\n\n\n\n\nMark (%)\n60-65\n65-70\n70-75\n75-80\n80-85\n\n\n\n\nNumber of students\n2\n15\n25\n14\n4\n\n\n\n\n\n\nSolution 4.3\nThe solution can be arranged as shown\n\n\n\n\n\n\n\n\n\nMarks\nClass mark(\\(\\mathbf{x}_{\\mathbf{i}}\\))\nFrequency(\\(\\mathbf{f}_{\\mathbf{i}}\\))\n\\[\\mathbf{f}_{\\mathbf{i}}\\mathbf{x}_{\\mathbf{i}}\\]\n\n\n\n\n60-65\n62.5\n2\n125\n\n\n65-70\n67.5\n15\n1012.5\n\n\n70-75\n72.5\n25\n1812.5\n\n\n75-80\n77.5\n14\n1085\n\n\n80-85\n82.5\n4\n330\n\n\n\n\n\\(\\sum_{i = 1}^{n}f_{i}\\)= 60\n\\(\\sum_{i = 1}^{n}{f_{i}x_{i}}\\)= 4365\n\n\n\n\\(\\overline{x} = \\frac{\\sum_{i = 1}^{n}{f_{i}x_{i}}}{\\sum_{i = 1}^{n}f_{i}} = \\frac{4365}{60}\\)= 72.75\nThe mean mark is 72.75%\nCoding Method or Indirect method\nIf all the class intervals of a grouped frequency distribution have equal size \\(C\\) (class width); then the following formula can be used instead of direct method above. This formula makes calculations easier.\n\\[\\overline{x} = A + C\\frac{\\sum_{i = 1}^{n}{f_{i}u_{i}}}{\\sum_{i = 1}^{n}f_{i}}\\]\nWhere \\(A\\) is the class mark with the highest frequency, \\(u_{i} = \\frac{x_{i} - A}{C}\\), \\(f_{i}\\) is the frequency of \\(x_{i}\\), C is the class width.\nThis is called the “coding” method for computing the mean. It is a very short method and should always be used for finding the mean of a grouped frequency distribution with equal class widths.\nConsider the Example 4.3 see Table:@ref(tab:math)\n\\(A\\)=72.5, class mark with highest frequency; \\(C\\) =5\n\n\n\n\n\n\n\n\n\n\nMarks\nClass mark(\\(\\mathbf{x}_{\\mathbf{i}}\\))\nFrequency(\\(\\mathbf{f}_{\\mathbf{i}}\\))\n\\[\\mathbf{u}_{\\mathbf{i}}\\mathbf{=}\\frac{\\mathbf{x}_{\\mathbf{i}}\\mathbf{- 72.5}}{\\mathbf{5}}\\]\n\\[\\mathbf{f}_{\\mathbf{i}}\\mathbf{u}_{\\mathbf{i}}\\]\n\n\n\n\n60-65\n62.5\n2\n-2\n-4\n\n\n65-70\n67.5\n15\n-1\n-15\n\n\n70-75\n72.5\n25\n0\n0\n\n\n75-80\n77.5\n14\n1\n14\n\n\n80-85\n82.5\n4\n2\n8\n\n\n\n\n\\(\\sum_{i = 1}^{k}f_{i}\\)= 60\n\n\\(\\sum_{i = 1}^{k}{f_{i}u_{i}}\\)=3\n\n\n\n\\(\\overline{x} = 72.5 + 5 \\times \\left( \\frac{3}{60} \\right)\\)= 72.75\nThe mean mark is 72.75%\nMerits and demerits of Arithmetic mean\nMerits\n\nIt is rigidly defined.\nIt is easy to understand and easy to calculate.\nIf the number of items is sufficiently large, it is more accurate and more reliable.\nIt is a calculated value and is not based on its position in the series.\nIt is possible to calculate even if some of the details of the data are lacking.\nOf all averages, it is affected least by fluctuations of sampling.\nIt provides a good basis for comparison.\n\nDemerits\n\nIt cannot be obtained by inspection nor located through a frequency graph.\nIt cannot be in the study of qualitative phenomena not capable of numerical measurement i.e. Intelligence, beauty, honesty etc.\nIt can ignore any single item only at the risk of losing its accuracy.\nIt is affected very much by extreme values.\nIt cannot be calculated for open-end classes.\nIt may lead to fallacious conclusions, if the details of the data from which it is computed are not given.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#the-median",
+    "href": "central1.html#the-median",
+    "title": "4  Simple Averages",
+    "section": "4.2 The Median",
+    "text": "4.2 The Median\nThe median of a set of data is defined as the middle value when the data is arranged in order of magnitude. If there are no ties, half of the observations will be smaller than the median, and half of the observations will be larger than the median. The median can be the middle most item that divides the group into two equal parts, one part comprising all values greater, and the other, all values less than that item. It is a positional measure.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#the-mode",
+    "href": "central1.html#the-mode",
+    "title": "4  Simple Averages",
+    "section": "4.6 The mode",
+    "text": "4.6 The mode\nThe mode of a set of data is the value which occurs with the greatest frequency. The mode is therefore the most common value. The mode is an important measure in case of qualitative data. The mode can be used to describe both quantitative and qualitative data.\n\n4.6.1 Mode of ungrouped or raw data\nFor ungrouped data or a series of individual observations, mode is often found by mere inspection.\nExample 4.8\n\\(a)\\) The modes of 1, 2, 2, 2, 3 is 2.\n\\(b)\\) The modes of 2, 3, 4, 4, 5, 5 are 4 and 5.\n\\(c)\\) The mode does not exist when every observation has the same frequency. For example, the following sets of data have no modes: (i) 3, 6, 8, 9; (ii) 4, 4, 4, 7, 7, 7, 9, 9, 9.\nNote: It can be seen that the mode of a distribution may not exist, and even if it exists, it may not be unique. Distributions with a single mode are referred to as unimodal. Distributions with two modes are referred to as bimodal. Distributions may have several modes, in which case they are referred to as multimodal.\nExample 4.9 20 patients selected at random had their blood groups determined. The results are given in the table below\n\n\n\nTable 4.3: Blood group of 20 patients\n\n\n\n\n\nBlood group\nA\nAB\nB\nO\n\n\n\n\nNo. of patients\n2\n4\n6\n8\n\n\n\n\n\n\nThe blood group with the highest frequency is O. The mode of the data is therefore blood group O. We can say that most of the patients selected have blood group O. Notice that the mean and the median cannot be applied to the data. This is because the variable “blood group” cannot take numerical values. However, it can be seen that the mode can be used to describe both quantitative and qualitative data.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#median-of-grouped-data",
+    "href": "central1.html#median-of-grouped-data",
+    "title": "4  Simple Averages",
+    "section": "4.3 Median of grouped data",
+    "text": "4.3 Median of grouped data\nThe exact value of the median of a grouped data cannot be obtained because the actual values of a grouped data are not known. For a grouped frequency distribution, the median is in the class interval which contains the \\(\\left( \\frac{N}{2} \\right)^{\\text{th}}\\)ordered observation, where \\(N\\) is the total number of observations. This class interval is called the median class. The median of a grouped frequency distribution can be estimated by either of the following two methods:\nLinear interpolation method\nThe median of a grouped frequency distribution can be estimated by linear interpolation. We assume that the observations are evenly spread through the median class. The median can then be computed by using the following formula:\n\\[Median = L + \\left( \\frac{\\frac{1}{2}N - F}{f_{m}} \\right)C\\]\nwhere \\(N\\) = total number of observations, \\(L\\) = lower limit of the median class, \\(F\\) = sum of all frequencies below L(cumulative frequency), \\(f_{m}\\) = frequency of the median class, \\(C\\) = class width of the median class.\nEstimation from cumulative frequency curve\nThe median of a grouped frequency distribution can be estimated from a cumulative frequency curve. A horizontal line is drawn from the point \\(\\frac{\\text{N}}{2}\\) on the vertical axis to meet the cumulative frequency curve. From the point of intersection, a vertical line is dropped to the horizontal axis. The value on the horizontal axis is equal to the median.\n\n\n\n\n\nmedian from a cumulative frequency curve\n\n\n\n\nExample 4.7 Table below gives the distribution of the heights of 60 students in a Senior High school. Find the median height of the students\n\n(#tab:medianheight)Distribution of heights of 60 students\n\n\n\n\n\n\n\n\n\n\n\nHeight(cm)\n145-150\n150-155\n155-160\n160-165\n165-170\n170-175\n\n\n\n\nNumber of students\n3\n9\n16\n18\n10\n4\n\n\n\nSolution 4.7\n(i) Linear interpolation method\n\\(N\\) = 60\nMedian class= class interval which contains the \\(\\left( \\frac{N}{2} \\right)^{\\text{th}}\\)ordered observation; here \\(\\left( \\frac{60}{2} \\right)^{\\text{th}} =\\) 30th observation. Before the class 160-165 there are 3+9+16=28 observations so 30th observation will be in the class 160-165, therefore it is the median class.\n\\(L\\) = lower limit of the median class =160\n\\(F\\) = sum of all frequencies below 160(cumulative frequency) = 16+9+3= 28\n\\(f_{m}\\) = frequency of the median class=18\n\\(C\\) = class width of the median class=5\n\\(median = 160 + \\left( \\frac{\\frac{1}{2}60 - 28}{18} \\right)5\\) = 160.56\n(ii) From a cumulative frequency curve\n\n\n\n\n\nMedian from a cumulative frequency curve Example 3.7\n\n\n\n\nMerits and Demerits of Median\nMerits\n\nMedian is not influenced by extreme values because it is a positional average.\nMedian can be calculated in case of distribution with open-end intervals.\nMedian can be located even if the data are incomplete.\n\nDemerits\n\nA slight change in the series may bring drastic change in median value.\nIn case of even number of items or continuous series, median is an estimated value other than any value in the series.\nIt is not suitable for further mathematical treatment except its use in calculating mean deviation.\nIt does not take into account all the observations.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#median-of-ungrouped-or-raw-data",
+    "href": "central1.html#median-of-ungrouped-or-raw-data",
+    "title": "4  Simple Averages",
+    "section": "4.3 Median of ungrouped or raw data",
+    "text": "4.3 Median of ungrouped or raw data\nArrange the given n observations \\(x_{1\\ },x_{2},\\ldots,x_{n}\\) in ascending order. If the number of values is odd, median is the middle value. If the number of values is even, median is the mean of middle two values.\nArrange data in ascending then use the following formula\nWhen n is odd, Median = Md =\\(\\left( \\frac{n + 1}{2} \\right)^{\\text{th}}\\)value\nWhen n is even, Median = Md =\\({\\text{Average of}\\left( \\frac{n}{2} \\right)^{th}\\text{and }\\left( \\frac{n}{2} + 1 \\right)}^{\\text{th}}\\)value\nExample 4.4 Find the median of each of the following sets of numbers.\n\\(a)\\) 12, 15, 22, 17, 20, 26, 22, 26, 12\n\\(b)\\) 4, 7, 9, 10, 5, 1, 3, 4, 12, 10\nSolution 4.4\n\\(a)\\) Arranging the data in an increasing order of magnitude, we obtain 12, 12, 15, 17, 20, 22, 22, 26, 26. Here, N = 9 is odd, and so, median =\\(\\left( \\frac{9 + 1}{2} \\right)^{\\text{th}}\\)= 5th ordered observation = 20.\nNote: If a number is repeated, we still count it the number of times it appears when we calculate the median.\n\\(b)\\) Arranging the data in an increasing order of magnitude, we obtain 1, 3, 4, 4, 5, 7, 9, 10, 10, 12. Here, N = 10 is an even number and so median = \\(\\frac{1}{2}\\){5th ordered observation + 6th ordered observation} = \\(\\frac{1}{2}\\left( 5 + 7 \\right) = 6\\).\nNote: You can see in each case, the median divides the distribution into two equal parts, with 50% of the observations greater than it and the other 50% less than it.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#median-of-ungrouped-frequency-distribution",
+    "href": "central1.html#median-of-ungrouped-frequency-distribution",
+    "title": "4  Simple Averages",
+    "section": "4.4 Median of ungrouped frequency distribution",
+    "text": "4.4 Median of ungrouped frequency distribution\nThe median is the middle number is an ordered set of data. In a frequency table, the observations are already arranged in an ascending order. We can obtain the median by looking for the value in the middle position.\nOdd number of observations\nWhen the number of observations (n) is odd, then the median is the value at the \\(\\left( \\frac{n + 1}{2} \\right)^{\\text{th}}\\) positional value. For that we use less than cumulative frequency.\nExample 4.5: The following is a frequency table of the score obtained in a mathematics quiz. Find the median score.\n\n(#tab:score) Score obtained in a mathematics quiz.\n\n\nScore\n0\n1\n2\n3\n4\n\n\n\n\nFrequency\n3\n4\n7\n6\n3\n\n\n\nSolution 4.5:\nTotal frequency = 3 + 4 + 7 + 6 + 3 = 23 (odd number). Since the number of scores is odd, the median is at \\(\\left( \\frac{23 + 1}{2} \\right)^{\\text{th}} =\\) 12th position. To find out the 12th position, we use less than cumulative frequencies as shown:\n\n\n\nScore\n0\n1\n2\n3\n4\n\n\n\n\nFrequency\n3\n4\n7\n6\n3\n\n\nless than cumulative frequency\n3\n7\n14\n20\n23\n\n\n\nThe 12th position is after the 7th position but before the 14th position. So, the median is 2.\nEven number of observations\nWhen the number of observations is even, then the median is the average of \\({\\left( \\frac{n}{2} \\right)^{th}\\text{and}\\left( \\frac{n}{2} + 1 \\right)}^{\\text{th}}\\) position values.\nExample 4.6: The table is a frequency table of the marks obtained in a competition. Find the median score.\n\n(#tab:median) Distribution of marks obtained in a competition.\n\n\nMark\n0\n1\n2\n3\n4\n\n\n\n\nFrequency\n11\n9\n5\n10\n15\n\n\n\nSolution 4.6:\nTotal frequency = 11 + 9 + 5 + 10 + 15 = 50 (even number). Since the number of scores is even, the median is at the average of the values in \\({\\left( \\frac{n}{2} \\right)^{th} = 25\\ and\\ \\left( \\frac{n}{2} + 1 \\right)}^{\\text{th}} = 26\\) positions. To find out the 25th position and 26th position, we add up the frequencies as shown:\n\n\n\nMark\n0\n1\n2\n3\n4\n\n\n\n\nFrequency\n11\n9\n5\n10\n15\n\n\nless than cumulative frequency\n11\n20\n25\n35\n50\n\n\n\nThe mark at the 25th position is 2 and the mark at the 26th position is 3. The median is the average of the scores at 25th and 26th positions = \\(\\frac{2 + 3}{2} = 2.5\\)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#median-of-grouped-frequency-distribution",
+    "href": "central1.html#median-of-grouped-frequency-distribution",
+    "title": "4  Simple Averages",
+    "section": "4.5 Median of grouped frequency distribution",
+    "text": "4.5 Median of grouped frequency distribution\nThe exact value of the median of a grouped data cannot be obtained because the actual values of a grouped data are not known. For a grouped frequency distribution, the median is in the class interval which contains the \\(\\left( \\frac{N}{2} \\right)^{\\text{th}}\\)ordered observation, where \\(N\\) is the total number of observations. This class interval is called the median class. The median of a grouped frequency distribution can be estimated by either of the following two methods:\nLinear interpolation method\nThe median of a grouped frequency distribution can be estimated by linear interpolation. We assume that the observations are evenly spread through the median class. The median can then be computed by using the following formula:\n\\[Median = L + \\left( \\frac{\\frac{1}{2}N - F}{f_{m}} \\right)C\\]\nwhere \\(N\\) = total number of observations, \\(L\\) = lower limit of the median class, \\(F\\) = sum of all frequencies below L(cumulative frequency), \\(f_{m}\\) = frequency of the median class, \\(C\\) = class width of the median class.\nEstimation from cumulative frequency curve\nThe median of a grouped frequency distribution can be estimated from a cumulative frequency curve. A horizontal line is drawn from the point \\(\\frac{\\text{N}}{2}\\) on the vertical axis to meet the cumulative frequency curve. From the point of intersection, a vertical line is dropped to the horizontal axis. The value on the horizontal axis is equal to the median.\n\n\n\nmedian from a cumulative frequency curve\n\n\nExample 4.7 Table below gives the distribution of the heights of 60 students in a Senior High school. Find the median height of the students\n\n\n\nTable 4.2: Distribution of heights of 60 students\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeight(cm)\n145-150\n150-155\n155-160\n160-165\n165-170\n170-175\n\n\n\n\nNumber of students\n3\n9\n16\n18\n10\n4\n\n\n\n\n\n\nSolution 4.7\n(i) Linear interpolation method\n\\(N\\) = 60\nMedian class= class interval which contains the \\(\\left( \\frac{N}{2} \\right)^{\\text{th}}\\)ordered observation; here \\(\\left( \\frac{60}{2} \\right)^{\\text{th}} =\\) 30th observation. Before the class 160-165 there are 3+9+16=28 observations so 30th observation will be in the class 160-165, therefore it is the median class.\n\\(L\\) = lower limit of the median class =160\n\\(F\\) = sum of all frequencies below 160(cumulative frequency) = 16+9+3= 28\n\\(f_{m}\\) = frequency of the median class=18\n\\(C\\) = class width of the median class=5\n\\(median = 160 + \\left( \\frac{\\frac{1}{2}60 - 28}{18} \\right)5\\) = 160.56\n(ii) From a cumulative frequency curve\n\nMerits and Demerits of Median\nMerits\n\nMedian is not influenced by extreme values because it is a positional average.\nMedian can be calculated in case of distribution with open-end intervals.\nMedian can be located even if the data are incomplete.\n\nDemerits\n\nA slight change in the series may bring drastic change in median value.\nIn case of even number of items or continuous series, median is an estimated value other than any value in the series.\nIt is not suitable for further mathematical treatment except its use in calculating mean deviation.\nIt does not take into account all the observations.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
+    ]
+  },
+  {
+    "objectID": "central1.html#mode-of-grouped-data",
+    "href": "central1.html#mode-of-grouped-data",
+    "title": "4  Simple Averages",
+    "section": "4.7 Mode of grouped data",
+    "text": "4.7 Mode of grouped data\n\\[mode = L + \\left( \\frac{f_{m}-f_{p}}{2f_{m}-f_{p} - f_{s}} \\right)C\\]\nLocate the highest frequency the class corresponding to that frequency is called the modal class.\nWhere \\(L\\) = lower limit of the modal class; \\(f_{m}\\) = the frequency of modal class; \\(f_{p}\\)= the frequency of the class preceding the modal class; \\(f_{s}\\)= the frequency of the class succeeding the modal class and \\(C\\) = class interval\nExample 4.10 For the frequency distribution of weights of sorghum ear-heads given in table below. Calculate the mode.\n\nfrequency distribution of weights of sorghum ear heads\n\n\nWeights of ear heads (g)\nNo of ear heads (f)\n\n\n\n\n60-80\n22\n\n\n80-100\n38\n\n\n100-120\n45\n\n\n120-140\n35\n\n\n140-160\n20\n\n\n\nModal class is 100-120\n\\(mode = 100 + \\left( \\frac{45-35}{90-38-35} \\right)20 =\\) 111.76\nMode using Histogram\nConsider the figure below. The modal class is the class interval which corresponds to rectangle \\(\\text{ABCD}\\). An estimate of the mode of the distribution is the abscissa of the point of intersection of the line segments \\(\\overline{\\text{AE}}\\) and \\(\\overline{\\text{BF}}\\) in the figure.\n\nMerits and Demerits of Mode\nMerits\n\nIt is readily comprehensible and easy to compute. In some case it can be computed merely by inspection.\nIt is not affected by extreme values. It can be obtained even if the extreme values are not known.\nMode can be determined in distributions with open classes.\nMode can be located on the graph also.\nMode can be used to describe both quantitative and qualitative data.\n\nDemerits\n\nThe mode is not unique. That is, there can be more than one mode for a given set of data.\nThe mode of a set of data may not exist.\nIt is not based upon all the observation.\n\n \n \n \n\n\n\n\n\n\nQuotes to Inspire\n\n\n\n“If the statistics are boring, you’ve got the wrong numbers”:- Edward R. Tufte",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Averages</span>"
     ]
   }
 ]

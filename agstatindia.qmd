@@ -46,8 +46,17 @@ The Agricultural Census is a comprehensive exercise conducted to gather and anal
 
 Initiated in **1970-71**, the Agricultural Census is conducted every five years by the Department of Agriculture and Farmers Welfare in collaboration with State and Union Territory administrations. In States with land records, the number and area of operational holdings are collected through **complete enumeration**, while detailed data on the characteristics of operational holdings are gathered on a **sample basis**.
 
-To date, **eleven Agricultural Censuses** have been conducted, covering the reference years **1970-71, 1976-77, 1980-81, 1985-86, 1990-91, 1995-96, 2000-01, 2005-06, 2010-11, 2015-16, and 2020-21**. The reference period for each census corresponds to the agricultural year, spanning from **July to June**.
+To date, **eleven Agricultural Censuses** have been conducted, covering the reference years **1970-71, 1976-77, 1980-81, 1985-86, 1990-91, 1995-96, 2000-01, 2005-06, 2010-11, 2015-16 and 2020-21**. The reference period for each census corresponds to the agricultural year, spanning from **July to June**.
 
 The data derived from the Agricultural Census plays a crucial role in policy formulation, resource allocation, and the overall development of the agricultural sector in India.
 
-Additional data pertaining to various sectors can be obtained from the sources listed in the @appendix-1
+Additional data pertaining to various sectors can be obtained from the sources listed in the [Appendix 1](#appendix-1)  
+
+ \
+ \
+   
+
+::: {.callout-tip title="Quotes to Inspire"}
+**"Statistics is the art of never having to say you’re certain."** 
+**– W. Edwards Deming**
+:::

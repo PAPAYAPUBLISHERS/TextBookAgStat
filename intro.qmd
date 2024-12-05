@@ -16,7 +16,7 @@ Term statistics was derived from the Neo-Latin word `statisticum collegium` mean
 
 [^intro-1]: actuary: A person who compiles and analyses statistics and uses them to calculate insurance risks and premiums.
 
-![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="center" fig-height="4"}
+![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="left" width=50%}
 
 ## Statistics and Mathematics
 
@@ -38,11 +38,11 @@ Statistics is the science which deals with the
 
 -   Analysis of data
 
--   Interpretation of data  
+-   Interpretation of data
 
-::: {.callout-tip title="Just for Fun"}  
-Let’s give a definition to statistics using the words themselves:  
-**S**trengthening **T**echnological **A**dvancement **T**hrough **I**mplementing **S**ystematic **T**echniques in **C**ontemporary **S**ciences  
+::: {.callout-tip title="Just for Fun"}
+Let’s give a definition to statistics using the words themselves:\
+**S**trengthening **T**echnological **A**dvancement **T**hrough **I**mplementing **S**ystematic **T**echniques in **C**ontemporary **S**ciences
 :::
 
 Two main branches of statistics are:
@@ -226,7 +226,7 @@ It can be seen that, the minimum and the maximum numbers of fruits per branch ar
 
 Now certain features of the data become apparent. For instance, it can easily be seen that, most of the branches selected have four fruits because number of branches having 4 fruits is 7. This information cannot easily be obtained from the raw data. The above table is called a **frequency table** or a **frequency distribution**. It is so called because it gives the frequency or number of times each observation occurs. Thus, by finding the frequency of each observation, a more intelligible picture is obtained.
 
-### Construction  
+### Construction
 
 In this section, we will discuss the process of constructing a frequency distribution.Follow the steps below. This method helps to clearly visualize the frequency of each observation, ensuring that the total frequency adds up to the total number of observations.
 
@@ -368,6 +368,7 @@ dt %>%
  \
  
 
-::: {.callout-tip title="The Secret Ingredient: Data!"}
-**"Data is the sword of the 21st century, those who wield it well, the Samurai." - Jonathan Rosenberg, former Google SVP**
+::: {.callout-tip title="Quotes to Inspire"}
+**"Data is the sword of the 21st century, those who wield it well, the Samurai."**   
+**- Jonathan Rosenberg, former Google SVP**
 :::
