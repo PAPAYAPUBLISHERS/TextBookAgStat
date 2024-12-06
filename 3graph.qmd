@@ -18,7 +18,7 @@ If the class intervals are of equal size, then the heights of the rectangles are
 Table below shows the frequency distribution of the plant height of 50 plants. You can see how it can be represented using a Histogram
 
 | Plant height | 130 -- 139 | 140 -- 149 | 150 -- 159 | 160 -- 169 | 170 -- 179 | 180 -- 189 |
-|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|:------------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 |  Frequency   |     3      |     6      |     17     |     13     |     8      |     3      |
 
 ![Histogram](images/histogram.png){fig-align="left" width="50%"}
@@ -127,7 +127,7 @@ For a grouped bar chart, the components are grouped together and drawn side by s
 ## Histogram versus bar chart
 
 | Items | HISTOGRAM | BAR CHART |
-|----------------------|---------------------------|-----------------------|
+|----|----|----|
 | Meaning | Histogram refers to a graphical representation, that displays data by way of bars to show the frequency of numerical data. | Bar graph is a pictorial representation of data that uses bars to compare different categories of data. |
 | Indicates | Distribution of non-discrete variables | Comparison of discrete variables |
 | Presents | Quantitative data | Categorical data |

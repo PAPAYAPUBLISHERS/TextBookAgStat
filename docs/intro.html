@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,10 +58,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b41886b866eb54f17009da6c00af6bd8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -260,8 +260,8 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#types-of-data" id="toc-types-of-data" class="nav-link" data-scroll-target="#types-of-data"><span class="header-section-number">1.10.1</span> Types of data</a></li>
   </ul></li>
-  <li><a href="#collecting-primary-data" id="toc-collecting-primary-data" class="nav-link" data-scroll-target="#collecting-primary-data"><span class="header-section-number">1.11</span> Collecting primary Data</a></li>
-  <li><a href="#collecting-secondary-data" id="toc-collecting-secondary-data" class="nav-link" data-scroll-target="#collecting-secondary-data"><span class="header-section-number">1.12</span> Collecting secondary Data</a></li>
+  <li><a href="#collecting-primary-data" id="toc-collecting-primary-data" class="nav-link" data-scroll-target="#collecting-primary-data"><span class="header-section-number">1.11</span> Collecting primary data</a></li>
+  <li><a href="#collecting-secondary-data" id="toc-collecting-secondary-data" class="nav-link" data-scroll-target="#collecting-secondary-data"><span class="header-section-number">1.12</span> Collecting secondary data</a></li>
   <li><a href="#frequency-distribution" id="toc-frequency-distribution" class="nav-link" data-scroll-target="#frequency-distribution"><span class="header-section-number">1.13</span> Frequency distribution</a>
   <ul class="collapse">
   <li><a href="#construction" id="toc-construction" class="nav-link" data-scroll-target="#construction"><span class="header-section-number">1.13.1</span> Construction</a></li>
@@ -305,7 +305,7 @@ window.Quarto = {
 <p>By the end of this chapter, you will have a comprehensive understanding of the core principles of statistics, setting the stage for deeper exploration and advanced applications in later chapters. The concepts presented here are largely based on the works of <span class="citation" data-cites="goon">(<a href="references.html#ref-goon" role="doc-biblioref">Goon and Dasgupta 1983</a>)</span> and <span class="citation" data-cites="gupta">(<a href="references.html#ref-gupta" role="doc-biblioref">Gupta and Kapoor 1997</a>)</span></p>
 <section id="the-word-statistics" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="the-word-statistics"><span class="header-section-number">1.1</span> The word “statistics”</h2>
-<p>Term statistics was derived from the Neo-Latin word <code>statisticum collegium</code> meaning “council of state” and the Italian word <code>statista</code> meaning “statesman” or “politician”. A German word <code>Statistik</code>, got the meaning “collection and classification of data” generally in the early 19th century. This word was first introduced by Gottfried Achenwall (1749). <code>Statistik</code> was originally designated as a term for analysis of data about the state (data used by government or other administrative bodies). The term <code>Statistik</code> was introduced into English in 1791 by Sir John Sinclair when he published the first of 21 volumes titled “Statistical Account of Scotland” <span class="citation" data-cites="ball">(<a href="references.html#ref-ball" role="doc-biblioref">Ball 2004</a>)</span>. The first book to have ‘Statistics’ in its title was “Contributions to Vital Statistics” (1845) by Francis GP Neison, actuary<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> to the Medical Invalid and General Life Office.</p>
+<p>Term statistics was derived from the Neo-Latin word <code>Statisticum collegium</code> meaning “council of state” and the Italian word <code>statista</code> meaning “statesman” or “politician”. A German word <code>Statistik</code>, got the meaning “collection and classification of data” generally in the early 19th century. This word was first introduced by Gottfried Achenwall (1749). <code>Statistik</code> was originally designated as a term for analysis of data about the state (data used by government or other administrative bodies). The term <code>Statistik</code> was introduced into English in 1791 by Sir John Sinclair when he published the first of 21 volumes titled “Statistical Account of Scotland” <span class="citation" data-cites="ball">(<a href="references.html#ref-ball" role="doc-biblioref">Ball 2004</a>)</span>. The first book to have ‘Statistics’ in its title was “Contributions to Vital Statistics” (1845) by Francis GP Neison, actuary<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> to the Medical Invalid and General Life Office.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/history1.png" class="img-fluid figure-img" style="width:50.0%" alt="Statistical Account of Scotland by Sir John Sinclair (1791)"></p>
@@ -361,58 +361,63 @@ Just for Fun
 </section>
 <section id="scope-and-limits" class="level2" data-number="1.5">
 <h2 data-number="1.5" class="anchored" data-anchor-id="scope-and-limits"><span class="header-section-number">1.5</span> Scope and limits</h2>
-<p><strong>Functions of Statistics</strong>: Statistics plays a crucial role in simplifying complex data, transforming it into clear and meaningful information. It supports decision-making by presenting facts in an organized manner, aids in the formulation of effective policies, facilitates comparisons, and assists in making forecasts. By applying appropriate statistical methods, researchers can draw valid conclusions from experiments.</p>
-<p><strong>Applications of Statistics</strong>: Statistics has become an integral part of almost every field of human activity. It is indispensable in areas such as administration, business, economics, research, banking, insurance, and more. Its ability to quantify and analyze data makes it an essential tool across industries.</p>
-<p><strong>Common Limitations of Statistics</strong>: - Statistical methods are applicable only when there is variability in the data being studied. - Statistics focuses on the analysis of groups or aggregates, rather than individual data points. - The results derived from statistical analysis are often approximate and subject to uncertainty. - Statistics is sometimes misapplied or misinterpreted, leading to erroneous conclusions.</p>
-<p>As a statistician, I believe that the power of statistics knows no bounds. It is a tool that, when applied correctly, can unlock insights from any dataset. While the limitations listed above are commonly found in textbooks and curricula across SAUs (State Agricultural Universities), I believe these are more about guiding students on the appropriate use of statistics rather than presenting true constraints. With the right methodology and approach, statistics can be applied in any situation to derive valuable insights and support sound decision-making.</p>
+<p><strong>Functions of statistics</strong>: Statistics plays a crucial role in simplifying complex data, transforming it into clear and meaningful information. It supports decision-making by presenting facts in an organized manner, aids in the formulation of effective policies, facilitates comparisons, and assists in making forecasts. By applying appropriate statistical methods, researchers can draw valid conclusions from experiments.</p>
+<p><strong>Applications of statistics</strong>: Statistics has become an integral part of almost every field of human activity. It is indispensable in areas such as administration, business, economics, research, banking, insurance, and more. Its ability to quantify and analyze data makes it an essential tool across industries.</p>
+<p><strong>Common limitations of statistics</strong>: Statistical methods are applicable only when there is variability in the data being studied. Statistics focuses on the analysis of groups or aggregates, rather than individual data points. The results derived from statistical analysis are often approximate and subject to uncertainty. Statistics is sometimes misapplied or misinterpreted, leading to erroneous conclusions.</p>
+<p>As statisticians, we believe that the power of statistics knows no bounds. It’s a tool that, when applied correctly, can unlock insights from any dataset. While the limitations listed above are commonly found in textbooks and curricula across SAUs (State Agricultural Universities), I believe these are more about guiding students on the appropriate use of statistics rather than presenting true constraints. With the right methodology and approach, statistics can be applied in any situation to derive valuable insights and support sound decision-making.</p>
 </section>
 <section id="population-and-sample" class="level2" data-number="1.6">
 <h2 data-number="1.6" class="anchored" data-anchor-id="population-and-sample"><span class="header-section-number">1.6</span> Population and sample</h2>
-<p>Consider the following example. Suppose we wish to study the height of all students in a college. It will take us a long time to measure the height of all students of the college and so we may select 20 of the students and measure their height (in cm). Suppose we obtain the measurements like this</p>
-<p>149 156 148 161 159 143 158 152 164 171 157 152 163 158 151 147 157 146 153 159</p>
+<p>Consider the following example. Suppose we wish to study the height of all students in a college. It will take us a long time to measure the height of all students of the college, so we may select 20 of the students and measure their height (in cm). Suppose we obtain the measurements like this :</p>
+<p>149, 156, 148, 161, 159, 143, 158, 152, 164, 171, 157, 152, 163,<br>
+158, 151, 147, 157, 146, 153, 159.</p>
 <p>In this study, we are interested in the height of all students in the college. The set of height of all students in the college is called the <strong>population</strong> of this study. The set of 20 height, <em>H</em> = {149, 156,148, …, 153, 159}, is a <strong>sample</strong> from this population.</p>
 <p><strong>Population</strong><br>
 In statistics, a <em>population</em> refers to the entire collection of elements, individuals, or objects that possess a particular characteristic and are the subject of a statistical study. It encompasses all possible observations or measurements that could be included in the analysis. For example, a population could be all the students in a university, all the trees in a forest, or all the farms in a region. The population provides the complete set of data from which conclusions can be drawn.</p>
 <p><strong>Sample</strong><br>
 A <em>sample</em> is a subset of a population selected for the purpose of conducting a statistical analysis. It represents a smaller group drawn from the population, ideally chosen to reflect its characteristics. Samples are used to estimate population parameters when it is impractical or impossible to collect data from the entire population. The key to a good sample is that it should be representative of the population to allow valid inferences to be made.</p>
-<p><strong>Population Parameter</strong> A <em>population parameter</em> is a numerical characteristic or value that describes an aspect of an entire population. It is a fixed (cons), often unknown value that represents the true measurement of a specific attribute for every member of the population. Common population parameters include the population mean, population variance, and population proportion. Since it is usually impractical or impossible to measure the entire population, parameters are often estimated using sample data.</p>
+<p><strong>Population Parameter</strong><br>
+A <em>population parameter</em> is a numerical characteristic or value that describes an aspect of an entire population. It is a fixed (cons), often unknown value that represents the true measurement of a specific attribute for every member of the population. Common population parameters include the population mean, population variance, and population proportion. Since it is usually impractical or impossible to measure the entire population, parameters are often estimated using sample data.</p>
 </section>
 <section id="variables-and-constants" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="variables-and-constants"><span class="header-section-number">1.7</span> Variables and constants</h2>
-<p><strong>Variables</strong></p>
-<p>A <em>variable</em> is a characteristic or attribute that can take different values for different individuals, at different times, or in different locations. In other words, variables are subject to change. Examples of variables include:</p>
+<p><strong>Variables</strong><br>
+A <em>variable</em> is a characteristic or attribute that can take different values for different individuals, at different times, or in different locations. In other words, variables are subject to change. Examples of variables include:</p>
 <ul>
 <li>The number of fruits on a branch, the number of plots in a field, or the number of schools in a country.</li>
 <li>Plant height, crop yield, panicle length, or temperature.</li>
 </ul>
 <p>Variables can be classified into two broad categories: <strong>quantitative</strong> variables, which are measured on a numerical scale (such as height or yield), and <strong>qualitative</strong> (or categorical) variables, which describe categories or characteristics (such as plant species or color).</p>
-<p><strong>Constants</strong></p>
-<p>A <em>constant</em> refers to a value that does not change under any circumstances. Unlike variables, constants retain the same value throughout the study. Examples of constants include mathematical values such as pi (𝝅), which is the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159…), and <em>e</em>, the base of the natural logarithms (<em>e</em> = 2.71828).</p>
+<p><strong>Constants</strong><br>
+A <em>constant</em> refers to a value that does not change under any circumstances. Unlike variables, constants retain the same value throughout the study. Examples of constants include:</p>
+<ul>
+<li>Mathematical values such as pi (𝝅), which is the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159…), and <em>e</em>, the base of the natural logarithms (<em>e</em> = 2.71828).</li>
+</ul>
 </section>
 <section id="types-of-variables" class="level2" data-number="1.8">
 <h2 data-number="1.8" class="anchored" data-anchor-id="types-of-variables"><span class="header-section-number">1.8</span> Types of variables</h2>
-<p><strong>Quantitative Variables</strong></p>
-<p>A <em>quantitative variable</em> is one that can be expressed in numerical terms and takes values that are measurable. Examples of quantitative variables include the number of fruits on a branch, the number of plots in a field, the number of schools in a country, plant height, crop yield, panicle length, and temperature. Quantitative variables can be further classified into two categories: <strong>discrete</strong> and <strong>continuous</strong>.</p>
-<p><strong>Discrete Variables</strong></p>
-<p><em>Discrete variables</em> are variables that can only take a finite or countable number of distinct values. They are often whole numbers and can be counted. For instance, the number of fruits on a branch, the number of plots in a field, or the number of schools in a country are all discrete variables.</p>
+<p><strong>Quantitative variables</strong><br>
+A <em>quantitative variable</em> is one that can be expressed in numerical terms and takes values that are measurable. Examples of quantitative variables include the number of fruits on a branch, the number of plots in a field, the number of schools in a country, plant height, crop yield, panicle length, and temperature. Quantitative variables can be further classified into two categories: <strong>discrete</strong> and <strong>continuous</strong>.</p>
+<p><strong>Discrete variables</strong><br>
+<em>Discrete variables</em> are variables that can only take a finite or countable number of distinct values. They are often whole numbers and can be counted. For instance, the number of fruits on a branch, the number of plots in a field, or the number of schools in a country are all discrete variables.</p>
 <p>Since discrete variables represent countable quantities, they can only take specific, separate values, such as 0, 1, 2, etc. For example, the number of daily hospital admissions is a discrete variable because it can only take whole number values like 0, 1, or 2, but not fractional values like 1.8 or 3.96.</p>
-<p><strong>Continuous Variables</strong></p>
-<p><em>Continuous variables</em>, on the other hand, are variables that can take any value within a given range or interval and can be measured. These variables do not have distinct gaps or interruptions in their possible values. For example, plant height, yield, temperature, and panicle length are continuous variables because they can be measured to a high degree of precision, such as 5.5 cm, 5.8 cm, or any value within a relevant range. Continuous variables can assume an infinite number of possible values within a given range, making them different from discrete variables.</p>
-<p><strong>Categorical Variables</strong></p>
-<p>A <em>categorical variable</em> is a type of variable where the data is divided into distinct categories that do not have a numerical value. For example, marital status (single, married, widowed), employment status (employed, unemployed), or religious affiliation (Protestant, Catholic, Jewish, Muslim, others) are examples of categorical variables. These variables are often referred to as <em>qualitative variables</em>, as they describe qualities or characteristics rather than measurable quantities.</p>
+<p><strong>Continuous variables</strong><br>
+<em>Continuous variables</em>, on the other hand, are variables that can take any value within a given range or interval and can be measured. These variables do not have distinct gaps or interruptions in their possible values. For example, plant height, yield, temperature, and panicle length are continuous variables because they can be measured to a high degree of precision, such as 5.5 cm, 5.8 cm, or any value within a relevant range. Continuous variables can assume an infinite number of possible values within a given range, making them different from discrete variables.</p>
+<p><strong>Categorical variables</strong><br>
+A <em>categorical variable</em> is a type of variable where the data is divided into distinct categories that do not have a numerical value. For example, marital status (single, married, widowed), employment status (employed, unemployed), or religious affiliation (Protestant, Catholic, Jewish, Muslim, others) are examples of categorical variables. These variables are often referred to as <em>qualitative variables</em>, as they describe qualities or characteristics rather than measurable quantities.</p>
 <p>Unlike quantitative variables, categorical variables cannot be measured or counted in the traditional sense. Instead, they classify data into specific groups or categories.</p>
 </section>
 <section id="measurement-scales" class="level2" data-number="1.9">
 <h2 data-number="1.9" class="anchored" data-anchor-id="measurement-scales"><span class="header-section-number">1.9</span> Measurement scales</h2>
 <p>Variables can be classified into four distinct levels of measurement, each representing a different way of organizing and interpreting data. These four levels are <strong>nominal</strong>, <strong>ordinal</strong>, <strong>interval</strong>, and <strong>ratio</strong>.</p>
-<p><strong>Nominal Scale</strong></p>
-<p>The <strong>nominal scale</strong> is the most basic level of measurement and applies to categorical (qualitative) variables. Data measured on the nominal scale consist of categories that are distinct but have no inherent order or ranking. The categories are simply used for labeling or naming objects or groups. For example, gender (male, female), blood group (A, B, AB, O), and marital status (single, married, divorced) are all nominal variables. In the nominal scale, arithmetic operations, such as addition or subtraction, cannot be performed on the data.</p>
-<p><strong>Ordinal Scale</strong></p>
-<p>The <strong>ordinal scale</strong> also applies to qualitative data, but with an important distinction: the data on the ordinal scale are ordered. This means that the categories have a specific rank or order, but the differences between the categories are not necessarily uniform or meaningful. For example, the grades given in a class (excellent, good, fair, poor) are ordinal, where “excellent” is ranked higher than “good,” and “good” is ranked higher than “fair,” and so on. However, the difference between “excellent” and “good” is not numerically defined, making the exact magnitude of the difference unclear. Ordinal data allows us to say that one value is greater or lesser than another, but it does not allow for the measurement of exact differences.</p>
-<p><strong>Interval Scale</strong></p>
-<p>The <strong>interval scale</strong> is used for quantitative (numerical) data, and it provides more information than the nominal or ordinal scales. On the interval scale, the data points are ordered, and the differences between them are meaningful and measurable. However, the interval scale does not have a true zero point. This means that while we can measure the difference between values, we cannot make statements about ratios between them. An example of an interval scale is temperature measured in Celsius or Fahrenheit. For instance, if the temperature in two cities is 20°C and 30°C, we can say that the temperature in the second city is 10°C higher. However, we cannot say that the second city is “twice as hot” as the first city, because the zero point (0°C) does not represent the absence of temperature.</p>
-<p><strong>Ratio Scale</strong></p>
-<p>The <strong>ratio scale</strong> is the highest level of measurement and applies to quantitative data. It shares the properties of the interval scale—ordered data with measurable differences between values—but it also has a meaningful zero point. This true zero point represents the total absence of the quantity being measured. With the ratio scale, not only can we measure differences between values, but we can also compute meaningful ratios. For example, weight is measured on the ratio scale. A weight of 60 kg is twice as much as a weight of 30 kg, and a weight of 0 kg indicates the complete absence of weight. Similarly, temperature measured on the Kelvin scale is an example of a ratio scale, where 0 Kelvin represents absolute zero, the complete absence of heat.</p>
+<p><strong>Nominal scale</strong><br>
+The <strong>nominal scale</strong> is the most basic level of measurement and applies to categorical (qualitative) variables. Data measured on the nominal scale consist of categories that are distinct but have no inherent order or ranking. The categories are simply used for labeling or naming objects or groups. For example, gender (male, female), blood group (A, B, AB, O), and marital status (single, married, divorced) are all nominal variables. In the nominal scale, arithmetic operations, such as addition or subtraction, cannot be performed on the data.</p>
+<p><strong>Ordinal scale</strong><br>
+The <strong>ordinal scale</strong> also applies to qualitative data, but with an important distinction: the data on the ordinal scale are ordered. This means that the categories have a specific rank or order, but the differences between the categories are not necessarily uniform or meaningful. For example, the grades given in a class (excellent, good, fair, poor) are ordinal, where “excellent” is ranked higher than “good,” and “good” is ranked higher than “fair,” and so on. However, the difference between “excellent” and “good” is not numerically defined, making the exact magnitude of the difference unclear. Ordinal data allows us to say that one value is greater or lesser than another, but it does not allow for the measurement of exact differences.</p>
+<p><strong>Interval scale</strong><br>
+The <strong>interval scale</strong> is used for quantitative (numerical) data, and it provides more information than the nominal or ordinal scales. On the interval scale, the data points are ordered, and the differences between them are meaningful and measurable. However, the interval scale does not have a true zero point. This means that while we can measure the difference between values, we cannot make statements about ratios between them. An example of an interval scale is temperature measured in Celsius or Fahrenheit. For instance, if the temperature in two cities is 20°C and 30°C, we can say that the temperature in the second city is 10°C higher. However, we cannot say that the second city is “twice as hot” as the first city, because the zero point (0°C) does not represent the absence of temperature.</p>
+<p><strong>Ratio scale</strong><br>
+The <strong>ratio scale</strong> is the highest level of measurement and applies to quantitative data. It shares the properties of the interval scale—ordered data with measurable differences between values—but it also has a meaningful zero point. This true zero point represents the total absence of the quantity being measured. With the ratio scale, not only can we measure differences between values, but we can also compute meaningful ratios. For example, weight is measured on the ratio scale. A weight of 60 kg is twice as much as a weight of 30 kg, and a weight of 0 kg indicates the complete absence of weight. Similarly, temperature measured on the Kelvin scale is an example of a ratio scale, where 0 Kelvin represents absolute zero, the complete absence of heat.</p>
 <p>In summary, the key distinctions between these measurement scales are:</p>
 <ul>
 <li><strong>Nominal</strong>: Categories without any order.</li>
@@ -422,7 +427,7 @@ A <em>sample</em> is a subset of a population selected for the purpose of conduc
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/image2.jpeg" class="img-fluid figure-img" data-out-width="100%" alt="Classification of variables"></p>
+<p><img src="images/image2.png" class="img-fluid figure-img" data-out-width="100%" alt="Classification of variables"></p>
 <figcaption>Classification of variables</figcaption>
 </figure>
 </div>
@@ -437,34 +442,34 @@ A <em>sample</em> is a subset of a population selected for the purpose of conduc
 <li><strong>Primary Data</strong></li>
 <li><strong>Secondary Data</strong></li>
 </ol>
-<p><strong>Primary Data</strong></p>
-<p>Primary data refer to first-hand, original data that are collected directly by the researcher or an organization for a specific purpose. These data have not been processed or analyzed previously and are considered the most authentic form of data. Primary data are typically gathered through surveys, interviews, experiments, or observations, and they represent a direct reflection of the phenomena being studied.</p>
+<p><strong>Primary data</strong><br>
+Primary data refer to first-hand, original data that are collected directly by the researcher or an organization for a specific purpose. These data have not been processed or analyzed previously and are considered the most authentic form of data. Primary data are typically gathered through surveys, interviews, experiments, or observations, and they represent a direct reflection of the phenomena being studied.</p>
 <p><strong>Example</strong>: Population census data collected by the government are considered primary data. These are collected directly from individuals by government authorities for the purpose of census enumeration and demographic analysis.</p>
-<p><strong>Secondary Data</strong></p>
-<p>Secondary data refer to data that have already been collected, processed, and published by other organizations or researchers for a different purpose. These data may have undergone some degree of analysis or treatment before being made available for new studies. Secondary data are often more convenient to use, as they are readily accessible, but they may not always perfectly suit the specific needs of the researcher.</p>
+<p><strong>Secondary data</strong><br>
+Secondary data refer to data that have already been collected, processed, and published by other organizations or researchers for a different purpose. These data may have undergone some degree of analysis or treatment before being made available for new studies. Secondary data are often more convenient to use, as they are readily accessible, but they may not always perfectly suit the specific needs of the researcher.</p>
 <p><strong>Example</strong>: An economic survey of a country, such as reports from the Bureau of Statistics or other governmental agencies, is an example of secondary data. These data were originally collected for purposes such as policy analysis or economic planning, and now can be used for additional research.</p>
 <p>The distinction between primary and secondary data lies primarily in their origin and the process of collection. Primary data are first-hand, original data collected directly from a single source by the researcher for a specific purpose. These data are considered pure as they have not undergone any prior statistical treatment. In contrast, secondary data are obtained from existing sources or agencies and have been previously collected and processed for different purposes. They are not considered pure as they have undergone some form of statistical treatment. While primary data are original and collected for the first time, secondary data are pre-existing and gathered from other sources. Both types of data have their respective advantages and limitations, and the choice between them depends on the research objectives, availability of resources, and the nature of the study.</p>
 </section>
 </section>
 <section id="collecting-primary-data" class="level2" data-number="1.11">
-<h2 data-number="1.11" class="anchored" data-anchor-id="collecting-primary-data"><span class="header-section-number">1.11</span> Collecting primary Data</h2>
+<h2 data-number="1.11" class="anchored" data-anchor-id="collecting-primary-data"><span class="header-section-number">1.11</span> Collecting primary data</h2>
 <p>Primary data can be collected using various methods, depending on the research requirements and resources available:</p>
-<p><strong>Personal Investigation</strong></p>
-<p>In this method, the researcher directly conducts the survey and collects the data themselves. This approach often results in highly accurate and reliable data. It is best suited for small-scale research projects where direct involvement of the researcher is feasible.</p>
-<p><strong>Through Investigation</strong></p>
-<p>In this method, trained investigators are employed to collect data. These investigators engage with individuals, asking questions and filling out questionnaires based on the responses. This method is widely used by organizations for larger data collection efforts.</p>
-<p><strong>Collection through Questionnaire</strong></p>
-<p>Researchers distribute questionnaires to local representatives or agents who collect data based on their own experience and observations. While this method is relatively quick, it typically provides only a rough estimate of the information.</p>
-<p><strong>Through the Telephone</strong></p>
-<p>Data is gathered by contacting individuals via telephone. This method is fast and allows for accurate information to be collected efficiently, making it suitable for studies that require a broad reach but still need reliable data.</p>
+<p><strong>Personal investigation</strong><br>
+In this method, the researcher directly conducts the survey and collects the data themselves. This approach often results in highly accurate and reliable data. It is best suited for small-scale research projects where direct involvement of the researcher is feasible.</p>
+<p><strong>Through investigation</strong><br>
+In this method, trained investigators are employed to collect data. These investigators engage with individuals, asking questions and filling out questionnaires based on the responses. This method is widely used by organizations for larger data collection efforts.</p>
+<p><strong>Collection through questionnaire</strong><br>
+Researchers distribute questionnaires to local representatives or agents who collect data based on their own experience and observations. While this method is relatively quick, it typically provides only a rough estimate of the information.</p>
+<p><strong>Through the telephone</strong><br>
+Data is gathered by contacting individuals via telephone. This method is fast and allows for accurate information to be collected efficiently, making it suitable for studies that require a broad reach but still need reliable data.</p>
 </section>
 <section id="collecting-secondary-data" class="level2" data-number="1.12">
-<h2 data-number="1.12" class="anchored" data-anchor-id="collecting-secondary-data"><span class="header-section-number">1.12</span> Collecting secondary Data</h2>
+<h2 data-number="1.12" class="anchored" data-anchor-id="collecting-secondary-data"><span class="header-section-number">1.12</span> Collecting secondary data</h2>
 <p>Secondary data are collected through various established channels:</p>
-<p><strong>Official</strong></p>
-<p>Official sources include publications from government bodies such as the Statistical Division, Ministry of Finance, Federal Bureaus of Statistics, and various ministries (e.g., Agriculture, Food, Industry, Labor). These sources provide comprehensive and authoritative data.</p>
-<p><strong>Semi-Official</strong></p>
-<p>Semi-official sources include publications from institutions like the State Bank, Railway Board, Central Cotton Committee, and Boards of Economic Enquiry. It also encompasses reports from trade associations, chambers of commerce, technical journals, trade publications, and research organizations such as universities and other academic institutions. These sources provide valuable data, though they may not be as universally authoritative as official sources.</p>
+<p><strong>Official</strong><br>
+Official sources include publications from government bodies such as the Statistical Division, Ministry of Finance, Federal Bureaus of Statistics, and various ministries (e.g., Agriculture, Food, Industry, Labor). These sources provide comprehensive and authoritative data.</p>
+<p><strong>Semi-Official</strong><br>
+Semi-official sources include publications from institutions like the State Bank, Railway Board, Central Cotton Committee, and Boards of Economic Enquiry. It also encompasses reports from trade associations, chambers of commerce, technical journals, trade publications, and research organizations such as universities and other academic institutions. These sources provide valuable data, though they may not be as universally authoritative as official sources.</p>
 </section>
 <section id="frequency-distribution" class="level2" data-number="1.13">
 <h2 data-number="1.13" class="anchored" data-anchor-id="frequency-distribution"><span class="header-section-number">1.13</span> Frequency distribution</h2>
@@ -520,25 +525,25 @@ we obtain the frequency distribution given below:</p>
 It should be noted that, even though above table is concise, some information is lost. For example, the grouped frequency distribution does not give us the exact plant height of the paddy varieties. Thus the individual plant height of the paddy varieties are lost in our effort to obtain an overall picture.</p>
 <section id="terms-used" class="level3" data-number="1.14.1">
 <h3 data-number="1.14.1" class="anchored" data-anchor-id="terms-used"><span class="header-section-number">1.14.1</span> Terms used</h3>
-<p><strong>Class limits</strong></p>
-<p>The intervals into which the observations are put are called <u>class intervals</u>. The end points of the class intervals are called <u>class limits</u>. For example, the class interval 100 – 109, has lower class limit 100 and upper class limit 109.</p>
-<p><strong>Class boundaries</strong></p>
-<p>The raw data in the above example were recorded to the nearest centimeters. Thus, a plant height of 109.5cm would have been recorded as 110cm, a plant height of 119.4 cm would have been recorded as 119cm, while a plant height of 119.5 cm would have been recorded as 120 cm. It can therefore be seen that, the class interval 110 – 119, consists of measurements greater than or equal to 109.5 cm and less than 119.5 cm. The numbers 109.5 and 119.5 are called the lower and upper boundaries of the class interval 110 – 120. The class boundaries of the other class intervals are given below:</p>
+<p><strong>Class limits</strong><br>
+The intervals into which the observations are put are called <u>class intervals</u>. The end points of the class intervals are called <u>class limits</u>. For example, the class interval 100 – 109, has lower class limit 100 and upper class limit 109.</p>
+<p><strong>Class boundaries</strong><br>
+The raw data in the above example were recorded to the nearest centimeters. Thus, a plant height of 109.5cm would have been recorded as 110cm, a plant height of 119.4 cm would have been recorded as 119cm, while a plant height of 119.5 cm would have been recorded as 120 cm. It can therefore be seen that, the class interval 110 – 119, consists of measurements greater than or equal to 109.5 cm and less than 119.5 cm. The numbers 109.5 and 119.5 are called the lower and upper boundaries of the class interval 110 – 120. The class boundaries of the other class intervals are given below:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/fig1.7.png" class="img-fluid figure-img" data-out-width="100%" alt="Class boundary and class limits"></p>
-<figcaption>lass boundary and class limits</figcaption>
+<figcaption>Class boundary and class limits</figcaption>
 </figure>
 </div>
 <p><u>Note:</u><br>
 Notice that the lower class boundary of the i<sup>th</sup> class interval is the mean of the lower class limit of the class interval and the upper class limit of the (i-1)<sup>th</sup> class interval (i = 2, 3, 4, …). For example, in the table above the lower class boundaries of the second and the fourth class intervals are (110 + 119) /2 = 114.5 and (130 + 139)/2 = 134.5 respectively.<br>
 It can also be seen that the upper class boundary of the i<sup>th</sup> class interval is the mean of the upper class limit of the class interval and the lower class limit of the (i+1)<sup>th</sup> class interval (i = 1, 2, 3, …). Thus, in the above table the upper class boundary of the fourth class interval is (130 + 139)/2 = 134.5.</p>
-<p><strong>Class mark</strong></p>
-<p>The mid-point of a class interval is called the class mark or class mid-point of the class interval. It is the average of the upper and lower class limits of the class interval. It is also the average of the upper and lower class boundaries of the class interval. For example, in the table, the class mark of the third class interval was found as follows: class mark =(120+129)/2 = (119.5 + 129.5)/2= 124.5.</p>
-<p><strong>Class width</strong></p>
-<p>The difference between the upper and lower class boundaries of a class interval is called the class width of the class interval. Class widths of class intervals can also be found by subtracting two consecutive lower class limits, or by subtracting two consecutive upper class limits.</p>
-<p><u>Note:</u></p>
-<p>The width of the i<sup>th</sup> class interval is the numerical difference between the upper class limits of the i<sup>th</sup> and the ( i-1)<sup>th</sup> class intervals (i = 2, 3, …). It is also the numerical difference between the lower class limits of the i<sup>th</sup> and the (i+1)<sup>th</sup> class intervals (i = 1, 2, …).</p>
+<p><strong>Class mark</strong><br>
+The mid-point of a class interval is called the class mark or class mid-point of the class interval. It is the average of the upper and lower class limits of the class interval. It is also the average of the upper and lower class boundaries of the class interval. For example, in the table, the class mark of the third class interval was found as follows: class mark =(120+129)/2 = (119.5 + 129.5)/2= 124.5.</p>
+<p><strong>Class width</strong><br>
+The difference between the upper and lower class boundaries of a class interval is called the class width of the class interval. Class widths of class intervals can also be found by subtracting two consecutive lower class limits, or by subtracting two consecutive upper class limits.</p>
+<p><u>Note:</u><br>
+The width of the i<sup>th</sup> class interval is the numerical difference between the upper class limits of the i<sup>th</sup> and the ( i-1)<sup>th</sup> class intervals (i = 2, 3, …). It is also the numerical difference between the lower class limits of the i<sup>th</sup> and the (i+1)<sup>th</sup> class intervals (i = 1, 2, …).</p>
 <p>In grouped frequency table above the width of the second class interval is |110-119| = 9. This is the numerical difference between the lower class limits of the second and the third class intervals. The width of the third class interval is |120-129|= 9. This is the numerical difference between the lower class limits of the third and the fourth class intervals.</p>
 </section>
 <section id="construction-1" class="level3" data-number="1.14.2">
@@ -801,8 +806,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -913,7 +916,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

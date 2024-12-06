@@ -61,7 +61,7 @@ $$= \frac{\sum_{i = 1}^{n}{f_{i}x_{i}}}{\sum_{i = 1}^{n}f_{i}}$$
 The calculation can be arranged as shown
 
 | Plant height(*x*) | Frequency(*f*) | *fx* |
-|:-------------------:|:------------------------:|:-----------------------:|
+|:--:|:--:|:--:|
 | 159 | 3 | 477 |
 | 160 | 9 | 1440 |
 | 161 | 23 | 3703 |
@@ -84,7 +84,7 @@ Consider the Example 4.2
 let $A$ = 161; it can be any number in *x*
 
 | Plant height(*x*) | Frequency(*f*) | $$\mathbf{d}_{\mathbf{i}}\mathbf{=}\mathbf{x}_{\mathbf{i}}\mathbf{-}\mathbf{161}$$ | $\mathbf{f}_{\mathbf{i}}\mathbf{d}_{\mathbf{i}}$ |
-|:----------------:|:----------------:|:----------------:|:----------------:|
+|:--:|:--:|:--:|:--:|
 | 159 | 3 | -2 | -6 |
 | 160 | 9 | -1 | -9 |
 | 161 | 23 | 0 | 0 |
@@ -119,7 +119,7 @@ Where $x_{i}$ = the mid-point of *i*^th^ class (*i*^th^ class mark); $f_{i}$= th
 The solution can be arranged as shown
 
 | Marks | Class mark($\mathbf{x}_{\mathbf{i}}$) | Frequency($\mathbf{f}_{\mathbf{i}}$) | $$\mathbf{f}_{\mathbf{i}}\mathbf{x}_{\mathbf{i}}$$ |
-|:----------------:|:-----------------:|:----------------:|:----------------:|
+|:--:|:--:|:--:|:--:|
 | 60-65 | 62.5 | 2 | 125 |
 | 65-70 | 67.5 | 15 | 1012.5 |
 | 70-75 | 72.5 | 25 | 1812.5 |
@@ -146,7 +146,7 @@ Consider the Example 4.3 see Table:\@ref(tab:math)
 $A$=72.5, class mark with highest frequency; $C$ =5
 
 | Marks | Class mark($\mathbf{x}_{\mathbf{i}}$) | Frequency($\mathbf{f}_{\mathbf{i}}$) | $$\mathbf{u}_{\mathbf{i}}\mathbf{=}\frac{\mathbf{x}_{\mathbf{i}}\mathbf{- 72.5}}{\mathbf{5}}$$ | $$\mathbf{f}_{\mathbf{i}}\mathbf{u}_{\mathbf{i}}$$ |
-|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|:--:|:--:|:--:|:--:|:--:|
 | 60-65 | 62.5 | 2 | -2 | -4 |
 | 65-70 | 67.5 | 15 | -1 | -15 |
 | 70-75 | 72.5 | 25 | 0 | 0 |
