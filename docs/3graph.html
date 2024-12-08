@@ -229,9 +229,9 @@ window.Quarto = {
   <li><a href="#frequency-polygon" id="toc-frequency-polygon" class="nav-link" data-scroll-target="#frequency-polygon"><span class="header-section-number">3.4</span> Frequency polygon</a></li>
   <li><a href="#stem-and-leaf-plot" id="toc-stem-and-leaf-plot" class="nav-link" data-scroll-target="#stem-and-leaf-plot"><span class="header-section-number">3.5</span> Stem-and-leaf plot</a></li>
   <li><a href="#bar-chart" id="toc-bar-chart" class="nav-link" data-scroll-target="#bar-chart"><span class="header-section-number">3.6</span> Bar chart</a></li>
-  <li><a href="#histogram-versus-bar-chart" id="toc-histogram-versus-bar-chart" class="nav-link" data-scroll-target="#histogram-versus-bar-chart"><span class="header-section-number">3.7</span> Histogram versus bar chart</a></li>
+  <li><a href="#histogram-versus-bar-chart" id="toc-histogram-versus-bar-chart" class="nav-link" data-scroll-target="#histogram-versus-bar-chart"><span class="header-section-number">3.7</span> Histogram versus Bar chart</a></li>
   <li><a href="#pie-charts" id="toc-pie-charts" class="nav-link" data-scroll-target="#pie-charts"><span class="header-section-number">3.8</span> Pie charts</a></li>
-  <li><a href="#advanced-visualization" id="toc-advanced-visualization" class="nav-link" data-scroll-target="#advanced-visualization"><span class="header-section-number">3.9</span> Advanced Visualization</a>
+  <li><a href="#advanced-visualization" id="toc-advanced-visualization" class="nav-link" data-scroll-target="#advanced-visualization"><span class="header-section-number">3.9</span> Advanced visualization</a>
   <ul class="collapse">
   <li><a href="#advanced-graphs" id="toc-advanced-graphs" class="nav-link" data-scroll-target="#advanced-graphs"><span class="header-section-number">3.9.1</span> Advanced graphs</a></li>
   </ul></li>
@@ -285,39 +285,40 @@ Note
 </div>
 <p>Table below shows the frequency distribution of the plant height of 50 plants. You can see how it can be represented using a Histogram</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 13%">
-<col style="width: 13%">
-<col style="width: 13%">
-<col style="width: 13%">
-<col style="width: 13%">
-<col style="width: 13%">
-</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Plant height</th>
-<th style="text-align: center;">130 – 139</th>
-<th style="text-align: center;">140 – 149</th>
-<th style="text-align: center;">150 – 159</th>
-<th style="text-align: center;">160 – 169</th>
-<th style="text-align: center;">170 – 179</th>
-<th style="text-align: center;">180 – 189</th>
+<th style="text-align: center;">Plant height (cm)</th>
+<th style="text-align: center;">Frequency</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">Frequency</td>
+<td style="text-align: center;">130 – 139</td>
 <td style="text-align: center;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">140 – 149</td>
 <td style="text-align: center;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">150 – 159</td>
 <td style="text-align: center;">17</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">160 – 169</td>
 <td style="text-align: center;">13</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">170 – 179</td>
 <td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">180 – 189</td>
 <td style="text-align: center;">3</td>
 </tr>
 </tbody>
 </table>
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/histogram.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Histogram</figcaption>
@@ -359,14 +360,14 @@ Note
 </tr>
 </tbody>
 </table>
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/lessogive.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Less than Ogive</figcaption>
 </figure>
 </div>
 <p><u><strong>Greater than ogive</strong></u></p>
-<p>The <strong>Greater than ogive</strong>, also known as the <strong>greater than type cumulative frequency curve</strong>, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the “Less Than Ogive,” we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value.</p>
+<p>The <strong>Greater than ogive</strong>, also known as the <strong>greater than type cumulative frequency curve</strong>, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the “Less Than Ogive”, we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 53%">
@@ -400,7 +401,7 @@ Note
 </tr>
 </tbody>
 </table>
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/greatogive.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Greater Than Ogive</figcaption>
@@ -455,7 +456,7 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div id="fp" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="images/frpolygon.png" class="img-fluid figure-img"></p>
+<p><img src="images/frpolygon.png" class="img-fluid figure-img" width="489"></p>
 <figcaption>Frequency Polygon</figcaption>
 </figure>
 </div>
@@ -463,15 +464,10 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div id="fph" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="images/histpoly.png" class="img-fluid figure-img"></p>
+<p><img src="images/histpoly.png" width="345" height="288" class="figure-img"></p>
 <figcaption>Frequency Polygon and Histogram</figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Frequency Polygon illustration</p>
 </div>
 </div>
 </div>
@@ -482,7 +478,7 @@ Note
 <p>Consider the example:<br>
 12, 16, 21, 25, 29, 26, 30, 31, 37, 42, 45.</p>
 <p>The stem-and-leaf plot for this data is shown below:</p>
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/stem.png" class="img-fluid figure-img" style="width:30.0%"></p>
 <figcaption>Stem and Leaf plot</figcaption>
@@ -524,7 +520,7 @@ Note
 </tr>
 </tbody>
 </table>
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/barchart.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Barchart</figcaption>
@@ -539,7 +535,7 @@ Note
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="cbsales" class="quarto-figure quarto-figure-center anchored">
+<div id="cbsales" class="quarto-figure quarto-figure-center anchored" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/image14.jpeg" class="img-fluid figure-img"></p>
 <figcaption>Sales data of agricultural produce</figcaption>
@@ -547,7 +543,7 @@ Note
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="cbar" class="quarto-figure quarto-figure-center anchored">
+<div id="cbar" class="quarto-figure quarto-figure-center anchored" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/image15.jpeg" class="img-fluid figure-img"></p>
 <figcaption>Component Barchart</figcaption>
@@ -555,16 +551,11 @@ Note
 </div>
 </div>
 </div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Component Barchart illustration</p>
-</div>
-</div>
 </div>
 <p>The component bar chart shows the changes of each component over the years as well as the comparison of the total sales between different years.</p>
 <p><strong>Grouped bar chart</strong></p>
 <p>For a grouped bar chart, the components are grouped together and drawn side by side. We illustrate this with the above example.</p>
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/image16.jpeg" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Grouped bar chart</figcaption>
@@ -572,12 +563,12 @@ Note
 </div>
 </section>
 <section id="histogram-versus-bar-chart" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="histogram-versus-bar-chart"><span class="header-section-number">3.7</span> Histogram versus bar chart</h2>
+<h2 data-number="3.7" class="anchored" data-anchor-id="histogram-versus-bar-chart"><span class="header-section-number">3.7</span> Histogram versus Bar chart</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 30%">
+<col style="width: 37%">
+<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -682,7 +673,7 @@ Note
 </tr>
 </tbody>
 </table>
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center" style="text-align:center;">
 <figure class="figure">
 <p><img src="images/piechart.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Piechart</figcaption>
@@ -690,41 +681,66 @@ Note
 </div>
 </section>
 <section id="advanced-visualization" class="level2" data-number="3.9">
-<h2 data-number="3.9" class="anchored" data-anchor-id="advanced-visualization"><span class="header-section-number">3.9</span> Advanced Visualization</h2>
+<h2 data-number="3.9" class="anchored" data-anchor-id="advanced-visualization"><span class="header-section-number">3.9</span> Advanced visualization</h2>
 <p>While this book focuses on basic plots and charts, significant advancements have been made in the field of data visualization. New types of graphs and charts have been developed to help in more effective representation and communication of data. Although a detailed discussion of these advanced graphs is beyond the scope of this book, we provide an overview of some common and recently developed types for reference. For more detailed information, you can explore resources such as <a href="https://r-graph-gallery.com/">The R Graph Gallery</a>.</p>
 <p>It is important to be aware of the wide variety of visualization tools available, as they can enhance your understanding of data and improve your ability to communicate insights clearly. Below are a few popular graph types widely used in modern data analysis.</p>
-<p>::: {layout-nrow = 3} <img src="images/graphs/boxplot.png" width="200" height="200" alt="Box Plot"></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-nrow="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/graphs/boxplot.png" width="200" height="200" class="figure-img"></p>
+<figcaption>Box Plot</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/graphs/violin.png" width="200" height="200" class="figure-img"></p>
 <figcaption>Violin Plot</figcaption>
 </figure>
 </div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/graphs/lollipop.png" width="200" height="200" class="figure-img"></p>
 <figcaption>Lollipop Plot</figcaption>
 </figure>
 </div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/graphs/dendrogram.png" width="200" height="200" class="figure-img"></p>
 <figcaption>Dendrogram</figcaption>
 </figure>
 </div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/graphs/networkgraph.png" width="200" height="200" class="figure-img"></p>
 <figcaption>Network Graph</figcaption>
 </figure>
 </div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/graphs/heatmap.png" width="200" height="200" class="figure-img"></p>
 <figcaption>Heat Map</figcaption>
 </figure>
 </div>
-<p>Few graphs that can be drawn in R :::</p>
+</div>
+</div>
+</div>
 <section id="advanced-graphs" class="level3" data-number="3.9.1">
 <h3 data-number="3.9.1" class="anchored" data-anchor-id="advanced-graphs"><span class="header-section-number">3.9.1</span> Advanced graphs</h3>
 <p>In this section, we highlight innovative and user-developed graph types that go beyond standard visualizations. These advanced graphs are tailored to provide deeper insights into complex datasets, offering unique perspectives on the data. By incorporating customized elements and more sophisticated visualization techniques, these graphs enable users to uncover patterns, relationships, and trends that traditional graphs might miss. Such graphs are increasingly being used to enhance data storytelling, improve decision-making, and facilitate a more thorough understanding of complex information.</p>

@@ -17,11 +17,16 @@ If the class intervals are of equal size, then the heights of the rectangles are
 
 Table below shows the frequency distribution of the plant height of 50 plants. You can see how it can be represented using a Histogram
 
-| Plant height | 130 -- 139 | 140 -- 149 | 150 -- 159 | 160 -- 169 | 170 -- 179 | 180 -- 189 |
-|:------------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-|  Frequency   |     3      |     6      |     17     |     13     |     8      |     3      |
+| Plant height (cm) | Frequency |
+|:-----------------:|:---------:|
+|    130 -- 139     |     3     |
+|    140 -- 149     |     6     |
+|    150 -- 159     |    17     |
+|    160 -- 169     |    13     |
+|    170 -- 179     |     8     |
+|    180 -- 189     |     3     |
 
-![Histogram](images/histogram.png){fig-align="left" width="50%"}
+![Histogram](images/histogram.png){fig-align="center" width="50%" style="text-align:center;"}
 
 ## Ogive
 
@@ -41,17 +46,17 @@ The less than ogive, also known as the **less than type cumulative frequency cur
 |:------------------------------:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Less than Cumulative frequency |  3  |  9  | 26  | 39  | 47  | 50  |
 
-![Less than Ogive](images/lessogive.png){fig-align="left" width="50%"}
+![Less than Ogive](images/lessogive.png){fig-align="center" width="50%" style="text-align:center;"}
 
 [**Greater than ogive**]{.underline}
 
-The **Greater than ogive**, also known as the **greater than type cumulative frequency curve**, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the "Less Than Ogive," we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value.
+The **Greater than ogive**, also known as the **greater than type cumulative frequency curve**, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the "Less Than Ogive", we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value.
 
 |            Lower Limit            | 130 | 140 | 150 | 160 | 170 | 180 |
 |:---------------------------------:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Greater than Cumulative frequency | 50  | 47  | 41  | 24  | 11  |  3  |
 
-![Greater Than Ogive](images/greatogive.png){fig-align="left" width="50%"}
+![Greater Than Ogive](images/greatogive.png){fig-align="center" width="50%" style="text-align:center;"}
 
 ::: {.callout-important title="Note"}
 Intersection of both less than and greater than ogives gives the median
@@ -66,11 +71,9 @@ A grouped frequency table can also be represented by a frequency polygon, a spec
 |   Frequencies   |   3   |   6   |  17   |  13   |   8   |   3   |
 
 ::: {#frequency-poly layout-ncol="2"}
-![Frequency Polygon](images/frpolygon.png){#fp}
+![Frequency Polygon](images/frpolygon.png){#fp width="489"}
 
-![Frequency Polygon and Histogram](images/histpoly.png){#fph}
-
-Frequency Polygon illustration
+![Frequency Polygon and Histogram](images/histpoly.png){#fph width="345" height="288"}
 :::
 
 ## Stem-and-leaf plot
@@ -82,7 +85,7 @@ Consider the example:\
 
 The stem-and-leaf plot for this data is shown below:
 
-![Stem and Leaf plot](images/stem.png){fig-align="left" width="30%"}
+![Stem and Leaf plot](images/stem.png){fig-align="center" width="30%" style="text-align:center;"}
 
 ## Bar chart
 
@@ -100,7 +103,7 @@ In a simple bar chart, the height (or length) of each bar is equal to the value 
 | Ernakulam |           1100            |
 |  Wayanad  |           1400            |
 
-![Barchart](images/barchart.png){fig-align="left" width="50%"}
+![Barchart](images/barchart.png){fig-align="center" width="50%" style="text-align:center;"}
 
 **Component bar chart**
 
@@ -109,11 +112,9 @@ In a component bar chart, the bar for each category is subdivided into component
 Example shows the distribution of sales of agricultural produce from a Farm in 1995, 1996 and 1997 and its corresponding component barchart.
 
 ::: {layout-ncol="2"}
-![Sales data of agricultural produce](images/image14.jpeg){#cbsales}
+![Sales data of agricultural produce](images/image14.jpeg){#cbsales style="text-align:center;"}
 
-![Component Barchart](images/image15.jpeg){#cbar}
-
-Component Barchart illustration
+![Component Barchart](images/image15.jpeg){#cbar style="text-align:center;"}
 :::
 
 The component bar chart shows the changes of each component over the years as well as the comparison of the total sales between different years.
@@ -122,12 +123,12 @@ The component bar chart shows the changes of each component over the years as we
 
 For a grouped bar chart, the components are grouped together and drawn side by side. We illustrate this with the above example.
 
-![Grouped bar chart](images/image16.jpeg){fig-align="left" width="50%"}
+![Grouped bar chart](images/image16.jpeg){fig-align="center" width="50%" style="text-align:center;"}
 
-## Histogram versus bar chart
+## Histogram versus Bar chart
 
 | Items | HISTOGRAM | BAR CHART |
-|----|----|----|
+|----------------------|---------------------------|-----------------------|
 | Meaning | Histogram refers to a graphical representation, that displays data by way of bars to show the frequency of numerical data. | Bar graph is a pictorial representation of data that uses bars to compare different categories of data. |
 | Indicates | Distribution of non-discrete variables | Comparison of discrete variables |
 | Presents | Quantitative data | Categorical data |
@@ -159,15 +160,16 @@ See this example. The production of different commodities in India during a part
 |    Sugar    |       11250        |           50           |
 |  **Total**  |     **81000**      |        **360**         |
 
-![Piechart](images/piechart.png){fig-align="left" width="50%"}
+![Piechart](images/piechart.png){fig-align="center" width="50%" style="text-align:center;"}
 
-## Advanced Visualization
+## Advanced visualization
 
 While this book focuses on basic plots and charts, significant advancements have been made in the field of data visualization. New types of graphs and charts have been developed to help in more effective representation and communication of data. Although a detailed discussion of these advanced graphs is beyond the scope of this book, we provide an overview of some common and recently developed types for reference. For more detailed information, you can explore resources such as [The R Graph Gallery](https://r-graph-gallery.com/).
 
 It is important to be aware of the wide variety of visualization tools available, as they can enhance your understanding of data and improve your ability to communicate insights clearly. Below are a few popular graph types widely used in modern data analysis.
 
-::: {layout-nrow = 3} ![Box Plot](images/graphs/boxplot.png){width="200px" height="200px"}
+::: {layout-nrow="2"}
+![Box Plot](images/graphs/boxplot.png){width="200px" height="200px"}
 
 ![Violin Plot](images/graphs/violin.png){width="200px" height="200px"}
 
@@ -178,8 +180,7 @@ It is important to be aware of the wide variety of visualization tools available
 ![Network Graph](images/graphs/networkgraph.png){width="200px" height="200px"}
 
 ![Heat Map](images/graphs/heatmap.png){width="200px" height="200px"}
-
-Few graphs that can be drawn in R :::
+:::
 
 ### Advanced graphs
 

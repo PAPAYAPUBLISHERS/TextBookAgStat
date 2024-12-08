@@ -16,7 +16,7 @@ Term statistics was derived from the Neo-Latin word `Statisticum collegium` mean
 
 [^intro-1]: actuary: A person who compiles and analyses statistics and uses them to calculate insurance risks and premiums.
 
-![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="left" width="30%"}
+![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="center" style="text-align:center;" width="30%"}
 
 ## Statistics and mathematics
 
@@ -149,7 +149,7 @@ In summary, the key distinctions between these measurement scales are:
 -   **Interval**: Ordered data with meaningful differences, but no true zero.
 -   **Ratio**: Ordered data with meaningful differences and a true zero point, allowing for meaningful ratios.
 
-![Classification of variables](images/image2.png){out-width="100%" fig-alt="Classification of variables" fig-align="center"}
+![Classification of variables](images/image2.png){out-width="100%" fig-alt="Classification of variables" fig-align="center"style="text-align:center;"}
 
 ## Collection of data
 
@@ -204,11 +204,11 @@ Semi-official sources include publications from institutions like the State Bank
 
 The table below shows the number of fruits per branch in a mango tree selected from a particular plot. The data, presented in this form in which it was collected, is called *raw data*.
 
-![Raw data set of no. of fruits per branch in a mango tree](images/freq1.png){fig-alt="Raw data set of no. of fruits per branch in a mango tree" fig-align="center" out-width="100%"}
+![Raw data set of no. of fruits per branch in a mango tree](images/freq1.png){fig-alt="Raw data set of no. of fruits per branch in a mango tree" fig-align="center" out-width="100%"style="text-align:center;"}
 
 It can be seen that, the minimum and the maximum numbers of fruits per branch are 0 and 5, respectively. Apart from these numbers, it is impossible, without further careful study, to extract any exact information from the data. But by breaking down the data into the form below
 
-![Frequency distribution table](images/fig1.4.png){fig-alt="Frequency distribution table" fig-align="center" out-width="100%"}
+![Frequency distribution table](images/fig1.4.png){fig-alt="Frequency distribution table" fig-align="center" out-width="100%"style="text-align:center;"}
 
 Now certain features of the data become apparent. For instance, it can easily be seen that, most of the branches selected have four fruits because number of branches having 4 fruits is 7. This information cannot easily be obtained from the raw data. The above table is called a **frequency table** or a **frequency distribution**. It is so called because it gives the frequency or number of times each observation occurs. Thus, by finding the frequency of each observation, a more intelligible picture is obtained.
 
@@ -226,7 +226,7 @@ In this section, we will discuss the process of constructing a frequency distrib
 
 Data below gives the plant height of 20 paddy varieties, measured to the nearest centimeters.
 
-![Plant height of 20 paddy varieties](images/fig1.5.png){fig-alt="Plant height of 20 paddy varieties" fig-align="center" out-width="100%"}
+![Plant height of 20 paddy varieties](images/fig1.5.png){fig-alt="Plant height of 20 paddy varieties" fig-align="center" out-width="100%"style="text-align:center;"}
 
 It can be seen that the minimum and the maximum plant height are 107 cm and 144 cm, respectively. A frequency distribution giving every plant height between 107 cm and 144 cm would be very long and would not be very informative. The problem is to overcome by grouping the data into classes.\
 If we choose the classes\
@@ -237,7 +237,7 @@ If we choose the classes\
 140 -- 149\
 we obtain the frequency distribution given below:
 
-![Grouped Frequency distribution table](images/fig1.6.png){fig-alt="Grouped Frequency distribution table" fig-align="center" out-width="100%"}
+![Grouped Frequency distribution table](images/fig1.6.png){fig-alt="Grouped Frequency distribution table" fig-align="center" out-width="100%"style="text-align:center;"}
 
 Above table gives the frequency of each group or class; it is therefore called a grouped frequency table or a grouped frequency distribution. Using this grouped frequency distribution, it is easier to obtain information about the data than using the raw data. For instance, it can be seen that 14 of the 20 paddy varieties have plant height between 110 cm and 139 cm (both inclusive). This information cannot easily be obtained from the raw data.\
 It should be noted that, even though above table is concise, some information is lost. For example, the grouped frequency distribution does not give us the exact plant height of the paddy varieties. Thus the individual plant height of the paddy varieties are lost in our effort to obtain an overall picture.
@@ -250,7 +250,7 @@ The intervals into which the observations are put are called [class intervals]{.
 **Class boundaries**\
 The raw data in the above example were recorded to the nearest centimeters. Thus, a plant height of 109.5cm would have been recorded as 110cm, a plant height of 119.4 cm would have been recorded as 119cm, while a plant height of 119.5 cm would have been recorded as 120 cm. It can therefore be seen that, the class interval 110 -- 119, consists of measurements greater than or equal to 109.5 cm and less than 119.5 cm. The numbers 109.5 and 119.5 are called the lower and upper boundaries of the class interval 110 -- 120. The class boundaries of the other class intervals are given below:
 
-![Class boundary and class limits](images/fig1.7.png){fig-alt="Class boundary and class limits" fig-align="center" out-width="100%"}
+![Class boundary and class limits](images/fig1.7.png){fig-alt="Class boundary and class limits" fig-align="center" out-width="100%"style="text-align:center;"}
 
 [Note:]{.underline}\
 Notice that the lower class boundary of the i^th^ class interval is the mean of the lower class limit of the class interval and the upper class limit of the (i-1)^th^ class interval (i = 2, 3, 4, ...). For example, in the table above the lower class boundaries of the second and the fourth class intervals are (110 + 119) /2 = 114.5 and (130 + 139)/2 = 134.5 respectively.\
