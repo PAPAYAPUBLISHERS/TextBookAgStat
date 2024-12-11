@@ -70,6 +70,9 @@ format:
       - lumen
   pdf:
     documentclass: scrreprt
+    latex-engine: xelatex
+    header-includes:
+      - \usepackage{float} # Ensure [H] positioning works
 
 execute:
   code-annotations: hover

@@ -143,7 +143,7 @@ Where $A$ is the class mark with the highest frequency, $u_{i} = \frac{x_{i} - A
 
 This is called the "coding" method for computing the mean. It is a very short method and should always be used for finding the mean of a grouped frequency distribution with equal class widths.
 
-Consider the Example 4.3, see @tbl-math  
+Consider the Example 4.3, see @tbl-math
 
 $A$=72.5, class mark with highest frequency; $C$ =5
 
@@ -240,7 +240,7 @@ When the number of observations (n) is odd, then the median is the value at theÂ
 |:--------------|:----|:----|:----|:----|:----|
 | **Frequency** | 3   | 4   | 7   | 6   | 3   |
 
-: Score obtained in a mathematics quiz. {#tbl-score}  
+: Score obtained in a mathematics quiz. {#tbl-score}
 
 **Solution 4.5:**
 
