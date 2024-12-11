@@ -112,7 +112,7 @@ Variables can be classified into two broad categories: **quantitative** variable
 **Constants**\
 A *constant* refers to a value that does not change under any circumstances. Unlike variables, constants retain the same value throughout the study. Examples of constants include:
 
--   Mathematical values such as pi (𝝅), which is the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159...), and *e*, the base of the natural logarithms (*e* = 2.71828).
+-   Mathematical values such as pi ($\pi$), which is the ratio of the circumference of a circle to its diameter ($\pi$ = 3.14159...), and *e*, the base of the natural logarithms (*e* = 2.71828).
 
 ## Types of variables
 
@@ -222,7 +222,7 @@ Now certain features of the data become apparent. For instance, it can easily be
 
 ### Construction
 
-In this section, we will discuss the process of constructing a frequency distribution.Follow the steps below. This method helps to clearly visualize the frequency of each observation, ensuring that the total frequency adds up to the total number of observations.
+In this section, we will discuss the process of constructing a frequency distribution. Follow the steps below. This method helps to clearly visualize the frequency of each observation, ensuring that the total frequency adds up to the total number of observations.
 
 1.  List all values of the variable in ascending order of magnitude.
 
@@ -262,7 +262,7 @@ Continuous classes are intervals where the class limits represent a continuous r
 Example: If the class intervals are 10 − 20, 20−30, 30−40, and so on, there are no gaps between them, and all values within these ranges are included seamlessly.
 
 **Discontinuous classes**\
-Discontinuous classes are intervals where gaps exist between the class limits. In such cases, class boundaries are used to close the gaps and ensure continuity.  
+Discontinuous classes are intervals where gaps exist between the class limits. In such cases, class boundaries are used to close the gaps and ensure continuity.
 
 Example:\
 If the class intervals are 10 - 19, 20 - 29, 30 - 39, and so on, there is a gap between the end of one interval and the start of the next. The actual range of each interval is defined using class boundaries, which is explained below.
@@ -303,9 +303,9 @@ In the grouped frequency table above with discontinuous classes, the width of th
 **Step 5**. Count the number of items in each class
 
 Consider the example where an agricultural student measured the lengths of leaves on an oak tree (to the nearest cm). Measurements on 38 leaves are as follows\
-9, 16, 13, 7, 8, 4, 18, 10, 17, 18, 9,\
-12, 5, 9, 9, 16, 1, 8, 17, 1, 10, 5, 9, 11,\
-15, 6, 14, 9, 1, 12, 5, 16, 4, 16, 8, 15, 14, 17
+9, 16, 13, 7, 8, 4, 18, 10, 17, 18,\
+9, 12, 5, 9, 9, 16, 1, 8, 17, 1, 10, 5, 9, 11, 15, 6, 14, 9, 1, 12,\
+5, 16, 4, 16, 8, 15, 14, 17
 
 **Step 1.** Decide how many classes you wish to use.
 
@@ -356,7 +356,7 @@ The specified value for LCF in the case of grouped frequency distribution will b
 
 ## Relative frequency
 
-It is sometimes useful to know the proportion, rather than the number, of values falling within a particular class interval. We obtain this information by dividing the frequency of the particular class interval by the total number of observations. **Relative frequency** of a class is the frequency of class divided by total observations. Relative frequencies all add up to 1. See relative frequency calculated in @tbl-cf below.
+It is sometimes useful to know the proportion, rather than the number, of values falling within a particular class interval. We obtain this information by dividing the frequency of the particular class interval by the total number of observations. **Relative frequency** of a class is the frequency of class divided by total observations. Relative frequencies all add up to 1. See relative frequency calculated in @tbl-cf .
 
 ```{r ch2, echo=FALSE, warning=FALSE, results='asis'}
 #| label: tbl-cf
