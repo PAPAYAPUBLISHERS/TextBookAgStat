@@ -23,8 +23,7 @@ $$
 In these cases, the frequency density is plotted on the y-axis to ensure that the *area of each rectangle* accurately represents the frequency of the class. This approach maintains the correct visual representation of the data distribution regardless of the class interval widths.
 :::
 
-@tbl-plantheight displays the frequency distribution of plant heights for a sample of 50 plants. This data can be visualized effectively using a histogram, as shown in @fig-histo.  
-
+@tbl-plantheight displays the frequency distribution of plant heights for a sample of 50 plants. This data can be visualized effectively using a histogram, as shown in @fig-histo.
 
 | Plant height (cm) | Frequency |
 |:-----------------:|:---------:|
@@ -51,8 +50,7 @@ There are two main types of cumulative frequency curves:\
 
 [**Less than ogive**]{.underline}
 
-The less than ogive, also known as the **less than type cumulative frequency curve**, is created by plotting the cumulative frequencies against the upper class boundaries. For example, consider the plant height data for 50 plants. By using the upper class limits and their cumulative frequencies, we can construct a smooth curve that provides insights into the data distribution. See @tbl-ullcf, which is constructed from @tbl-plantheight. The less than ogive, shown in @fig-lessogive, is drawn using @tbl-ullcf.  
-
+The less than ogive, also known as the **less than type cumulative frequency curve**, is created by plotting the cumulative frequencies against the upper class boundaries. For example, consider the plant height data for 50 plants. By using the upper class limits and their cumulative frequencies, we can construct a smooth curve that provides insights into the data distribution. See @tbl-ullcf, which is constructed from @tbl-plantheight. The less than ogive, shown in @fig-lessogive, is drawn using @tbl-ullcf.
 
 | Upper limit | 140 | 150 | 160 | 170 | 180 | 190 |
 |:-----------:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -64,7 +62,7 @@ The less than ogive, also known as the **less than type cumulative frequency cur
 
 [**Greater than ogive**]{.underline}
 
-The **Greater than ogive**, also known as the **greater than type cumulative frequency curve**, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the "Less than ogive", we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value. See @tbl-llgcf constructed from @tbl-plantheight. The greater than ogive, shown in @fig-greaterogive, is drawn using @tbl-llgcf.  
+The **Greater than ogive**, also known as the **greater than type cumulative frequency curve**, is constructed by plotting the cumulative frequencies against the lower class boundaries. In this case, instead of using the upper limits like in the "Less than ogive", we use the lower class limits and their corresponding cumulative frequencies. This curve helps visualize the cumulative frequency distribution from the highest class down to the lowest, providing insights into the number of observations greater than a specific value. See @tbl-llgcf constructed from @tbl-plantheight. The greater than ogive, shown in @fig-greaterogive, is drawn using @tbl-llgcf.
 
 | Lower Limit | 130 | 140 | 150 | 160 | 170 | 180 |
 |:-----------:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -80,11 +78,12 @@ Intersection of both less than and greater than ogives gives the median
 
 ## Frequency polygon
 
-A grouped frequency table can also be represented by a frequency polygon, a special type of line graph. To construct it, plot the class frequencies against the corresponding class midpoints and connect successive points with straight lines. The frequency polygon can also be derived by joining the midpoints of a histogram. See @tbl-mpfreq, constructed from @tbl-plantheight. The frequency polygon, created using @tbl-mpfreq, is shown in @fig-fp. The relation between frequency polygon and histogram can be seen in @fig-fph  
+A grouped frequency table can also be represented by a frequency polygon, a special type of line graph. To construct it, plot the class frequencies against the corresponding class midpoints and connect successive points with straight lines. The frequency polygon can also be derived by joining the midpoints of a histogram. See @tbl-mpfreq, constructed from @tbl-plantheight. The frequency polygon, created using @tbl-mpfreq, is shown in @fig-fp. The relation between frequency polygon and histogram can be seen in @fig-fph
 
 | Class Midpoints | 135 | 145 | 155 | 165 | 175 | 185 |
 |:---------------:|:---:|:---:|:---:|:---:|:---:|:---:|
-|   Frequencies   |  3  |  6  | 17  | 13  |  8  |  3  |  
+|   Frequencies   |  3  |  6  | 17  | 13  |  8  |  3  |
+
 : Midpoints and frequencies {#tbl-mpfreq}
 
 ::: {#frequency-poly layout-ncol="2"}
@@ -100,7 +99,7 @@ A stem-and-leaf plot is a graphical device useful for representing a relatively 
 Consider the example:\
 12, 16, 21, 25, 29, 26, 30, 31, 37, 42, 45.
 
-The stem-and-leaf plot for this data is shown @fig-stemplot  
+The stem-and-leaf plot for this data is shown @fig-stemplot
 
 ![Stem and Leaf plot](images/stem.png){#fig-stemplot fig-align="center" width="30%" style="text-align:center;"}
 
@@ -110,8 +109,7 @@ A bar chart or bar graph is a diagram consisting of a series of horizontal or ve
 
 **Simple bar chart**
 
-In a simple bar chart, the height (or length) of each bar is equal to the value of category in the y-axis it represents. @tbl-coconutprod presents hypothetical data on coconut production across five districts of Kerala for a specific year. The data represented using barchart is shown in @fig-barchart1  
-
+In a simple bar chart, the height (or length) of each bar is equal to the value of category in the y-axis it represents. @tbl-coconutprod presents hypothetical data on coconut production across five districts of Kerala for a specific year. The data represented using barchart is shown in @fig-barchart1
 
 | District  | Production (million nuts) |
 |:---------:|:-------------------------:|
@@ -119,9 +117,9 @@ In a simple bar chart, the height (or length) of each bar is equal to the value 
 |  Kannur   |            800            |
 | Thrissur  |            980            |
 | Ernakulam |           1100            |
-|  Wayanad  |           1400            |  
+|  Wayanad  |           1400            |
 
-: hypothetical data on coconut production {#tbl-coconutprod}  
+: hypothetical data on coconut production {#tbl-coconutprod}
 
 ![Barchart](images/barchart.png){#fig-barchart1 fig-align="center" width="50%" style="text-align:center;"}
 
@@ -139,22 +137,21 @@ In a component bar chart, the bar for each category is subdivided into component
 
 The component bar chart shows the changes of each component over the years as well as the comparison of the total sales between different years.
 
-**Grouped bar chart**
-@fig-cbsales can also be represented using a grouped bar chart shown in @fig-groupedbar. For a grouped bar chart, the components are grouped together and drawn side by side.  
+**Grouped bar chart** @fig-cbsales can also be represented using a grouped bar chart shown in @fig-groupedbar. For a grouped bar chart, the components are grouped together and drawn side by side.
 
 ![Grouped bar chart](images/grouped_bar.png){#fig-groupedbar fig-align="center" width="50%" style="text-align:center;"}
 
 ## Histogram versus Bar chart
 
 | Items | HISTOGRAM | BAR CHART |
-|----------------------|---------------------------|-----------------------|
+|----|----|----|
 | Meaning | Histogram refers to a graphical representation, that displays data by way of bars to show the frequency of numerical data. | Bar graph is a pictorial representation of data that uses bars to compare different categories of data. |
 | Indicates | Distribution of non-discrete variables | Comparison of discrete variables |
 | Presents | Quantitative data | Categorical data |
 | Spaces | Bars touch each other, hence there are no spaces between bars | Bars do not touch each other, hence there are spaces between bars. |
 | Elements | Elements are grouped together, so that they are considered as ranges. | Elements are taken as individual entities. |
 | Can bars be reordered? | No | Yes |
-| Width of bars | Need not to be same | Same |  
+| Width of bars | Need not to be same | Same |
 
 : Comparison between histogram and barchart {#tbl-histovsbar}
 
@@ -170,7 +167,7 @@ A pie chart is a circular graph divided into sectors, each sector representing a
 4.  Use a protractor to divide the circle into sectors, using the angles obtained in step 2.\
 5.  Label each sector clearly.
 
-@tbl-wheatprod presents hypothetical data on the production of different commodities in India during a particular year. Pie chart base on this data is shown in @fig-piechart 
+@tbl-wheatprod presents hypothetical data on the production of different commodities in India during a particular year. Pie chart base on this data is shown in @fig-piechart
 
 | Commodities | Production(tonnes) |         Angle          |
 |:-----------:|:------------------:|:----------------------:|
@@ -179,7 +176,7 @@ A pie chart is a circular graph divided into sectors, each sector representing a
 |    Maize    |       13500        |           60           |
 |    Rice     |        6750        |           30           |
 |    Sugar    |       11250        |           50           |
-|  **Total**  |     **81000**      |        **360**         |  
+|  **Total**  |     **81000**      |        **360**         |
 
 : Hypothetical data on the production of different commodities {#tbl-wheatprod}
 
