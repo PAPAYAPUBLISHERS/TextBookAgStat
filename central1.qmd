@@ -1,12 +1,10 @@
-# Central tendency I
+# Simple averages
 
 In the previous chapter, you explored how data can be summarized using tables and visually presented through graphs, enabling important features to be highlighted effectively. In this chapter, we shift our focus to **statistical measures** that describe the characteristics of a dataset.
 
 One key aspect of data analysis is identifying a single value that represents the overall dataset. This is where **measures of central tendency** come into play. These are summary statistics that capture the center or typical value of a dataset, providing a concise numerical summary.
 
-There are five commonly used averages: **mean**, **median**, and **mode**, collectively referred to as **simple averages**, and **geometric mean** and **harmonic mean**, known as **special averages**. These measures provide insights into the central value of the data, making them fundamental tools for understanding and interpreting data distributions. We will discuss these measures in two sections, here we will discuss on simple averages.
-
-![Measures of central tendency](images/Measures%20of%20Central%20Tendency.png){style="text-align:center;" fig-alt="Measures of central tendency" fig-align="center" width="60%"}
+There are five commonly used averages: **mean**, **median**, and **mode**, collectively referred to as **simple averages**, and **geometric mean** and **harmonic mean**, known as **special averages**. These measures provide insights into the central value of the data, making them fundamental tools for understanding and interpreting data distributions.
 
 [**Requisites of a Good Measure of Central Tendency:**]{.ui}
 
@@ -143,7 +141,7 @@ Where $A$ is the class mark with the highest frequency, $u_{i} = \frac{x_{i} - A
 
 This is called the "coding" method for computing the mean. It is a very short method and should always be used for finding the mean of a grouped frequency distribution with equal class widths.
 
-Consider the Example 4.3, see @tbl-math
+Consider the Example 4.3 see Table:\@ref(tab:math)
 
 $A$=72.5, class mark with highest frequency; $C$ =5
 
@@ -240,7 +238,7 @@ When the number of observations (n) is odd, then the median is the value at theÂ
 |:--------------|:----|:----|:----|:----|:----|
 | **Frequency** | 3   | 4   | 7   | 6   | 3   |
 
-: Score obtained in a mathematics quiz. {#tbl-score}
+: (#tab:score) Score obtained in a mathematics quiz.
 
 **Solution 4.5:**
 
@@ -263,7 +261,7 @@ When the number of observations is even, then the median is the average of ${\le
 |:--------------|:----|:----|:----|:----|:----|
 | **Frequency** | 11  | 9   | 5   | 10  | 15  |
 
-: Distribution of marks obtained in a competition. {#tbl-median}
+: (#tab:median) Distribution of marks obtained in a competition.
 
 **Solution 4.6**:
 

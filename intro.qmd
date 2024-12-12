@@ -12,25 +12,19 @@ By the end of this chapter, you will have a comprehensive understanding of the c
 
 ## The word "statistics"
 
-The term `statistics` originates from the Neo-Latin word `statisticum collegium`, meaning “council of state,” and the Italian word `statista`, meaning “statesman” or “politician.” The German term `Statistik` emerged in the early 18th century and initially referred to the “collection and classification of data,” particularly data used by governments and administrative bodies. This usage was introduced by the German scholar Gottfried Achenwall in 1749, who is often credited as the founder of modern statistics.
-
-In 1791, Sir John Sinclair introduced the term `Statistik` into English through his publication of the "Statistical Account of Scotland"[@ball], a comprehensive 21-volume work. This marked the beginning of the use of the term statistics in English to describe the systematic collection and analysis of data. Later, in 1845, Francis G.P. Neison an actuary[^intro-1] to the Medical Invalid and General Life Office published Contributions to Vital Statistics, the first book to include the word “statistics” in its title, focusing on actuarial and demographic data. These developments laid the foundation for statistics as a discipline, evolving from statecraft to a broader scientific approach to data analysis and interpretation.
+Term statistics was derived from the Neo-Latin word `Statisticum collegium` meaning "council of state" and the Italian word `statista` meaning "statesman" or "politician". A German word `Statistik`, got the meaning "collection and classification of data" generally in the early 19th century. This word was first introduced by Gottfried Achenwall (1749). `Statistik` was originally designated as a term for analysis of data about the state (data used by government or other administrative bodies). The term `Statistik` was introduced into English in 1791 by Sir John Sinclair when he published the first of 21 volumes titled "Statistical Account of Scotland" [@ball]. The first book to have 'Statistics' in its title was "Contributions to Vital Statistics" (1845) by Francis GP Neison, actuary[^intro-1] to the Medical Invalid and General Life Office.
 
 [^intro-1]: actuary: A person who compiles and analyses statistics and uses them to calculate insurance risks and premiums.
 
-![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){#fig-stataccount fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="center" style="text-align:center;" width="30%"}
+![Statistical Account of Scotland by Sir John Sinclair (1791)](images/history1.png){fig-alt="Statistical Account of Scotland by Sir John Sinclair (1791)" fig-align="left" width="30%"}
 
 ## Statistics and mathematics
 
-Mathematics and statistics, while closely related, serve distinct purposes and operate on fundamentally different principles. Mathematics can be thought of as a well-organized library, where everything follows strict rules and logical paths. Once a theorem is proven in mathematics, it remains universally true, leaving little room for ambiguity or change. It is a deductive science, relying on precise axioms and logical reasoning to arrive at exact and unchanging results.
+Mathematics is like a well-organized library where everything follows strict rules and paths—once a theorem is proven, it stays true with little room for change. But statistics is more like a vast, open field where you have to adapt to new situations. Why? Because it deals with real-world data, which is often messy, unpredictable, and full of noise (also known as the error term). In statistics, you're not just proving theorems—you’re finding ways to understand data, account for uncertainties, and make informed decisions based on that data.
 
-Statistics, however, operates in a different realm. It deals with real-world data, which is often messy, unpredictable, and influenced by numerous uncontrolled factors. Statistics is more like an open field, where methods and approaches must adapt to the variability of data. Unlike the certainty of mathematics, statistics uses inductive reasoning to analyze data, account for randomness, and make decisions or predictions under uncertainty. This flexibility is essential because real-world phenomena, especially in fields like biology, are rarely as neat and predictable as mathematical constructs.
+In biological phenomena, where we often study complex systems like plants, animals, or ecosystems, exact results are not always achievable. There are many factors influencing the outcomes that we cannot always measure or control. This is where the error term comes in. It represents the variation between observed and predicted values in a model. Even though we can try to predict patterns in biology, the results will always have some level of uncertainty or error due to the complexity and variability of living systems.
 
-In biological sciences, we study complex systems such as plants, animals, and ecosystems, where exact outcomes are rarely achievable. These systems are influenced by a multitude of factors, many of which cannot be precisely measured or controlled. This is where the concept of the error term becomes important. The error term represents the difference between observed and predicted values in a statistical model, accounting for the inherent variability and uncertainty in biological phenomena.
-
-Statisticians embrace this uncertainty, developing mathematical models that approximate reality as closely as possible. Unlike mathematicians, whose focus is on achieving perfect precision, statisticians aim to draw meaningful insights from imperfect and variable data. In the study of biological systems, the goal is not to eliminate uncertainty but to understand patterns, relationships, and trends within the data.
-
-Thus, while mathematics seeks absolute certainty, statistics accepts variability and uncertainty as fundamental characteristics of the real world. By acknowledging and incorporating these uncertainties, statisticians provide valuable tools to study and explain complex biological phenomena, making statistics an indispensable discipline for understanding the complexities of nature.
+Statisticians acknowledge this uncertainty, using mathematical models to represent biological phenomena while accounting for these errors. Rather than focusing on achieving perfect results, the goal is to develop models that provide useful insights despite the inherent unpredictability. Statisticians use these models to understand and explain biological phenomena, accepting that exact predictions are often out of reach, but valuable insights can still be drawn from the data.
 
 ## Definition of statistics
 
@@ -38,7 +32,7 @@ Statistics is the science which deals with the
 
 -   Collection of data
 
--   Organization of data or classification of data
+-   Organization of data or Classification of data
 
 -   Presentation of data
 
@@ -96,8 +90,8 @@ In statistics, a *population* refers to the entire collection of elements, indiv
 **Sample**\
 A *sample* is a subset of a population selected for the purpose of conducting a statistical analysis. It represents a smaller group drawn from the population, ideally chosen to reflect its characteristics. Samples are used to estimate population parameters when it is impractical or impossible to collect data from the entire population. The key to a good sample is that it should be representative of the population to allow valid inferences to be made.
 
-**Population parameter**\
-A *population parameter* is a numerical characteristic or value that describes an aspect of an entire population. It is a fixed (constant), often unknown value that represents the true measurement of a specific attribute for every member of the population. Common population parameters include the population mean, population variance, and population proportion. Since it is usually impractical or impossible to measure the entire population, parameters are often estimated using sample data.
+**Population Parameter**\
+A *population parameter* is a numerical characteristic or value that describes an aspect of an entire population. It is a fixed (cons), often unknown value that represents the true measurement of a specific attribute for every member of the population. Common population parameters include the population mean, population variance, and population proportion. Since it is usually impractical or impossible to measure the entire population, parameters are often estimated using sample data.
 
 ## Variables and constants
 
@@ -112,7 +106,7 @@ Variables can be classified into two broad categories: **quantitative** variable
 **Constants**\
 A *constant* refers to a value that does not change under any circumstances. Unlike variables, constants retain the same value throughout the study. Examples of constants include:
 
--   Mathematical values such as pi ($\pi$), which is the ratio of the circumference of a circle to its diameter ($\pi$ = 3.14159...), and *e*, the base of the natural logarithms (*e* = 2.71828).
+-   Mathematical values such as pi (𝝅), which is the ratio of the circumference of a circle to its diameter (𝝅 = 3.14159...), and *e*, the base of the natural logarithms (*e* = 2.71828).
 
 ## Types of variables
 
@@ -134,7 +128,7 @@ Unlike quantitative variables, categorical variables cannot be measured or count
 
 ## Measurement scales
 
-Variables can be classified into four distinct levels of measurement scales each representing a different way of organizing and interpreting data. These four levels are **nominal**, **ordinal**, **interval**, and **ratio**.
+Variables can be classified into four distinct levels of measurement, each representing a different way of organizing and interpreting data. These four levels are **nominal**, **ordinal**, **interval**, and **ratio**.
 
 **Nominal scale**\
 The **nominal scale** is the most basic level of measurement and applies to categorical (qualitative) variables. Data measured on the nominal scale consist of categories that are distinct but have no inherent order or ranking. The categories are simply used for labeling or naming objects or groups. For example, gender (male, female), blood group (A, B, AB, O), and marital status (single, married, divorced) are all nominal variables. In the nominal scale, arithmetic operations, such as addition or subtraction, cannot be performed on the data.
@@ -155,7 +149,7 @@ In summary, the key distinctions between these measurement scales are:
 -   **Interval**: Ordered data with meaningful differences, but no true zero.
 -   **Ratio**: Ordered data with meaningful differences and a true zero point, allowing for meaningful ratios.
 
-![Classification of variables](images/image2.png){#fig-classvariable out-width="100%" fig-alt="Classification of variables" fig-align="center" style="text-align:center;"}
+![Classification of variables](images/image2.png){out-width="100%" fig-alt="Classification of variables" fig-align="center"}
 
 ## Collection of data
 
@@ -193,8 +187,8 @@ In this method, trained investigators are employed to collect data. These invest
 **Collection through questionnaire**\
 Researchers distribute questionnaires to local representatives or agents who collect data based on their own experience and observations. While this method is relatively quick, it typically provides only a rough estimate of the information.
 
-**Through the phone**\
-Data is gathered by contacting individuals via telephone/mobile phone. This method is fast and allows for accurate information to be collected efficiently, making it suitable for studies that require a broad reach but still need reliable data.
+**Through the telephone**\
+Data is gathered by contacting individuals via telephone. This method is fast and allows for accurate information to be collected efficiently, making it suitable for studies that require a broad reach but still need reliable data.
 
 ## Collecting secondary data
 
@@ -208,21 +202,19 @@ Semi-official sources include publications from institutions like the State Bank
 
 ## Frequency distribution
 
-The data presented below shows the number of fruits per branch in a mango tree selected from a particular plot. The data, presented in this form in which it was collected, is called *raw data*.
+The table below shows the number of fruits per branch in a mango tree selected from a particular plot. The data, presented in this form in which it was collected, is called *raw data*.
 
-0, 1, 0, 5, 2, 3, 2, 3, 1, 5,\
-5, 2, 3, 4, 4, 5, 4, 0, 5, 4,\
-2, 4, 4, 4, 1
+![Raw data set of no. of fruits per branch in a mango tree](images/freq1.png){fig-alt="Raw data set of no. of fruits per branch in a mango tree" fig-align="center" out-width="100%"}
 
 It can be seen that, the minimum and the maximum numbers of fruits per branch are 0 and 5, respectively. Apart from these numbers, it is impossible, without further careful study, to extract any exact information from the data. But by breaking down the data into the form below
 
-![Frequency distribution table](images/fig1.4.png){fig-alt="Frequency distribution table" fig-align="center" out-width="100%" style="text-align:center;"}
+![Frequency distribution table](images/fig1.4.png){fig-alt="Frequency distribution table" fig-align="center" out-width="100%"}
 
 Now certain features of the data become apparent. For instance, it can easily be seen that, most of the branches selected have four fruits because number of branches having 4 fruits is 7. This information cannot easily be obtained from the raw data. The above table is called a **frequency table** or a **frequency distribution**. It is so called because it gives the frequency or number of times each observation occurs. Thus, by finding the frequency of each observation, a more intelligible picture is obtained.
 
 ### Construction
 
-In this section, we will discuss the process of constructing a frequency distribution. Follow the steps below. This method helps to clearly visualize the frequency of each observation, ensuring that the total frequency adds up to the total number of observations.
+In this section, we will discuss the process of constructing a frequency distribution.Follow the steps below. This method helps to clearly visualize the frequency of each observation, ensuring that the total frequency adds up to the total number of observations.
 
 1.  List all values of the variable in ascending order of magnitude.
 
@@ -234,8 +226,7 @@ In this section, we will discuss the process of constructing a frequency distrib
 
 Data below gives the plant height of 20 paddy varieties, measured to the nearest centimeters.
 
-109, 107, 129, 122, 118, 110, 124, 146, 138, 121,\
-115, 132, 131, 139, 142, 134, 143, 144, 127, 116
+![Plant height of 20 paddy varieties](images/fig1.5.png){fig-alt="Plant height of 20 paddy varieties" fig-align="center" out-width="100%"}
 
 It can be seen that the minimum and the maximum plant height are 107 cm and 144 cm, respectively. A frequency distribution giving every plant height between 107 cm and 144 cm would be very long and would not be very informative. The problem is to overcome by grouping the data into classes.\
 If we choose the classes\
@@ -246,7 +237,7 @@ If we choose the classes\
 140 -- 149\
 we obtain the frequency distribution given below:
 
-![Grouped Frequency distribution table](images/fig1.6.png){fig-alt="Grouped Frequency distribution table" fig-align="center" out-width="100%" style="text-align:center;"}
+![Grouped Frequency distribution table](images/fig1.6.png){fig-alt="Grouped Frequency distribution table" fig-align="center" out-width="100%"}
 
 Above table gives the frequency of each group or class; it is therefore called a grouped frequency table or a grouped frequency distribution. Using this grouped frequency distribution, it is easier to obtain information about the data than using the raw data. For instance, it can be seen that 14 of the 20 paddy varieties have plant height between 110 cm and 139 cm (both inclusive). This information cannot easily be obtained from the raw data.\
 It should be noted that, even though above table is concise, some information is lost. For example, the grouped frequency distribution does not give us the exact plant height of the paddy varieties. Thus the individual plant height of the paddy varieties are lost in our effort to obtain an overall picture.
@@ -256,43 +247,25 @@ It should be noted that, even though above table is concise, some information is
 **Class limits**\
 The intervals into which the observations are put are called [class intervals]{.underline}. The end points of the class intervals are called [class limits]{.underline}. For example, the class interval 100 -- 109, has lower class limit 100 and upper class limit 109.
 
-**Continuous classes**\
-Continuous classes are intervals where the class limits represent a continuous range of values, with no gaps between the intervals.
-
-Example: If the class intervals are 10 − 20, 20−30, 30−40, and so on, there are no gaps between them, and all values within these ranges are included seamlessly.
-
-**Discontinuous classes**\
-Discontinuous classes are intervals where gaps exist between the class limits. In such cases, class boundaries are used to close the gaps and ensure continuity.
-
-Example:\
-If the class intervals are 10 - 19, 20 - 29, 30 - 39, and so on, there is a gap between the end of one interval and the start of the next. The actual range of each interval is defined using class boundaries, which is explained below.
-
 **Class boundaries**\
 The raw data in the above example were recorded to the nearest centimeters. Thus, a plant height of 109.5cm would have been recorded as 110cm, a plant height of 119.4 cm would have been recorded as 119cm, while a plant height of 119.5 cm would have been recorded as 120 cm. It can therefore be seen that, the class interval 110 -- 119, consists of measurements greater than or equal to 109.5 cm and less than 119.5 cm. The numbers 109.5 and 119.5 are called the lower and upper boundaries of the class interval 110 -- 120. The class boundaries of the other class intervals are given below:
 
-![Class boundary and class limits](images/fig1.7.png){fig-alt="Class boundary and class limits" fig-align="center" out-width="100%" style="text-align:center;"}
+![Class boundary and class limits](images/fig1.7.png){fig-alt="Class boundary and class limits" fig-align="center" out-width="100%"}
 
 [Note:]{.underline}\
-Notice that the lower class boundary of the i^th^ class interval is the mean of the lower class limit of the class interval and the upper class limit of the (i-1)^th^ class interval (i = 2, 3, 4, ...). For example, in the table above the lower class boundaries of the second and the fourth class intervals are (110 + 109) /2 = 109.5 and (130 + 129)/2 = 129.5 respectively.\
-It can also be seen that the upper class boundary of the i^th^ class interval is the mean of the upper class limit of the class interval and the lower class limit of the (i+1)^th^ class interval (i = 1, 2, 3, ...). Thus, in the above table the upper class boundary of the fourth class interval is (139 + 140)/2 = 139.5.
-
-::: {.callout-important title="Note"}
-For continuous classes, class limits and boundaries are the same because there are no gaps between intervals. However, for discontinuous classes, boundaries are important as they close gaps and ensure every value belongs to one class.
-:::
+Notice that the lower class boundary of the i^th^ class interval is the mean of the lower class limit of the class interval and the upper class limit of the (i-1)^th^ class interval (i = 2, 3, 4, ...). For example, in the table above the lower class boundaries of the second and the fourth class intervals are (110 + 119) /2 = 114.5 and (130 + 139)/2 = 134.5 respectively.\
+It can also be seen that the upper class boundary of the i^th^ class interval is the mean of the upper class limit of the class interval and the lower class limit of the (i+1)^th^ class interval (i = 1, 2, 3, ...). Thus, in the above table the upper class boundary of the fourth class interval is (130 + 139)/2 = 134.5.
 
 **Class mark**\
 The mid-point of a class interval is called the class mark or class mid-point of the class interval. It is the average of the upper and lower class limits of the class interval. It is also the average of the upper and lower class boundaries of the class interval. For example, in the table, the class mark of the third class interval was found as follows: class mark =(120+129)/2 = (119.5 + 129.5)/2= 124.5.
 
 **Class width**\
-For Continuous Classes:\
-The class width is the difference between the upper and lower class limits of a class interval. Since the class limits and boundaries are the same for continuous classes, the width can also be determined by subtracting two consecutive lower or upper class limits.
+The difference between the upper and lower class boundaries of a class interval is called the class width of the class interval. Class widths of class intervals can also be found by subtracting two consecutive lower class limits, or by subtracting two consecutive upper class limits.
 
-For Discontinuous Classes:\
-The class width is the difference between the upper and lower class boundaries of a class interval. For discontinuous classes, class boundaries are used to account for gaps, and the width can also be determined by subtracting two consecutive lower or upper class boundaries.
+[Note:]{.underline}\
+The width of the i^th^ class interval is the numerical difference between the upper class limits of the i^th^ and the ( i-1)^th^ class intervals (i = 2, 3, ...). It is also the numerical difference between the lower class limits of the i^th^ and the (i+1)^th^ class intervals (i = 1, 2, ...).
 
-[Note:]{.underline} 
-
-In the grouped frequency table above with discontinuous classes, the width of the second class interval is calculated as \|110 - 119\| = 9. It can be observed that the width is the same for all classes. This result can also be obtained by taking the numerical difference between the lower class boundaries of the second and third class intervals.
+In grouped frequency table above the width of the second class interval is \|110-119\| = 9. This is the numerical difference between the lower class limits of the second and the third class intervals. The width of the third class interval is \|120-129\|= 9. This is the numerical difference between the lower class limits of the third and the fourth class intervals.
 
 ### Construction
 
@@ -302,10 +275,11 @@ In the grouped frequency table above with discontinuous classes, the width of th
 **Step 4**. Tally the items into the classes\
 **Step 5**. Count the number of items in each class
 
-Consider the example where an agricultural student measured the lengths of leaves on an oak tree (to the nearest cm). Measurements on 38 leaves are as follows\
-9, 16, 13, 7, 8, 4, 18, 10, 17, 18,\
-9, 12, 5, 9, 9, 16, 1, 8, 17, 1, 10, 5, 9, 11, 15, 6, 14, 9, 1, 12,\
-5, 16, 4, 16, 8, 15, 14, 17
+Consider the example\
+An agricultural student measured the lengths of leaves on an oak tree (to the nearest cm). Measurements on 38 leaves are as follows\
+9,16,13,7,8,4,18,10,17,18,9,\
+12,5,9,9,16,1,8,17,1,10,5,9,11,\
+15,6,14,9,1,12,5,16,4,16,8,15,14,17
 
 **Step 1.** Decide how many classes you wish to use.
 
@@ -322,12 +296,9 @@ Generally, the class width should be the same size for all classes. *C*= \| max 
 
 $$L = min - \frac{C^{'} \times k^{'} - (max - min)}{2}$$
 
-where *C* and *k* here are final approximated class width and number of classes respectively in our example $L = 1 - \frac{(3 \times 7) - (18 - 1)}{2}$=1-2=-1; since there is no negative values in data = 0. Final frequency table will be as shown in @tbl-freq
+where *C* and *k* here are final approximated class width and number of classes respectively in our example $L = 1 - \frac{(3 \times 7) - (18 - 1)}{2}$=1-2=-1; since there is no negative values in data = 0.
 
 ```{r ch1, echo=FALSE,warning=FALSE,results='asis'}
-#| label: tbl-freq
-#| tbl-cap: "Frequency distribution table"  
-
 library(knitr)
 library(kableExtra)
 dt<-read.csv("csv/c1e1.csv")
@@ -335,35 +306,30 @@ dt %>%
   kbl(booktabs = TRUE, align = "c") %>%
    kable_classic(full_width = F, html_font = "Georgia") %>%
 kable_styling(
-    # latex_options = "HOLD_position", 
+    latex_options = "HOLD_position", 
     full_width = FALSE,
     position = "center", 
     bootstrap_options = "bordered"
-  ) %>% 
-  column_spec(1, width = "7em") %>%  
-  column_spec(2, width = "7em")
+  )
 ```
 
 Even though the student only measured in whole numbers, the data is continuous, so "4 cm" means the actual value could have been anywhere from 3.5 cm to 4.5 cm.
 
 ## Cumulative frequency
 
-In many situations, we are not interested in the number of observations in a given class interval, but in the number of observations which are less than (or greater than) a specified value. For example, in the above table, it can be seen that 3 leaves have length less than 3.5 cm and 9 leaves (i.e. 3 + 6) have length less than 6.5 cm. These frequencies are called cumulative frequencies. A table of such cumulative frequencies is called a **cumulative frequency table** or **cumulative frequency distribution**.
+In many situations, we are not interested in the number of observations in a given class interval, but in the number of observations which are less than (or greater than) a specified value. For example, in the above table, it can be seen that 3 leaves have length less than 3.5 cm and 9 leaves (i.e. 3 + 6) have length less than 6.5 cm. These frequencies are called cumulative frequencies. A table of such cumulative frequencies is called **a cumulative frequency table** or **cumulative frequency distribution**.
 
-Cumulative frequency is defined as a running total of frequencies. Cumulative frequency can also defined as the sum of all previous frequencies up to the current point. Notice that the last cumulative frequency is equal to the sum of all the frequencies. Two types of cumulative frequencies are **Less than Cumulative Frequency (LCF)** and **Greater than Cumulative Frequency(GCF)**. LCF is the number of values less than a specified value. GCF is the number of observations greater than a specified value.
+Cumulative frequency is defined as a running total of frequencies. Cumulative frequency can also defined as the sum of all previous frequencies up to the current point. Notice that the last cumulative frequency is equal to the sum of all the frequencies. Two types of cumulative frequencies are Less than cumulative frequency and Greater than cumulative frequency. Less than cumulative frequency (LCF) is the number of values less than a specified value. Greater than cumulative frequency (GCF) is the number of observations greater than a specified value.
 
-The specified value for LCF in the case of grouped frequency distribution will be upper limits and for GCF will be the lower limits of the classes. LCF's are obtained by adding frequencies in the successive classes and GCF are obtained by subtracting the successive class frequencies from the total frequency. see calculated LCF and GCF in @tbl-cf below.
+The specified value for LCF in the case of grouped frequency distribution will be upper limits and for GCF will be the lower limits of the classes. LCF's are obtained by adding frequencies in the successive classes and GCF are obtained by subtracting the successive class frequencies from the total frequency.
 
 ## Relative frequency
 
-It is sometimes useful to know the proportion, rather than the number, of values falling within a particular class interval. We obtain this information by dividing the frequency of the particular class interval by the total number of observations. **Relative frequency** of a class is the frequency of class divided by total observations. Relative frequencies all add up to 1. See relative frequency calculated in @tbl-cf .
+It is sometimes useful to know the proportion, rather than the number, of values falling within a particular class interval. We obtain this information by dividing the frequency of the particular class interval by the total number of observations. **Relative frequency** of a class is the frequency of class divided by total observations. Relative frequencies all add up to 1.
 
 ```{r ch2, echo=FALSE, warning=FALSE, results='asis'}
-#| label: tbl-cf
-#| tbl-cap: "LCF,GCF and Relative frequency"  
-
-library(kableExtra)
 library(knitr)
+library(kableExtra)
 
 dt <- read.csv("csv/c1e2.csv")
 
@@ -371,17 +337,12 @@ dt %>%
   kbl(booktabs = FALSE, align = "c") %>%
   kable_classic(full_width = FALSE, html_font = "Georgia") %>%
   kable_styling(
-    # latex_options = "HOLD_position", 
+    latex_options = "HOLD_position", 
     full_width = FALSE,
     position = "center", 
     bootstrap_options = "bordered"
   ) %>%
-  column_spec(1, width = "7em") %>%  
-  column_spec(2, width = "7em") %>% 
-  column_spec(3, width = "7em") %>% 
-  column_spec(4, width = "7em") %>% 
-  column_spec(5, width = "7em")  
-
+  add_footnote("Note: A= Less than cumulative frequency; B= Greater than cumulative frequency, C = Relative frequency", notation = "alphabet")
 ```
 
  \
